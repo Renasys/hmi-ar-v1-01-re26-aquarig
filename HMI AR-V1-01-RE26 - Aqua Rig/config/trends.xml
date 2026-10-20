@@ -1,0 +1,14 @@
+<trends>
+ <multiLangs>
+  <langs curLangId="L1" defLangId="L1">
+   <lang writingsystem="Any" langCode="en-US" defaultFont="Roboto" langId="L1" removable="false" keypads=";;" name="Lang1"/>
+  </langs>
+  <MLTexts>
+   <MLText id="1" L1="Date"/>
+   <MLText id="2" L1="Time"/>
+   <MLText id="18" L1="Value"/>
+   <MLText id="35" L1="Timestamp"/>
+  </MLTexts>
+ </multiLangs>
+ <commonTitleMLDesc Date="[1@Trend]Date" Timestamp="[35@Trend]Timestamp" Time="[2@Trend]Time" Quality="[18@Trend]Value"/>
+</trends>

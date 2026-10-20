@@ -1,0 +1,24 @@
+<mailInfo>
+ <serverInfo>
+  <id>eMailServer1</id>
+  <serverip>smtp.gmail.com</serverip>
+  <serverport>465</serverport>
+  <serverName></serverName>
+  <requireauth>true</requireauth>
+  <user>renasysvakt@gmail.com</user>
+  <password>qfxa dncp ktmm nvyj</password>
+  <encrypt>1</encrypt>
+  <verbose>1</verbose>
+ </serverInfo>
+ <serverInfo>
+  <id>eMailServer2</id>
+  <serverip>renasys-com.mail.protection.outlook.com</serverip>
+  <serverport>25</serverport>
+  <serverName></serverName>
+  <requireauth></requireauth>
+  <user></user>
+  <password></password>
+  <encrypt></encrypt>
+  <verbose>1</verbose>
+ </serverInfo>
+</mailInfo>

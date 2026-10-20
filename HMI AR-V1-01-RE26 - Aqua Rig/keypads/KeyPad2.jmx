@@ -1,0 +1,1075 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object id="KeyPad2" dataWndSize="0,70" staticOptEnable="false" downloadPrepDone="false" pageSize="320,248" class="KeypadPageWgt" pageType="keypad" pageName="KeyPad2" usedFonts="Roboto Medium,Roboto">
+  <wgtStyle y="0" x="0" height="248" width="320" v="04.05.00.224" fitToSize="1" loadOnStartup="true" ver="040500224"/>
+  <dataLinks>
+   <dataLink dataSource="Keypad.keypad_Value" tagIndex="-1" readWrite="R/W" sourceType="Widget" attribute="value" tag="value1"/>
+  </dataLinks>
+  <object id="_PageMLTextMgrWgt" class="PageMLTextMgrWgt" mlFileName="" mgrType="Page">
+   <wgtStyle y="0" x="0" height="0" width="0"/>
+   <langs curLangId="L1" defLangId="L1">
+    <lang writingsystem="Any" langCode="en-US" defaultFont="Roboto" langId="L1" removable="false" keypads=";;" name="Lang1"/>
+   </langs>
+   <MLTexts>
+    <MLText id="0" L1="Select Type"/>
+    <MLText id="1" L1="X"/>
+    <MLText id="4" L1="Select Time"/>
+    <MLText id="5" L1="Select Days"/>
+    <MLText id="8" L1="Select Offset"/>
+    <MLText id="10" L1="Prev"/>
+    <MLText id="17" L1="Select  Mode"/>
+    <MLText id="22" L1="Next"/>
+    <MLText id="35" L1="Location"/>
+    <MLText id="37" L1="Condition"/>
+    <MLText id="38" L1="Select Interval"/>
+    <MLText id="40" L1="Select Interval"/>
+    <MLText id="41" L1="Select Date"/>
+    <MLText id="42" L1="SunSet -"/>
+    <MLText id="43" L1="Random 20"/>
+    <MLText id="44" L1="Random 10"/>
+    <MLText id="46" L1="SunSet +"/>
+    <MLText id="47" L1="SunRise -"/>
+    <MLText id="48" L1="SunRise +"/>
+    <MLText id="49" L1="Time"/>
+    <MLText id="50" L1="X"/>
+    <MLText id="52" L1="Next"/>
+    <MLText id="53" L1="By Date"/>
+    <MLText id="54" L1="Yearly"/>
+    <MLText id="55" L1="Monthly"/>
+    <MLText id="56" L1="Weekly"/>
+    <MLText id="57" L1="Every"/>
+    <MLText id="58" L1="Hourly"/>
+    <MLText id="59" L1="Daily"/>
+    <MLText id="60" L1="X"/>
+    <MLText id="61" L1="Prev"/>
+    <MLText id="62" L1="Next"/>
+    <MLText id="63" L1="MON"/>
+    <MLText id="64" L1="THU"/>
+    <MLText id="65" L1="SUN"/>
+    <MLText id="66" L1="TUE"/>
+    <MLText id="67" L1="FRI"/>
+    <MLText id="68" L1="WED"/>
+    <MLText id="69" L1="SAT"/>
+    <MLText id="70" L1="ALL"/>
+    <MLText id="71" L1="X"/>
+    <MLText id="72" L1="Prev"/>
+    <MLText id="73" L1="Save"/>
+    <MLText id="74" L1="X"/>
+    <MLText id="75" L1="Prev"/>
+    <MLText id="76" L1="Next"/>
+    <MLText id="77" L1="X"/>
+    <MLText id="78" L1="Prev"/>
+    <MLText id="79" L1="Next"/>
+    <MLText id="80" L1="X"/>
+    <MLText id="81" L1="Save"/>
+    <MLText id="82" L1="X"/>
+    <MLText id="83" L1="Prev"/>
+    <MLText id="84" L1="Next"/>
+    <MLText id="104" L1="Secs"/>
+    <MLText id="105" L1="MilliSecs "/>
+   </MLTexts>
+  </object>
+  <object id="Keypad" customType="com.hmi.schedulekeypadmodule-:1.1.0" class="GroupWgt">
+   <wgtStyle y="0" x="0" height="881" width="1008" cx="504" cy="440.50"/>
+   <object id="Keypad.TypeLayer" class="GroupWgt">
+    <wgtStyle y="0" x="339" height="248" forcePaint="1" width="320" cx="160" cy="124"/>
+    <object id="Keypad.TypeLayer.mainrect" class="ShapeWgt">
+     <wgtStyle y="0" x="0" stroke-width="0" nodeName="rect" height="248" forcePaint="1" width="320" cx="154.84" cy="124" fill="rgb(230,230,230)" stroke="none"/>
+    </object>
+    <object id="Keypad.TypeLayer.headLabel" class="LabelWgt">
+     <wgtStyle y="16" vert-align="middle" x="20" height="23" forcePaint="1" width="79" font-sizepx="13" font-family="Roboto Medium" font-size="10" cx="151.30" cy="31.41" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+     <links>
+      <lang textid="0" class="MLTextLink">
+       <MLFontFamily L1="Roboto Medium"/>
+      </lang>
+     </links>
+    </object>
+    <object id="Keypad.TypeLayer.GridLayout" class="GroupWgt">
+     <wgtStyle y="56" x="19" height="114" wgtStaticOpt="dynamic" width="282" cx="141" cy="57">
+      <gridGroupLayout gridGlobalStrokeMode="1" gridScrollBgColor="none" gridVerOverFlow="2" gridGlobalStrokeWidth="0" gridVerUnderFlow="2" gridScrollColor="rgb(153,153,153)" gridNRows="3" gridNCols="3" gridScrollSize="0" gridHorUnderFlow="2" gridScrollImage="" gridHorOverFlow="2" gridScrollOffset="2" gridScrollAutohide="0" gridGlobalStrokeColor="rgb(0,0,0)" gridGlobalStrokeCollapsed="1">
+       <colProperties>
+        <colProperty stretch="1" maxWidth="10000" rightStrokeColor="rgb(0,0,0)" rightMargin="8" leftStrokeColor="rgb(0,0,0)" minWidth="97" leftMargin="1" rightStroke="0" leftStroke="0"/>
+        <colProperty stretch="1" maxWidth="10000" rightStrokeColor="rgb(0,0,0)" rightMargin="8" leftStrokeColor="rgb(0,0,0)" minWidth="96" leftMargin="0" rightStroke="0" leftStroke="0"/>
+        <colProperty stretch="1" maxWidth="10000" rightStrokeColor="rgb(0,0,0)" rightMargin="1" leftStrokeColor="rgb(0,0,0)" minWidth="88" leftMargin="0" rightStroke="0" leftStroke="0"/>
+       </colProperties>
+       <rowProperties>
+        <rowProperty backColor="none" selForColor="none" topStrokeColor="rgb(0,0,0)" bottonStroke="0" minHeight="41" stretch="1" topMargin="1" maxHeight="10000" bottonMargin="8" selBackColor="none" bottonStrokeColor="rgb(0,0,0)" selStrokeColor="none" topStroke="0"/>
+        <rowProperty backColor="none" selForColor="none" topStrokeColor="rgb(0,0,0)" bottonStroke="0" minHeight="40" stretch="1" topMargin="0" maxHeight="10000" bottonMargin="8" selBackColor="none" bottonStrokeColor="rgb(0,0,0)" selStrokeColor="none" topStroke="0"/>
+        <rowProperty backColor="none" selForColor="none" topStrokeColor="rgb(0,0,0)" bottonStroke="0" minHeight="33" stretch="1" topMargin="0" maxHeight="10000" bottonMargin="1" selBackColor="none" bottonStrokeColor="rgb(0,0,0)" selStrokeColor="none" topStroke="0"/>
+       </rowProperties>
+      </gridGroupLayout>
+     </wgtStyle>
+     <object id="Keypad.TypeLayer.GridLayout.BtnEvery" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="1" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="1" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="1" bottonMargin="0" x="1" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.TypeLayer.GridLayout.BtnEvery.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="maintained" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnEvery" actionID="0" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseDown" attribute="onMousePress"/>
+       </links>
+      </object>
+      <object id="Keypad.TypeLayer.GridLayout.BtnEvery.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="4.04" height="30" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="80.89" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="41.51" cy="15.60" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="57" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.TypeLayer.GridLayout.BtnWeekly" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="2" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="41" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="1" bottonMargin="0" x="1" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.TypeLayer.GridLayout.BtnWeekly.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="maintained" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnWeekly" actionID="0" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseDown" attribute="onMousePress"/>
+       </links>
+      </object>
+      <object id="Keypad.TypeLayer.GridLayout.BtnWeekly.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="12.22" height="28" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="63.73" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32.71" cy="14.56" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="56" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.TypeLayer.GridLayout.BtnMonthly" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="2" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="41" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="2" bottonMargin="0" x="97" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.TypeLayer.GridLayout.BtnMonthly.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="maintained" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnMonthly" actionID="0" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseDown" attribute="onMousePress"/>
+       </links>
+      </object>
+      <object id="Keypad.TypeLayer.GridLayout.BtnMonthly.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="12.22" height="28" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="63.73" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32.71" cy="14.56" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="55" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.TypeLayer.GridLayout.BtnYearly" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="2" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="41" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="3" bottonMargin="0" x="193" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.TypeLayer.GridLayout.BtnYearly.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="maintained" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnYearly" actionID="0" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseDown" attribute="onMousePress"/>
+       </links>
+      </object>
+      <object id="Keypad.TypeLayer.GridLayout.BtnYearly.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="12.22" height="28" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="63.73" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32.71" cy="14.56" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="54" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.TypeLayer.GridLayout.BtnDate" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="3" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="81" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="1" bottonMargin="0" x="1" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.TypeLayer.GridLayout.BtnDate.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="maintained" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnDate" actionID="0" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseDown" attribute="onMousePress"/>
+       </links>
+      </object>
+      <object id="Keypad.TypeLayer.GridLayout.BtnDate.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="12.22" height="28" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="63.73" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32.71" cy="14.56" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="53" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.TypeLayer.GridLayout.BtnHourly" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="1" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="1" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="2" bottonMargin="0" x="97" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.TypeLayer.GridLayout.BtnHourly.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="maintained" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnHourly" actionID="0" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseDown" attribute="onMousePress"/>
+       </links>
+      </object>
+      <object id="Keypad.TypeLayer.GridLayout.BtnHourly.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="4.04" height="30" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="80.89" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="41.52" cy="15.60" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="58" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.TypeLayer.GridLayout.BtnDaily" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="1" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="87:32" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="1" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="3" bottonMargin="0" x="193" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.TypeLayer.GridLayout.BtnDaily.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="maintained" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnDaily" actionID="0" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseDown" attribute="onMousePress"/>
+       </links>
+      </object>
+      <object id="Keypad.TypeLayer.GridLayout.BtnDaily.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="4.04" height="30" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="80.89" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="41.52" cy="15.60" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="59" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+    </object>
+    <object id="Keypad.TypeLayer.WizardBtns" class="GroupWgt">
+     <wgtStyle y="196" x="19" height="32" width="280" cx="140" cy="16"/>
+     <object id="Keypad.TypeLayer.WizardBtns.cancelBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="0" height="32" width="32" cx="16" cy="16"/>
+      <object id="Keypad.TypeLayer.WizardBtns.cancelBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="32" cx="16" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.btnCancel" actionID="0" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.TypeLayer.WizardBtns.cancelBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="1.19" height="29.82" alignment="center" forcePaint="1" width="28.44" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="14.22" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="50" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.TypeLayer.WizardBtns.okBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="208" height="32" width="72" cx="36" cy="16"/>
+      <object id="Keypad.TypeLayer.WizardBtns.okBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="72" cx="36" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.nextType" actionID="0" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseUp" attribute="onMouseRelease"/>
+       </links>
+      </object>
+      <object id="Keypad.TypeLayer.WizardBtns.okBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="2.67" height="29.82" alignment="center" forcePaint="1" width="64" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="52" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+    </object>
+   </object>
+   <object id="Keypad.DayLayer" class="GroupWgt">
+    <wgtStyle y="0" x="682" height="248" forcePaint="1" width="320" cx="160" cy="124"/>
+    <object id="Keypad.DayLayer.mainrect" class="ShapeWgt">
+     <wgtStyle y="0" x="0" stroke-width="0" nodeName="rect" height="248" forcePaint="1" width="320" cx="154.84" cy="124" fill="rgb(230,230,230)" stroke="none"/>
+    </object>
+    <object id="Keypad.DayLayer.headLabel" class="LabelWgt">
+     <wgtStyle y="16" vert-align="middle" x="20" height="24" forcePaint="1" width="96" font-sizepx="13" font-family="Roboto Medium" font-size="10" cx="258.54" cy="45.14" font-color="rgb(76,76,77)" frameColor="none" frameSize="0" wrapping="true" keypad-type="None"/>
+     <links>
+      <lang textid="5" class="MLTextLink">
+       <MLFontFamily L1="Roboto Medium"/>
+      </lang>
+     </links>
+    </object>
+    <object id="Keypad.DayLayer.GridLayout" class="GroupWgt">
+     <wgtStyle y="56" x="19" height="114" wgtStaticOpt="dynamic" width="282" cx="141" cy="57">
+      <gridGroupLayout gridGlobalStrokeMode="1" gridScrollBgColor="none" gridVerOverFlow="2" gridGlobalStrokeWidth="0" gridVerUnderFlow="2" gridScrollColor="rgb(153,153,153)" gridNRows="3" gridNCols="3" gridScrollSize="0" gridHorUnderFlow="2" gridScrollImage="" gridHorOverFlow="2" gridScrollOffset="2" gridScrollAutohide="0" gridGlobalStrokeColor="rgb(0,0,0)" gridGlobalStrokeCollapsed="1">
+       <colProperties>
+        <colProperty stretch="1" maxWidth="10000" rightStrokeColor="rgb(0,0,0)" rightMargin="8" leftStrokeColor="rgb(0,0,0)" minWidth="97" leftMargin="1" rightStroke="0" leftStroke="0"/>
+        <colProperty stretch="1" maxWidth="10000" rightStrokeColor="rgb(0,0,0)" rightMargin="8" leftStrokeColor="rgb(0,0,0)" minWidth="96" leftMargin="0" rightStroke="0" leftStroke="0"/>
+        <colProperty stretch="1" maxWidth="10000" rightStrokeColor="rgb(0,0,0)" rightMargin="2" leftStrokeColor="rgb(0,0,0)" minWidth="90" leftMargin="0" rightStroke="0" leftStroke="0"/>
+       </colProperties>
+       <rowProperties>
+        <rowProperty backColor="none" selForColor="none" topStrokeColor="rgb(0,0,0)" bottonStroke="0" minHeight="41" stretch="1" topMargin="1" maxHeight="10000" bottonMargin="8" selBackColor="none" bottonStrokeColor="rgb(0,0,0)" selStrokeColor="none" topStroke="0"/>
+        <rowProperty backColor="none" selForColor="none" topStrokeColor="rgb(0,0,0)" bottonStroke="0" minHeight="40" stretch="1" topMargin="0" maxHeight="10000" bottonMargin="8" selBackColor="none" bottonStrokeColor="rgb(0,0,0)" selStrokeColor="none" topStroke="0"/>
+        <rowProperty backColor="none" selForColor="none" topStrokeColor="rgb(0,0,0)" bottonStroke="0" minHeight="33" stretch="1" topMargin="0" maxHeight="10000" bottonMargin="1" selBackColor="none" bottonStrokeColor="rgb(0,0,0)" selStrokeColor="none" topStroke="0"/>
+       </rowProperties>
+      </gridGroupLayout>
+     </wgtStyle>
+     <object id="Keypad.DayLayer.GridLayout.BtnMon" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="1" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="1" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="1" bottonMargin="0" x="1" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.DayLayer.GridLayout.BtnMon.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="momentary" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnMon" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.DayLayer.GridLayout.BtnMon.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="4.04" height="30" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="80.89" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="41.51" cy="15.60" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="63" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.DayLayer.GridLayout.BtnThu" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="2" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="41" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="1" bottonMargin="0" x="1" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.DayLayer.GridLayout.BtnThu.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="momentary" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnThu" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.DayLayer.GridLayout.BtnThu.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="12.22" height="28" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="63.73" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32.71" cy="14.56" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="64" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.DayLayer.GridLayout.BtnFri" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="2" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="41" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="2" bottonMargin="0" x="97" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.DayLayer.GridLayout.BtnFri.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="momentary" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnFri" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.DayLayer.GridLayout.BtnFri.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="12.22" height="28" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="63.73" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32.71" cy="14.56" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="67" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.DayLayer.GridLayout.BtnSat" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="2" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="41" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="3" bottonMargin="0" x="193" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.DayLayer.GridLayout.BtnSat.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="momentary" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnSat" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.DayLayer.GridLayout.BtnSat.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="12.22" height="28" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="63.73" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32.71" cy="14.56" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="69" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.DayLayer.GridLayout.BtnSun" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="3" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="81" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="1" bottonMargin="0" x="1" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.DayLayer.GridLayout.BtnSun.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="momentary" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnSun" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.DayLayer.GridLayout.BtnSun.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="12.22" height="28" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="63.73" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32.71" cy="14.56" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="65" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.DayLayer.GridLayout.BtnTue" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="1" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="1" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="2" bottonMargin="0" x="97" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.DayLayer.GridLayout.BtnTue.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="momentary" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnTue" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.DayLayer.GridLayout.BtnTue.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="4.04" height="30" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="80.89" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="41.52" cy="15.60" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="66" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.DayLayer.GridLayout.BtnWed" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="1" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="87:32" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="1" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="3" bottonMargin="0" x="193" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.DayLayer.GridLayout.BtnWed.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="momentary" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnWed" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.DayLayer.GridLayout.BtnWed.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="4.04" height="30" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="80.89" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="41.52" cy="15.60" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="68" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.DayLayer.GridLayout.BtnAll" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="3" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="81" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="3" bottonMargin="0" x="193" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.DayLayer.GridLayout.BtnAll.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="momentary" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnAll" actionID="0" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseDown" attribute="onMousePress"/>
+       </links>
+      </object>
+      <object id="Keypad.DayLayer.GridLayout.BtnAll.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="12.22" height="28" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="63.73" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32.71" cy="14.56" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="70" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+    </object>
+    <object id="Keypad.DayLayer.WizardBtns" class="GroupWgt">
+     <wgtStyle y="197" x="19" height="32" width="280.50" cx="140.25" cy="16"/>
+     <object id="Keypad.DayLayer.WizardBtns.cancelBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="0" height="32" width="32" cx="16" cy="16"/>
+      <object id="Keypad.DayLayer.WizardBtns.cancelBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="32" cx="16" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.btnCancel" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.DayLayer.WizardBtns.cancelBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="1.19" height="29.82" alignment="center" forcePaint="1" width="28.44" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="14.22" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="60" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.DayLayer.WizardBtns.prevBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="128.50" height="32" width="72" cx="36" cy="16"/>
+      <object id="Keypad.DayLayer.WizardBtns.prevBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="72" cx="36" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.btnPrev" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.DayLayer.WizardBtns.prevBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="2.67" height="29.82" alignment="center" forcePaint="1" width="64" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="61" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.DayLayer.WizardBtns.okBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="208.50" height="32" width="72" cx="36" cy="16"/>
+      <object id="Keypad.DayLayer.WizardBtns.okBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="72" cx="36" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.nextDay" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.DayLayer.WizardBtns.okBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="2.67" height="29.82" alignment="center" forcePaint="1" width="64" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="62" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+    </object>
+   </object>
+   <object id="Keypad.LocationLayer" class="GroupWgt">
+    <wgtStyle y="283" x="0" height="248" forcePaint="1" width="320" cx="160" cy="124"/>
+    <object id="Keypad.LocationLayer.mainrect" class="ShapeWgt">
+     <wgtStyle y="0" x="0" stroke-width="0" nodeName="rect" height="248" forcePaint="1" width="320" cx="154.85" cy="124" fill="rgb(230,230,230)" stroke="none"/>
+    </object>
+    <object id="Keypad.LocationLayer.headLabel" class="LabelWgt">
+     <wgtStyle y="16" vert-align="middle" x="19" height="23" forcePaint="1" width="95" font-sizepx="13" font-family="Roboto Medium" font-size="10" cx="48" cy="11.37" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+     <links>
+      <lang textid="35" class="MLTextLink">
+       <MLFontFamily L1="Roboto Medium"/>
+      </lang>
+     </links>
+    </object>
+    <object id="Keypad.LocationLayer.controlList" class="ControlListWgt">
+     <wgtStyle font-sizepx="16" forcePaint="1" state-color="rgb(0,176,199)" width="282" scroll_type="1" text="" list-readOnly="false" selection="0" vert-align="top" height="132" list-scorllsize="10" cy="66" state="0" font-family="Roboto" mode="1" y="48" cx="141" font-size="12" font-color="rgb(76,76,77)" keypad-type="None" icon-image="images/listArrow.svg" x="19" list-bgColor="rgb(230,230,230)">
+      <list/>
+     </wgtStyle>
+    </object>
+    <object id="Keypad.LocationLayer.WizardBtns" class="GroupWgt">
+     <wgtStyle y="196" x="19" height="32" width="280.50" cx="140.25" cy="16"/>
+     <object id="Keypad.LocationLayer.WizardBtns.cancelBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="0" height="32" width="32" cx="16" cy="16"/>
+      <object id="Keypad.LocationLayer.WizardBtns.cancelBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="32" cx="16" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.btnCancel" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.LocationLayer.WizardBtns.cancelBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="1.19" height="29.82" alignment="center" forcePaint="1" width="28.44" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="14.22" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="82" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.LocationLayer.WizardBtns.prevBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="128.50" height="32" width="72" cx="36" cy="16"/>
+      <object id="Keypad.LocationLayer.WizardBtns.prevBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="72" cx="36" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.btnPrev" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.LocationLayer.WizardBtns.prevBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="2.67" height="29.82" alignment="center" forcePaint="1" width="64" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="83" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.LocationLayer.WizardBtns.okBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="208.50" height="32" width="72" cx="36" cy="16"/>
+      <object id="Keypad.LocationLayer.WizardBtns.okBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="72" cx="36" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.nextLoc" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.LocationLayer.WizardBtns.okBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="2.67" height="29.82" alignment="center" forcePaint="1" width="64" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="84" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+    </object>
+   </object>
+   <object id="Keypad.FrequencyLayer" class="GroupWgt">
+    <wgtStyle y="570" x="0" height="248" forcePaint="1" width="318.82" cx="159.41" cy="124"/>
+    <object id="Keypad.FrequencyLayer.mainrect" class="ShapeWgt">
+     <wgtStyle y="0" x="0" stroke-width="0" nodeName="rect" height="248" forcePaint="1" width="318.82" cx="154.27" cy="124" fill="rgb(230,230,230)" stroke="none"/>
+    </object>
+    <object id="Keypad.FrequencyLayer.headLabel" class="LabelWgt">
+     <wgtStyle y="16" vert-align="middle" x="19" height="22" forcePaint="1" width="110" font-sizepx="13" font-family="Roboto Medium" font-size="10" cx="56" cy="11.37" font-color="rgb(76,76,77)" frameColor="none" wrapping="true" keypad-type="None"/>
+     <links>
+      <lang textid="38" class="MLTextLink">
+       <MLFontFamily L1="Roboto Medium"/>
+      </lang>
+     </links>
+    </object>
+    <object id="Keypad.FrequencyLayer.field" class="NumericWgt">
+     <wgtStyle font-sizepx="13" frameFill="rgb(240,240,240)" forcePaint="1" width="242" usingFormat="" text="1000000 " value="1000000 " readWrite="true" step="1" vert-align="middle" height="32" alignment="right" cy="35.96" min="0" font-family="Roboto Medium" frameSize="0" frameColor="none" numberFormat="1" showThousandSeparator="false" timeSpec="local" y="56" cx="162.09" frame="true" font-size="10" font-color="rgb(76,76,77)" keypad-type="Numeric" max="10000" form="Numeric" x="19"/>
+    </object>
+    <object id="Keypad.FrequencyLayer.msgtext" class="MsgTextWgt">
+     <wgtStyle font-sizepx="13" frameFill="rgb(245,245,245)" forcePaint="1" width="31" text="" value="0" vert-align="middle" height="15" alignment="right" cy="12.12" min="0" viewindex="false" font-family="Roboto" frameColor="none" continous="true" y="64" cx="21.23" font-size="10" font-color="rgb(76,76,77)" keypad-type="None" max="1" x="269">
+      <msgtxt>
+       <msg index="0"/>
+       <msg index="1"/>
+      </msgtxt>
+     </wgtStyle>
+     <links>
+      <lang class="MLMsgLink:messages:">
+       <MLFontFamily L1="Roboto"/>
+       <textid idx="0" val="104"/>
+       <textid idx="1" val="105"/>
+      </lang>
+     </links>
+    </object>
+    <object id="Keypad.FrequencyLayer.WizardBtns" class="GroupWgt">
+     <wgtStyle y="196" x="19" height="32" width="280.50" cx="140.25" cy="16"/>
+     <object id="Keypad.FrequencyLayer.WizardBtns.cancelBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="0" height="32" width="32" cx="16" cy="16"/>
+      <object id="Keypad.FrequencyLayer.WizardBtns.cancelBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="32" cx="16" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.btnCancel" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseUp" attribute="onMouseRelease"/>
+       </links>
+      </object>
+      <object id="Keypad.FrequencyLayer.WizardBtns.cancelBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="1.19" height="29.82" alignment="center" forcePaint="1" width="28.44" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="14.22" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="80" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.FrequencyLayer.WizardBtns.okBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="208.50" height="32" width="72" cx="36" cy="16"/>
+      <object id="Keypad.FrequencyLayer.WizardBtns.okBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="72" cx="36" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.nextFreq" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseUp" attribute="onMouseRelease"/>
+       </links>
+      </object>
+      <object id="Keypad.FrequencyLayer.WizardBtns.okBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="2.67" height="29.82" alignment="center" forcePaint="1" width="64" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="81" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+    </object>
+   </object>
+   <object id="Keypad.TimeLayer" class="GroupWgt">
+    <wgtStyle y="570" x="339" height="248" width="320" cx="159.41" cy="145"/>
+    <object id="Keypad.TimeLayer.mainrect" class="ShapeWgt">
+     <wgtStyle y="0" x="0" stroke-width="0" nodeName="rect" height="248" forcePaint="1" width="320" cx="154.84" cy="124" fill="rgb(230,230,230)" stroke="none"/>
+    </object>
+    <object id="Keypad.TimeLayer.headLabel2" class="LabelWgt">
+     <wgtStyle y="18.71" vert-align="middle" x="19" height="27.06" forcePaint="1" width="103" font-sizepx="13" font-family="Roboto Medium" font-size="10" cx="52" cy="13.29" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+     <links>
+      <lang textid="8" class="MLTextLink">
+       <MLFontFamily L1="Roboto Medium"/>
+      </lang>
+     </links>
+    </object>
+    <object id="Keypad.TimeLayer.timeKeypad" class="TimeKeypadWgt">
+     <wgtStyle y="39" x="56" height="149" forcePaint="1" width="206" backGroundColor="rgb(230,230,230)" borderColor="none" font="Roboto" mainColor="rgb(230,230,230)" secondColor="rgb(203,203,203)" borderWidth="0"/>
+    </object>
+    <object id="Keypad.TimeLayer.timedate" class="NumericWgt">
+     <wgtStyle font-sizepx="26" forcePaint="1" usingFormat="hh:mm" width="76.19" value="-3600" text="-3600" step="1" vert-align="top" height="32.81" cy="22.29" min="0" font-family="Roboto Medium" numberFormat="0" showThousandSeparator="false" timeSpec="local" y="105" cx="195.94" font-size="20" font-color="rgb(76,76,77)" keypad-type="None" max="4096" form="date-time" x="123"/>
+     <dataLinks>
+      <dataLink dataSource="Keypad.TimeLayer.timeKeypad" tagIndex="-1" readWrite="R" sourceType="Widget" attribute="value" tag="timeSelected"/>
+     </dataLinks>
+    </object>
+    <object id="Keypad.TimeLayer.headLabel1" class="LabelWgt">
+     <wgtStyle y="18.71" vert-align="middle" x="19" height="27.06" forcePaint="1" width="103" font-sizepx="13" font-family="Roboto Medium" font-size="10" cx="52" cy="13.29" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+     <links>
+      <lang textid="4" class="MLTextLink">
+       <MLFontFamily L1="Roboto Medium"/>
+      </lang>
+     </links>
+    </object>
+    <object id="Keypad.TimeLayer.WizardBtns" class="GroupWgt">
+     <wgtStyle y="195" x="19" height="32" width="280.50" cx="140.25" cy="16"/>
+     <object id="Keypad.TimeLayer.WizardBtns.cancelBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="0" height="32" width="32" cx="16" cy="16"/>
+      <object id="Keypad.TimeLayer.WizardBtns.cancelBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="32" cx="16" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.btnCancel" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseUp" attribute="onMouseRelease"/>
+       </links>
+      </object>
+      <object id="Keypad.TimeLayer.WizardBtns.cancelBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="1.19" height="29.82" alignment="center" forcePaint="1" width="28.44" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="14.22" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="77" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.TimeLayer.WizardBtns.prevBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="128.50" height="32" width="72" cx="36" cy="16"/>
+      <object id="Keypad.TimeLayer.WizardBtns.prevBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="72" cx="36" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.btnPrev" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseUp" attribute="onMouseRelease"/>
+       </links>
+      </object>
+      <object id="Keypad.TimeLayer.WizardBtns.prevBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="2.67" height="29.82" alignment="center" forcePaint="1" width="64" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="78" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.TimeLayer.WizardBtns.okBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="208.50" height="32" width="72" cx="36" cy="16"/>
+      <object id="Keypad.TimeLayer.WizardBtns.okBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="72" cx="36" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.nextTime" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseUp" attribute="onMouseRelease"/>
+       </links>
+      </object>
+      <object id="Keypad.TimeLayer.WizardBtns.okBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="2.67" height="29.82" alignment="center" forcePaint="1" width="64" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="79" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+    </object>
+   </object>
+   <object id="Keypad.DateLayer" class="GroupWgt">
+    <wgtStyle y="570" x="682" height="248" width="318.82" cx="159.41" cy="124"/>
+    <object id="Keypad.DateLayer.mainrect" class="ShapeWgt">
+     <wgtStyle y="0" x="0" stroke-width="0" nodeName="rect" height="248" forcePaint="1" width="318.82" cx="154.27" cy="124" fill="rgb(230,230,230)" stroke="none"/>
+    </object>
+    <object id="Keypad.DateLayer.headLabel2" class="LabelWgt">
+     <wgtStyle y="16" vert-align="middle" x="19" height="23" forcePaint="1" width="103" font-sizepx="13" font-family="Roboto Medium" font-size="10" cx="52" cy="11.37" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+     <links>
+      <lang textid="41" class="MLTextLink">
+       <MLFontFamily L1="Roboto Medium"/>
+      </lang>
+     </links>
+    </object>
+    <object id="Keypad.DateLayer.dateTime1" class="DateTimeWgt">
+     <wgtStyle font-sizepx="32" borderWidth="0" forcePaint="1" usingFormat="dd/MMM/yyyy" width="282" buttonImageHeight="8" value="0" text="0" buttonWidth="40" vert-align="top" height="72" buttonBorderColor="rgb(230,230,230)" cy="81.23" font-family="Roboto" type="1" timeSpec="local" y="56" cx="164.69" buttonBackGroundUpColor="rgb(245,245,245)" font-size="24" buttonBorderWidth="2" font-color="rgb(76,76,77)" keypad-type="None" x="19" buttonImageWidth="8"/>
+    </object>
+    <object id="Keypad.DateLayer.dateTime2" class="DateTimeWgt">
+     <wgtStyle font-sizepx="32" borderWidth="0" forcePaint="1" usingFormat="dd/MMM/yyyy" width="282" buttonImageHeight="8" value="0" text="0" buttonWidth="40" vert-align="top" height="72" buttonBorderColor="rgb(230,230,230)" cy="81.23" font-family="Roboto" type="1" timeSpec="local" y="56" cx="164.69" buttonBackGroundUpColor="rgb(245,245,245)" font-size="24" buttonBorderWidth="2" font-color="rgb(76,76,77)" keypad-type="None" x="19" buttonImageWidth="8"/>
+    </object>
+    <object id="Keypad.DateLayer.headLabel1" class="LabelWgt">
+     <wgtStyle y="16" vert-align="middle" x="19" height="24" forcePaint="1" width="96" font-sizepx="13" font-family="Roboto Medium" font-size="10" cx="60.14" cy="18.19" font-color="rgb(76,76,77)" frameColor="none" frameSize="0" wrapping="true" keypad-type="None"/>
+     <links>
+      <lang textid="40" class="MLTextLink">
+       <MLFontFamily L1="Roboto Medium"/>
+      </lang>
+     </links>
+    </object>
+    <object id="Keypad.DateLayer.WizardBtns" class="GroupWgt">
+     <wgtStyle y="196" x="19" height="32" width="280.50" cx="140.25" cy="16"/>
+     <object id="Keypad.DateLayer.WizardBtns.cancelBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="0" height="32" width="32" cx="16" cy="16"/>
+      <object id="Keypad.DateLayer.WizardBtns.cancelBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="32" cx="16" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.btnCancel" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseUp" attribute="onMouseRelease"/>
+       </links>
+      </object>
+      <object id="Keypad.DateLayer.WizardBtns.cancelBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="1.19" height="29.82" alignment="center" forcePaint="1" width="28.44" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="14.22" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="74" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.DateLayer.WizardBtns.prevBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="128.50" height="32" width="72" cx="36" cy="16"/>
+      <object id="Keypad.DateLayer.WizardBtns.prevBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="72" cx="36" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.btnPrev" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseUp" attribute="onMouseRelease"/>
+       </links>
+      </object>
+      <object id="Keypad.DateLayer.WizardBtns.prevBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="2.67" height="29.82" alignment="center" forcePaint="1" width="64" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="75" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.DateLayer.WizardBtns.okBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="208.50" height="32" width="72" cx="36" cy="16"/>
+      <object id="Keypad.DateLayer.WizardBtns.okBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="72" cx="36" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.nextDate" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseUp" attribute="onMouseRelease"/>
+       </links>
+      </object>
+      <object id="Keypad.DateLayer.WizardBtns.okBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="2.67" height="29.82" alignment="center" forcePaint="1" width="64" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="76" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+    </object>
+   </object>
+   <object id="Keypad.ConditionLayer" class="GroupWgt">
+    <wgtStyle y="283" x="688" height="248" forcePaint="1" width="320" cx="160" cy="124"/>
+    <object id="Keypad.ConditionLayer.mainrect" class="ShapeWgt">
+     <wgtStyle y="0" x="0" stroke-width="0" nodeName="rect" height="248" forcePaint="1" width="320" cx="154.85" cy="124" fill="rgb(230,230,230)" stroke="none"/>
+    </object>
+    <object id="Keypad.ConditionLayer.headLabel" class="LabelWgt">
+     <wgtStyle y="16" vert-align="middle" x="19" height="23" forcePaint="1" width="95" font-sizepx="13" font-family="Roboto Medium" font-size="10" cx="48" cy="11.37" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+     <links>
+      <lang textid="37" class="MLTextLink">
+       <MLFontFamily L1="Roboto Medium"/>
+      </lang>
+     </links>
+    </object>
+    <object id="Keypad.ConditionLayer.controlList" class="ControlListWgt">
+     <wgtStyle font-sizepx="16" forcePaint="1" state-color="rgb(0,176,199)" width="282" scroll_type="1" text="" list-readOnly="false" selection="0" vert-align="top" height="132" list-scorllsize="10" cy="66" state="0" font-family="Roboto" mode="1" y="48" cx="141" font-size="12" font-color="rgb(76,76,77)" keypad-type="None" icon-image="images/listArrow.svg" x="19" list-bgColor="rgb(230,230,230)">
+      <list/>
+     </wgtStyle>
+    </object>
+    <object id="Keypad.ConditionLayer.WizardBtns" class="GroupWgt">
+     <wgtStyle y="196" x="19" height="32" width="280.50" cx="140.25" cy="16"/>
+     <object id="Keypad.ConditionLayer.WizardBtns.cancelBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="0" height="32" width="32" cx="16" cy="16"/>
+      <object id="Keypad.ConditionLayer.WizardBtns.cancelBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="32" cx="16" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.btnCancel" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.ConditionLayer.WizardBtns.cancelBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="1.19" height="29.82" alignment="center" forcePaint="1" width="28.44" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="14.22" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="71" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.ConditionLayer.WizardBtns.prevBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="128.50" height="32" width="72" cx="36" cy="16"/>
+      <object id="Keypad.ConditionLayer.WizardBtns.prevBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="72" cx="36" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.btnPrev" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.ConditionLayer.WizardBtns.prevBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="2.67" height="29.82" alignment="center" forcePaint="1" width="64" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="72" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.ConditionLayer.WizardBtns.okBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="208.50" height="32" width="72" cx="36" cy="16"/>
+      <object id="Keypad.ConditionLayer.WizardBtns.okBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="72" cx="36" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.nextCondition" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+       </links>
+      </object>
+      <object id="Keypad.ConditionLayer.WizardBtns.okBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="2.67" height="29.82" alignment="center" forcePaint="1" width="64" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="73" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+    </object>
+   </object>
+   <object id="Keypad.keypad_Value" class="JSFunctBlockWgt">
+    <wgtStyle value5="" value6="" value13="" value12="" width="65" value7="" value16="" value9="" value10="" height="54" value11="" value2="" y="827" value15="" value4="" value14="" value3="" value8="" x="3" value1=""/>
+    <dataLinks>
+     <dataLink dataSource="Keypad.keypad_Value" tagIndex="-1" readWrite="R/W" sourceType="Widget" attribute="value2" tag="value1"/>
+    </dataLinks>
+    <links>
+     <action f="this.initKeypad" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onDataUpdate" attribute="onDataUpdate"/>
+    </links>
+   </object>
+   <object id="Keypad.ModeLayer" class="GroupWgt">
+    <wgtStyle y="0" x="0" height="248" width="320" cx="160" cy="124"/>
+    <object id="Keypad.ModeLayer.mainrect" class="ShapeWgt">
+     <wgtStyle y="0" x="0" stroke-width="0" nodeName="rect" height="248" forcePaint="1" width="320" cx="154.84" cy="124" fill="rgb(230,230,230)" stroke="none"/>
+    </object>
+    <object id="Keypad.ModeLayer.headLabel" class="LabelWgt">
+     <wgtStyle y="16" vert-align="middle" x="19" height="23" forcePaint="1" width="87" font-sizepx="13" font-family="Roboto Medium" font-size="10" cx="1025.27" cy="87.35" font-color="rgb(76,76,77)" frameColor="none" wrapping="true" keypad-type="None"/>
+     <links>
+      <lang textid="17" class="MLTextLink">
+       <MLFontFamily L1="Roboto Medium"/>
+      </lang>
+     </links>
+    </object>
+    <object id="Keypad.ModeLayer.GridLayout" class="GroupWgt">
+     <wgtStyle y="56" x="19" height="114" wgtStaticOpt="dynamic" width="282" cx="141" cy="57">
+      <gridGroupLayout gridGlobalStrokeMode="1" gridScrollBgColor="none" gridVerOverFlow="2" gridGlobalStrokeWidth="0" gridVerUnderFlow="2" gridScrollColor="rgb(153,153,153)" gridNRows="3" gridNCols="3" gridScrollSize="5" gridHorUnderFlow="2" gridScrollImage="" gridHorOverFlow="2" gridScrollOffset="2" gridScrollAutohide="0" gridGlobalStrokeColor="rgb(0,0,0)" gridGlobalStrokeCollapsed="1">
+       <colProperties>
+        <colProperty stretch="1" maxWidth="10000" rightStrokeColor="rgb(0,0,0)" rightMargin="8" leftStrokeColor="rgb(0,0,0)" minWidth="97" leftMargin="1" rightStroke="0" leftStroke="0"/>
+        <colProperty stretch="1" maxWidth="10000" rightStrokeColor="rgb(0,0,0)" rightMargin="8" leftStrokeColor="rgb(0,0,0)" minWidth="96" leftMargin="0" rightStroke="0" leftStroke="0"/>
+        <colProperty stretch="1" maxWidth="10000" rightStrokeColor="rgb(0,0,0)" rightMargin="1" leftStrokeColor="rgb(0,0,0)" minWidth="89" leftMargin="0" rightStroke="0" leftStroke="0"/>
+       </colProperties>
+       <rowProperties>
+        <rowProperty backColor="none" selForColor="none" topStrokeColor="rgb(0,0,0)" bottonStroke="0" minHeight="41" stretch="1" topMargin="1" maxHeight="41" bottonMargin="8" selBackColor="none" bottonStrokeColor="rgb(0,0,0)" selStrokeColor="none" topStroke="0"/>
+        <rowProperty backColor="none" selForColor="none" topStrokeColor="rgb(0,0,0)" bottonStroke="0" minHeight="40" stretch="1" topMargin="0" maxHeight="10000" bottonMargin="8" selBackColor="none" bottonStrokeColor="rgb(0,0,0)" selStrokeColor="none" topStroke="0"/>
+        <rowProperty backColor="none" selForColor="none" topStrokeColor="rgb(0,0,0)" bottonStroke="0" minHeight="33" stretch="1" topMargin="0" maxHeight="10000" bottonMargin="1" selBackColor="none" bottonStrokeColor="rgb(0,0,0)" selStrokeColor="none" topStroke="0"/>
+       </rowProperties>
+      </gridGroupLayout>
+     </wgtStyle>
+     <object id="Keypad.ModeLayer.GridLayout.BtnTime" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="1" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="1" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="1" bottonMargin="0" x="1" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.ModeLayer.GridLayout.BtnTime.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="momentary" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnTime" actionID="0" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseDown" attribute="onMousePress"/>
+       </links>
+      </object>
+      <object id="Keypad.ModeLayer.GridLayout.BtnTime.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="4.04" height="30" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="80.89" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="41.51" cy="15.60" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="49" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.ModeLayer.GridLayout.BtnSunRise+" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="2" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="41" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="1" bottonMargin="0" x="1" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.ModeLayer.GridLayout.BtnSunRise+.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="momentary" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnSunRiseP" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseDown" attribute="onMousePress"/>
+       </links>
+      </object>
+      <object id="Keypad.ModeLayer.GridLayout.BtnSunRise+.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="12.22" height="28" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="63.73" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32.71" cy="14.56" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="48" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.ModeLayer.GridLayout.BtnSunSet+" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="2" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="41" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="2" bottonMargin="0" x="97" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.ModeLayer.GridLayout.BtnSunSet+.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="momentary" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnSunSetP" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseDown" attribute="onMousePress"/>
+       </links>
+      </object>
+      <object id="Keypad.ModeLayer.GridLayout.BtnSunSet+.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="12.22" height="28" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="63.73" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32.71" cy="14.56" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="46" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.ModeLayer.GridLayout.BtnRandom10" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="2" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="41" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="3" bottonMargin="0" x="193" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.ModeLayer.GridLayout.BtnRandom10.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="momentary" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnRandom10" actionID="0" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseDown" attribute="onMousePress"/>
+       </links>
+      </object>
+      <object id="Keypad.ModeLayer.GridLayout.BtnRandom10.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="6" height="28" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="72" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="36.95" cy="14.56" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="44" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.ModeLayer.GridLayout.BtnSunRise-" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="3" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="81" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="1" bottonMargin="0" x="1" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.ModeLayer.GridLayout.BtnSunRise-.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="momentary" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnSunRiseM" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseDown" attribute="onMousePress"/>
+       </links>
+      </object>
+      <object id="Keypad.ModeLayer.GridLayout.BtnSunRise-.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="12.22" height="28" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="63.73" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32.71" cy="14.56" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="47" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.ModeLayer.GridLayout.BtnSunSet-" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="3" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="81" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="2" bottonMargin="0" x="97" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.ModeLayer.GridLayout.BtnSunSet-.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="momentary" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnSunSetM" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseDown" attribute="onMousePress"/>
+       </links>
+      </object>
+      <object id="Keypad.ModeLayer.GridLayout.BtnSunSet-.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="12.22" height="28" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="63.73" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32.71" cy="14.56" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="42" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.ModeLayer.GridLayout.BtnRandom20" customType="Shape Button" class="GroupWgt">
+      <wgtStyle rowOcc="3" horItemUnderflow="0" forcePaint="1" horItemOverflow="0" maxHeight="100000" width="88" leftMargin="0" verItemOverflow="0" height="32" minHeight="0" aspectRatio="11:4" cy="16" verItemUnderflow="0" wgtStaticOpt="dynamic" preserveAspectRatio="0" y="81" colSpan="1" cx="44" rightMargin="0" maxWidth="100000" colOcc="3" bottonMargin="0" x="193" minWidth="0" rowSpan="1" topMargin="0"/>
+      <object id="Keypad.ModeLayer.GridLayout.BtnRandom20.btn" class="ButtonWgt" hmiStyle="type:btn">
+       <wgtStyle forcePaint="1" width="88" dx="1" changeTextColor="true" value="0" stroke-width="2" height="32" needleColor="rgb(76,76,77)" fill="rgb(230,230,230)" downFillColor="rgb(190,190,190)" type="momentary" wgtStaticOpt="dynamic" dy="-1" y="0" pushColor="rgb(230,230,230)" stroke="rgb(200,200,200)" downTextColor="rgb(76,76,77)" needlePath="images\win-like-press.svg" form="rectangle" x="0" upTextColor="rgb(200,200,200)" releasePath="images\win-like.svg"/>
+       <links>
+        <action f="this.btnRandom20" actionID="0" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseDown" attribute="onMousePress"/>
+       </links>
+      </object>
+      <object id="Keypad.ModeLayer.GridLayout.BtnRandom20.txt" class="LabelWgt">
+       <wgtStyle y="1" vert-align="middle" x="6" height="28" wgtStaticOpt="dynamic" alignment="center" forcePaint="1" width="72" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="36.95" cy="14.56" font-color="rgb(200,200,200)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="43" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+    </object>
+    <object id="Keypad.ModeLayer.WizardBtns" class="GroupWgt">
+     <wgtStyle y="196" x="19" height="32" width="282" cx="141" cy="16"/>
+     <object id="Keypad.ModeLayer.WizardBtns.cancelBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="0" height="32" width="32" cx="16" cy="16"/>
+      <object id="Keypad.ModeLayer.WizardBtns.cancelBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="32" cx="16" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.btnCancel" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseUp" attribute="onMouseRelease"/>
+       </links>
+      </object>
+      <object id="Keypad.ModeLayer.WizardBtns.cancelBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="1.19" height="29.82" alignment="center" forcePaint="1" width="28.44" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="14.22" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="1" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.ModeLayer.WizardBtns.prevBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="130" height="32" width="72" cx="36" cy="16"/>
+      <object id="Keypad.ModeLayer.WizardBtns.prevBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="72" cx="36" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.btnPrev" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseUp" attribute="onMouseRelease"/>
+       </links>
+      </object>
+      <object id="Keypad.ModeLayer.WizardBtns.prevBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="2.67" height="29.82" alignment="center" forcePaint="1" width="64" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="10" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+     <object id="Keypad.ModeLayer.WizardBtns.okBtn" customType="ButtonsWithLabel" class="GroupWgt">
+      <wgtStyle y="0" x="210" height="32" width="72" cx="36" cy="16"/>
+      <object id="Keypad.ModeLayer.WizardBtns.okBtn.btn" class="ButtonWgt" hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn">
+       <wgtStyle y="0" style="0" type="momentary" x="0" pushColor="rgb(128,128,0)" needlePath="images\Btn_rect_Dwn.svg" bdrSize="0.17,0.17,0.15,0.16" height="32" value="0" downFillColor="rgb(0,176,199)" bdrImageSize="54.00,44.00" width="72" cx="36" cy="16" form="standard" fill="rgb(245,245,245)" releasePath="images\btn_rect_grayup.svg"/>
+       <links>
+        <action f="this.nextMode" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseUp" attribute="onMouseRelease"/>
+       </links>
+      </object>
+      <object id="Keypad.ModeLayer.WizardBtns.okBtn.lbl" class="LabelWgt" hmiStyle="hmi-type:wgtlabel">
+       <wgtStyle y="0.73" vert-align="middle" x="2.67" height="29.82" alignment="center" forcePaint="1" width="64" font-sizepx="13" font-family="Roboto Medium" font-size="12" cx="32" cy="14.55" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+       <links>
+        <lang textid="22" class="MLTextLink">
+         <MLFontFamily L1="Roboto Medium"/>
+        </lang>
+       </links>
+      </object>
+     </object>
+    </object>
+   </object>
+  </object>
+ </object>
+</wgtPage>

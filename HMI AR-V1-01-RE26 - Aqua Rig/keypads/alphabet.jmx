@@ -1,0 +1,192 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object id="Alphabet" dataWndSize="0,70" staticOptEnable="false" downloadPrepDone="false" pageSize="1062,480" class="KeypadPageWgt" pageType="keypad" staticFile="opt/alphabet.png" pageName="Alphabet" usedFonts="Arial Rounded MT Bold">
+  <wgtStyle y="0" x="0" height="480" forcePaint="1" width="1062" color="rgb(60,60,60)" v="04.05.00.224" fitToSize="1" cx="-1.72" cy="-2" loadOnStartup="true" ver="040500224" caps-present="true"/>
+  <object id="_PageMLTextMgrWgt" class="PageMLTextMgrWgt" mlFileName="" mgrType="Page">
+   <wgtStyle y="0" x="0" height="0" forcePaint="1" width="0"/>
+   <langs curLangId="L1" defLangId="L1">
+    <lang writingsystem="Any" langCode="en-US" defaultFont="Roboto" langId="L1" removable="false" keypads=";;" name="Lang1"/>
+   </langs>
+   <MLTexts/>
+  </object>
+  <object id="keypad_Icon" class="ImageWgt">
+   <wgtStyle y="6" x="9.62" height="61.70" wgtStaticOpt="dynamic" forcePaint="1" width="69.79" cx="32.34" cy="30.21" fill="rgb(4,255,4)" imagePath="images/ic_cn2_03.svg"/>
+  </object>
+  <object id="KeyButtonWgt17" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" width="73.20" dx="-1" value="0" shiftkey="29" vert-align="top" height="82.26" fill="none" cy="45.24" key="30" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="77.98" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="709.23" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt1" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" width="73.20" value="0" shiftkey="21" vert-align="top" height="82.26" fill="none" cy="45.24" key="31" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="77.98" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="81.11" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt2" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="b2" width="73.20" value="0" shiftkey="40" vert-align="top" height="82.26" fill="none" cy="45.24" key="32" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="77.98" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="150.90" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt4" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="a4" width="73.20" value="0" shiftkey="24" vert-align="top" height="82.26" fill="none" cy="45.24" key="34" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="77.98" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="290.49" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt5" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" width="73.20" value="0" shiftkey="25" vert-align="top" height="82.26" fill="none" cy="45.24" key="35" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="77.98" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="360.28" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt6" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="bc" width="73.20" value="0" shiftkey="5e" vert-align="top" height="82.26" fill="none" cy="45.24" key="36" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="77.98" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="430.07" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt7" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="bd" width="73.20" value="0" shiftkey="26" vert-align="top" height="82.26" fill="none" cy="45.24" key="37" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="77.98" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="499.86" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt8" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="be" width="73.20" value="0" shiftkey="2a" vert-align="top" height="82.26" fill="none" cy="45.24" key="38" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="77.98" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="569.65" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt9" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" width="73.20" value="0" shiftkey="28" vert-align="top" height="82.26" fill="none" cy="45.24" key="39" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="77.98" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="639.44" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt11" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="a5" width="73.20" value="0" shiftkey="5f" vert-align="top" height="82.26" fill="none" cy="45.24" key="2d" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="77.98" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="779.03" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt26" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="e4" width="73.20" value="0" shiftkey="51" vert-align="top" height="82.26" fill="none" cy="45.24" key="71" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="158.18" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="111.75" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt18" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="e5" width="73.20" value="0" shiftkey="57" vert-align="top" height="82.26" fill="none" cy="45.24" key="77" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="158.18" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="181.54" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt13" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="e9" width="73.20" value="0" shiftkey="45" vert-align="top" height="82.26" fill="none" cy="45.24" key="65" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="158.18" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="251.33" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt27" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="ae" width="73.20" value="0" shiftkey="52" vert-align="top" height="82.26" fill="none" cy="45.24" key="72" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="158.18" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="321.13" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt15" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="fe" width="73.20" value="0" shiftkey="54" vert-align="top" height="82.26" fill="none" cy="45.24" key="74" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="158.18" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="390.92" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt20" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="fc" width="73.20" value="0" shiftkey="59" vert-align="top" height="82.26" fill="none" cy="45.24" key="79" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="158.18" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="460.71" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt16" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="fa" width="73.20" value="0" shiftkey="55" vert-align="top" height="82.26" fill="none" cy="45.24" key="75" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="158.18" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="530.50" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt14" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="ed" width="73.20" value="0" shiftkey="49" vert-align="top" height="82.26" fill="none" cy="45.24" key="69" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="158.18" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="600.29" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt23" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="f3" width="73.20" value="0" shiftkey="4F" vert-align="top" height="82.26" fill="none" cy="45.24" key="6F" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="158.18" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="670.08" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt24" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="f6" width="73.20" value="0" shiftkey="50" vert-align="top" height="82.26" fill="none" cy="45.24" key="70" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="158.18" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="739.87" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt29" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="e1" width="73.20" value="0" shiftkey="41" vert-align="top" height="82.26" fill="none" cy="45.24" key="61" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="238.38" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="147.50" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt30" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="df" width="73.20" value="0" shiftkey="53" vert-align="top" height="82.26" fill="none" cy="45.24" key="73" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="238.38" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="217.29" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt31" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="f0" width="73.20" value="0" shiftkey="44" vert-align="top" height="82.26" fill="none" cy="45.24" key="64" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="238.38" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="287.08" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt32" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="c4" width="73.20" value="0" shiftkey="46" vert-align="top" height="82.26" fill="none" cy="45.24" key="66" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="238.38" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="356.87" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt33" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="d6" width="73.20" value="0" shiftkey="47" vert-align="top" height="82.26" fill="none" cy="45.24" key="67" font-family="Arial Rounded MT Bold" type="momentary" dy="2" y="238.38" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="426.66" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt34" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="dc" width="73.20" value="0" shiftkey="48" vert-align="top" height="82.26" fill="none" cy="45.24" key="68" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="238.38" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="496.46" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt35" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" width="73.20" value="0" shiftkey="4A" vert-align="top" height="82.26" fill="none" cy="45.24" key="6A" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="238.38" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="566.25" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt36" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" width="73.20" value="0" shiftkey="4B" vert-align="top" height="82.26" fill="none" cy="45.24" key="6B" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="238.38" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="636.04" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt42" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="e6" width="74.90" value="0" shiftkey="5a" vert-align="top" height="82.26" fill="none" cy="45.24" key="7a" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="318.60" cx="42.56" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="164.52" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt43" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" width="74.90" value="0" shiftkey="58" vert-align="top" height="82.26" fill="none" cy="45.24" key="78" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="318.60" cx="42.56" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="236.01" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt44" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="a9" width="74.90" value="0" shiftkey="43" vert-align="top" height="82.26" fill="none" cy="45.24" key="63" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="318.60" cx="42.56" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="307.51" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt45" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" width="74.90" value="0" shiftkey="42" vert-align="top" height="82.26" fill="none" cy="45.24" key="62" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="318.60" cx="42.56" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="450.50" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt46" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="f1" width="74.90" value="0" shiftkey="4e" vert-align="top" height="82.26" fill="none" cy="45.24" key="6e" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="318.60" cx="42.56" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="521.99" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt47" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="b5" width="74.90" value="0" shiftkey="4d" vert-align="top" height="82.26" fill="none" cy="45.24" key="6d" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="318.60" cx="42.56" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="593.48" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt48" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" width="74.90" value="0" shiftkey="56" vert-align="top" height="82.26" fill="none" cy="45.24" key="76" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="318.60" cx="42.56" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="379" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt21" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="0x01000003" width="136.18" value="0" shiftkey="0x01000003" vert-align="top" height="82.26" altgrshiftkey="0x01000003" fill="none" cy="41.14" key="0x01000003" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="77.98" cx="71.49" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_long_2.svg" form="standard" x="920.31" releasePath="images/fe_btn_kbdwht_long_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt10" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="0x01000000" width="85.11" value="0" shiftkey="0x01000000" vert-align="top" height="82.26" altgrshiftkey="0x01000000" fill="none" cy="41.14" key="0x01000000" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="77.98" cx="41.65" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="-0.60" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt41" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="0x01000005" width="141.29" value="0" shiftkey="0x01000005" vert-align="top" height="82.26" altgrshiftkey="0x01000005" fill="none" cy="49.36" key="0x01000005" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="238.38" cx="70.64" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_long_2.svg" form="standard" x="915.20" releasePath="images/fe_btn_kbdwht_long_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt52" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="0x01000020" width="183.84" value="0" shiftkey="0x01000020" vert-align="top" height="82.26" altgrshiftkey="0x01000020" fill="none" cy="49.36" key="0x01000020" font-family="Arial Rounded MT Bold" type="maintained" dy="4" y="318.60" cx="76.60" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_long_2.svg" form="standard" x="872.65" releasePath="images/fe_btn_kbdwht_long_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt53" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="0x01000020" width="163.41" value="0" shiftkey="0x01000020" vert-align="top" height="82.26" altgrshiftkey="0x01000020" fill="none" cy="49.36" key="0x01000020" font-family="Arial Rounded MT Bold" type="maintained" dy="4" y="318.60" cx="84.01" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_long_2.svg" form="standard" x="4.51" releasePath="images/fe_btn_kbdwht_long_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt40" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="0x01000024" width="146.39" value="0" shiftkey="0x01000024" vert-align="top" height="82.26" altgrshiftkey="0x01000024" fill="none" cy="49.36" key="0x01000024" font-family="Arial Rounded MT Bold" type="maintained" dy="4" y="238.38" cx="78.95" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_long_2.svg" form="standard" x="4.51" releasePath="images/fe_btn_kbdwht_long_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt25" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="0x01000007" width="120.86" value="0" shiftkey="0x01000007" vert-align="top" height="82.26" altgrshiftkey="0x01000007" fill="none" cy="49.36" key="0x01000007" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="158.18" cx="57.64" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="944.14" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt63" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="0x01000001" width="122.56" value="0" shiftkey="0x01000001" vert-align="top" height="82.26" altgrshiftkey="0x01000001" fill="none" cy="49.36" key="0x01000001" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="158.18" cx="58.45" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="-4" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt28" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="0x20" width="400.02" value="0" shiftkey="0x20" vert-align="top" height="82.26" altgrshiftkey="0x20" fill="none" cy="53.46" key="0x20" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="396.74" cx="103.43" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_long_2.svg" form="standard" x="324.53" releasePath="images/fe_btn_kbdwht_long_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt3" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="b3" width="73.20" value="0" shiftkey="23" vert-align="top" height="82.26" fill="none" cy="49.36" key="33" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="77.98" cx="49.36" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="220.69" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt12" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="d7" width="73.20" value="0" shiftkey="2b" vert-align="top" height="82.26" fill="none" cy="49.36" key="3d" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="77.98" cx="56.17" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="848.82" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt19" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="ab" width="73.20" value="0" shiftkey="7b" vert-align="top" height="82.26" fill="none" cy="49.36" key="5b" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="158.18" cx="56.17" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="809.67" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt22" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="bb" width="73.20" value="0" shiftkey="7d" vert-align="top" height="82.26" fill="none" cy="49.36" key="5d" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="158.18" cx="56.17" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="879.46" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt37" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="d8" width="73.20" value="0" shiftkey="4C" vert-align="top" height="82.26" fill="none" cy="45.24" key="6C" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="238.83" cx="40.85" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="705.83" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt39" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" width="73.20" value="0" shiftkey="3b" vert-align="top" height="82.26" fill="none" cy="49.36" key="3a" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="238.38" cx="56.17" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="775.62" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt38" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" width="73.20" value="0" shiftkey="22" vert-align="top" height="82.26" fill="none" cy="49.36" key="27" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="238.38" cx="56.17" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="845.41" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt58" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="e7" width="73.20" value="0" shiftkey="3c" vert-align="top" height="82.26" fill="none" cy="49.36" key="2c" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="318.60" cx="56.17" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="664.98" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt49" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" width="73.20" value="0" shiftkey="3e" vert-align="top" height="82.26" fill="none" cy="49.36" key="2e" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="318.60" cx="56.17" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="734.77" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt50" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="bf" width="73.20" value="0" shiftkey="7c" vert-align="top" height="82.26" fill="none" cy="49.36" key="3f" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="318.60" cx="56.17" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="804.56" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt51" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="0x01001103" width="127.67" value="0" shiftkey="0x01001103" vert-align="top" height="82.26" altgrshiftkey="0x01001103" fill="none" cy="49.36" key="0x01001103" font-family="Arial Rounded MT Bold" type="maintained" dy="4" y="396.74" cx="69.06" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="785.83" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt56" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" width="73.20" value="0" shiftkey="20ac" vert-align="top" height="82.26" fill="none" cy="49.36" key="40" font-family="Arial Rounded MT Bold" type="maintained" dy="4" y="396.74" cx="56.17" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="256.44" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="KeyButtonWgt54" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" width="73.20" value="0" shiftkey="2f" vert-align="top" height="82.26" fill="none" cy="49.36" key="5c" font-family="Arial Rounded MT Bold" type="momentary" dy="4" y="396.74" cx="56.17" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="721.15" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+  <object id="keypad_Value" class="KeypadEditBoxWgt">
+   <wgtStyle y="6" vert-align="middle" x="86.22" height="63.76" alignment="right" forcePaint="1" width="966.87" font-sizepx="19" font-bold="true" readWrite="true" font-family="Arial Rounded MT Bold" font-size="14" cx="110.07" cy="32.90" text="Passord" keypad-type="None"/>
+  </object>
+  <object id="KeyButtonWgt59" class="KeyButtonWgt" hmiStyle="type:btn">
+   <wgtStyle font-sizepx="16" forcePaint="1" altgrkey="0x01001103" width="127.67" value="0" shiftkey="0x01001103" vert-align="top" height="82.26" altgrshiftkey="0x01001103" fill="none" cy="49.36" key="0x01001103" font-family="Arial Rounded MT Bold" type="maintained" dy="4" y="396.74" cx="69.06" font-size="12" font-color="rgb(255,255,255)" needlePath="images/fe_btn_kbdwht_2.svg" form="standard" x="138.99" releasePath="images/fe_btn_kbdwht_1.svg"/>
+  </object>
+ </object>
+</wgtPage>

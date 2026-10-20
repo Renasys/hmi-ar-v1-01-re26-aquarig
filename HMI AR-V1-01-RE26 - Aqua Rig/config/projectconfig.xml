@@ -1,0 +1,8 @@
+<ProjectConfig>
+ <version>04.05.00.224</version>
+ <targetName>CDPX-X-E2-W-21</targetName>
+ <manufacturerCode>523</manufacturerCode>
+ <orientation>0</orientation>
+ <panelMemory>8GB</panelMemory>
+ <enableUserMgmt>true</enableUserMgmt>
+</ProjectConfig>

@@ -1,0 +1,7 @@
+<fonts>
+ <font name="Roboto-Regular.ttf" embed="true" langIds="1" removable="false" size="170984" fontname="Roboto"/>
+ <font name="Roboto-Bold.ttf" embed="true" langIds="1" removable="false" size="170064" fontname="Roboto"/>
+ <font name="ARLRDBD.TTF" langIds="1" removable="false" size="45260" fontname="Arial Rounded MT Bold"/>
+ <font name="Roboto-Medium.ttf" embed="true" langIds="1" removable="false" size="171320" fontname="Roboto Medium"/>
+ <font name="Roboto-Light.ttf" embed="true" langIds="1" removable="false" size="169680" fontname="Roboto Light"/>
+</fonts>

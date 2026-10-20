@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="141.04px" xml:space="preserve" height="122.97px" viewBox="0 0 141.039 122.969" baseProfile="tiny" version="1.2" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g transform="translate(-23.953 -34.522)">
+	<g transform="translate(-17,32)">
+		<path d="m75.713 107.5l-17.712 17h123l-11.808-17h-93.477z" stroke="#000" stroke-width="2" fill="#808080"/>
+		<g transform="matrix(.9 0 0 1.082 15.1 1.918)">
+			<rect height="48.797" width="10" stroke="#000" y="1" x="161" fill="#C0C0C0"/>
+			<path d="m163.29 1.52h-2.003v47.99h2.003v-47.99z" fill="#808080"/>
+			<path d="m167.19 1.469h-1.66v48.105h1.66v-48.105z" fill="#fff"/>
+			<path d="m170.48 1.616h-1.928v47.99h1.928v-47.99z" fill="#808080"/>
+		</g>
+		<rect height="57.928" width="116.31" stroke="#000" y="54.072" x="61" stroke-width="2" fill="#C0C0C0"/>
+		<rect height="2.632" width="113.46" y="55.489" x="62.373" fill="#808080"/>
+		<rect height="2.309" width="112.97" y="108.35" x="62.634" fill="#808080"/>
+		<rect height="2.929" width="113.01" y="80.991" x="62.59" fill="#fff"/>
+		<rect height="1.08" width="113.16" y="59.236" x="62.572" fill="#808080"/>
+		<rect height="1.254" width="113.31" y="106.66" x="62.329" fill="#808080"/>
+		<rect y="56.35" x="61.146" height=".488" width="117.49"/>
+		<rect y="109.37" x="62.18" height=".488" width="116.1"/>
+		<rect height=".912" width="113.12" y="67.212" x="62.485" fill="#808080"/>
+		<rect height="1.686" width="113.65" y="65.48" x="62.243" fill="#808080"/>
+		<rect y="70.323" x="61.483" height=".488" width="115.47"/>
+		<rect y="104.8" x="61.151" height=".488" width="117.47"/>
+		<rect height="14" width="12" stroke="#000" y="90" x="72" fill="#C0C0C0"/>
+		<rect height="35.079" width="5" stroke="#000" y="66.921" x="54" stroke-width="2" fill="#C0C0C0"/>
+		<rect height="20" width="10" stroke="#000" y="66.843" x="43.383" stroke-width="2" fill="#C0C0C0"/>
+		<rect height="5" width="10" stroke="#000" y="92" x="43" stroke-width="2" fill="#C0C0C0"/>
+		<ellipse rx="3.5" cy="96.28" ry="5.123" stroke="#000" cx="45.377" stroke-width="2" fill="#C0C0C0"/>
+	</g>
+</g>
+</svg>

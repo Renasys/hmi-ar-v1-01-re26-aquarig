@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="111.72px" viewBox="0 0 194.58 111.721" width="194.58px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 194.58 111.721">
+	<polygon id="bgColor00" points="0.772 -0.002 98.056 111.49 195.35 -0.002" fill="#61FF00"/>
+		<radialGradient id="path3273_1_" gradientUnits="userSpaceOnUse" cy="-1026.5" cx="1117" gradientTransform="translate(-1017.7 1092.1)" r="35.704">
+		<stop stop-color="#fff" stop-opacity=".6" offset=".5152"/>
+		<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+	</radialGradient>
+	<path d="m103.04 36.362c-22.052-4.236-37.355 9.712-44.304 17.977l34 38.965c1.347 1.541 3.3 2.428 5.353 2.428 2.054 0 3.996-0.889 5.353-2.428l36.412-41.725c-10.46-6.934-23.16-12.59-36.81-15.217z" fill="url(#path3273_1_)"/>
+		<linearGradient id="path3294_1_" y2="-1133.4" gradientUnits="userSpaceOnUse" x2="1189.7" gradientTransform="translate(-1017.7 1092.1)" y1="-1012.5" x1="1037.3">
+		<stop stop-opacity=".06" offset="0"/>
+		<stop offset=".9818"/>
+	</linearGradient>
+	<path opacity=".5" d="m195.35 0.229h-194.58l97.282 111.49 97.298-111.49zm-31.24 7.097c2.787 0 5.313 1.631 6.467 4.166 1.164 2.531 0.721 5.509-1.11 7.606l-66.054 75.688c-1.348 1.539-3.301 2.429-5.354 2.429s-3.994-0.89-5.34-2.429l-66.066-75.688c-1.83-2.101-2.272-5.075-1.106-7.606 1.149-2.535 3.672-4.166 6.461-4.166h132.1-0.01z" enable-background="new    " fill="url(#path3294_1_)"/>
+		<linearGradient id="path3319_1_" y2="-1064.4" gradientUnits="userSpaceOnUse" x2="1195.9" gradientTransform="translate(-1017.7 1092.1)" y1="-1064.4" x1="1070">
+		<stop stop-color="#fff" stop-opacity="0" offset="0"/>
+		<stop stop-color="#fff" stop-opacity=".8" offset=".5152"/>
+		<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+	</linearGradient>
+	<path d="m177.58 7.405c-1.221-2.668-3.869-4.373-6.795-4.373h-118.51c1.566 0.531 3.244 1.021 5.17 1.389 12.896 2.479 70.453 2.479 91.293 3.479 20.838 0.989 17.373 3.967 17.373 9.424 0 5.453-19.858 28.774-22.338 32.75-0.783 1.248-0.418 1.92 0.358 2.312l32.267-36.979c1.93-2.208 2.39-5.329 1.19-8.002z" fill="url(#path3319_1_)"/>
+</svg>

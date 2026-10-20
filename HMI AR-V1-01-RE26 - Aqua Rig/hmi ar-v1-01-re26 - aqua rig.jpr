@@ -1,0 +1,200 @@
+<wgtPage projectType="HMI Project" rev="1">
+ <object staticOptEnable="true" refreshTime="100" webMemoryThreshold="0" pageName="HMI AR-V1-01-RE26 - Aqua Rig" guid="31F1A620-A726-40D3-B3EB-FE770D51330F" maxOpenDlgs="5" class="ProjectWgt" targetType="Linux OE/un71" webMemoryAvailable="0" ServerSynchEnable="disable" listSeparator="," diskSizes="128MB" manufacturerCode="523" panelMemory="8GB" webConnectionMode="auto" targetName="CDPX-X-E2-W-21" pageSize="640,480" enableUserMgmt="true" bgColorOption="0" maxTrendPrintRows="10000" UserMgmtTmplType="Large" browserOptForceLayers="1" IncludePDFReader="true" longDateFormat="MM/DD/YY - hh:mm:ss" IncludeWebKit="true" webInactivityTimeout="600" pageType="project" holdTime="2000" dataWndSize="0,70" autoRepeatPeriod="250" decimalSymbol="." IncludeVNC="true" defaultPageSize="1920,1080" maxBandwidth="0" shortDateFormat="DD/MM/YYYY" qtft="true" ContextMenu="0" screenSaverDisplayTime="0" onAccessDenied="0" webShowRuntimeErrors="false" screenSaverTimeout="0" thousandSymbol="," TouchBuzzerTime="200" gesturePassthruDelay="200" KeyPadTmplType="KeyPadTemplates_large" browserOpt="1" signProject="false" debugIP="127.0.0.1" downloadPrepDone="false" id="HMI AR-V1-01-RE26 - Aqua Rig" screenSaverPage="0" browserOptNativeRenderLoop="1" orientation="0" messageboxVisible="1">
+  <wgtStyle height="480" fitToSize="1" width="640" v="04.05.00.224" x="0" y="0" ver="040500224"/>
+  <object fileName="multilang.xml" id="_MultiLangMgr" class="MultiLangMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_PageMgr" class="PageMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+   <categories>
+    <category name="Unified" minsize="0,0" home="Main_P_and_ID.jmx" defaultsize="1920,1080" technology="7" useragent="*" maxsize="*,*">
+     <pages>
+      <page name="M1_Machine" type="normal" file="m1_machine.jmx" class="PageWgt" size="1920,1080"/>
+      <page name="Main_P_and_ID" type="normal" file="main_p_and_id.jmx" class="PageWgt" size="1920,1080"/>
+      <page name="Main_P_and_ID_Backup_Test" type="normal" file="main_p_and_id_backup_test.jmx" class="PageWgt" size="1920,1080"/>
+      <page name="M1_Machine_Backup_2026-01-14" type="normal" file="m1_machine_backup_2026-01-14.jmx" class="PageWgt" size="1920,1080"/>
+      <page name="M1_Machine_Old_Eramet" type="normal" file="m1_machine_old_eramet.jmx" class="PageWgt" size="1920,1080"/>
+      <page name="Alarms" type="normal" file="alarms.jmx" class="PageWgt" size="1920,1080"/>
+      <page name="History alarms" type="normal" file="history alarms.jmx" class="PageWgt" size="1920,1080"/>
+      <page name="MainUnitPage" type="normal" file="mainunitpage.jmx" class="PageWgt" size="1920,1080"/>
+      <page name="M1_Machine_Testing" type="normal" file="m1_machine_testing.jmx" class="PageWgt" size="1920,1080"/>
+      <page name="MainOverview_OLD_FFS" type="normal" file="mainoverview_old_ffs.jmx" class="PageWgt" size="1920,1080"/>
+      <page name="Main_P_and_ID_OLD_FFS" type="normal" file="main_p_and_id_old_ffs.jmx" class="PageWgt" size="1920,1080"/>
+      <page name="M1_Machine_OLD_FFS" type="normal" file="m1_machine_old_ffs.jmx" class="PageWgt" size="1920,1080"/>
+      <page name="M1_Centrifugal_Config" type="dialog" file="m1_centrifugal_config.jmx" class="DialogWgt" size="1380,1000"/>
+      <page name="M1_AirSystem_Config" type="dialog" file="m1_airsystem_config.jmx" class="DialogWgt" size="650,750"/>
+      <page name="M1_HighPressureWaterKnives_Config" type="dialog" file="m1_highpressurewaterknives_config.jmx" class="DialogWgt" size="650,830"/>
+      <page name="M1_FilterCleaningSM_Config" type="dialog" file="m1_filtercleaningsm_config.jmx" class="DialogWgt" size="350,710"/>
+      <page name="M1_ProcessWater_Config" type="dialog" file="m1_processwater_config.jmx" class="DialogWgt" size="1380,1000"/>
+      <page name="M1_Filterbelt_Config" type="dialog" file="m1_filterbelt_config.jmx" class="DialogWgt" size="620,725"/>
+      <page name="M1_SludgePump_Config" type="dialog" file="m1_sludgepump_config.jmx" class="DialogWgt" size="630,725"/>
+      <page name="M1_CExhauster_Config" type="dialog" file="m1_cexhauster_config.jmx" class="DialogWgt" size="650,725"/>
+      <page name="M1_IntakeValve_Config" type="dialog" file="m1_intakevalve_config.jmx" class="DialogWgt" size="420,720"/>
+      <page name="M1_Machine_Config" type="dialog" file="m1_machine_config.jmx" class="DialogWgt" size="880,750"/>
+      <page name="POV121_Config" type="dialog" file="pov121_config.jmx" class="DialogWgt" size="350,610"/>
+      <page name="POV122_Config" type="dialog" file="pov122_config.jmx" class="DialogWgt" size="350,610"/>
+      <page name="POV142_Config" type="dialog" file="pov142_config.jmx" class="DialogWgt" size="350,610"/>
+      <page name="POV143_Config" type="dialog" file="pov143_config.jmx" class="DialogWgt" size="350,610"/>
+      <page name="POV144_Config" type="dialog" file="pov144_config.jmx" class="DialogWgt" size="350,610"/>
+      <page name="POV145_Config" type="dialog" file="pov145_config.jmx" class="DialogWgt" size="350,610"/>
+      <page name="PreBIO_Config" type="dialog" file="prebio_config.jmx" class="DialogWgt" size="900,710"/>
+      <page name="PostBIO_Config" type="dialog" file="postbio_config.jmx" class="DialogWgt" size="1200,830"/>
+      <page name="General_Config" type="dialog" file="general_config.jmx" class="DialogWgt" size="320,570"/>
+      <page name="External_P_And_ID_Config" type="dialog" file="external_p_and_id_config.jmx" class="DialogWgt" size="1500,930"/>
+      <page name="External_Valvecontrol_Config" type="dialog" file="external_valvecontrol_config.jmx" class="DialogWgt" size="1500,830"/>
+      <page name="External_Pump_Buffertank_Config" type="dialog" file="external_pump_buffertank_config.jmx" class="DialogWgt" size="1380,1000"/>
+      <page name="Ex_Pump_Config_Copy_2026-02-17" type="dialog" file="ex_pump_config_copy_2026-02-17.jmx" class="DialogWgt" size="1380,1000"/>
+     </pages>
+     <templatePages>
+      <templatePage name="MainTemplate" type="template" file="maintemplate.jmx" class="TemplatePageWgt"/>
+      <templatePage name="MainTemplate_FFS" type="template" file="maintemplate_ffs.jmx" class="TemplatePageWgt"/>
+     </templatePages>
+    </category>
+   </categories>
+  </object>
+  <object mgrType="Project" id="_ProjectMLTextMgr" mlFileName="" class="PageMLTextMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang name="Lang1" langCode="en-US" writingsystem="Any" defaultFont="Roboto" removable="false" keypads=";;" langId="L1"/>
+   </langs>
+   <MLTexts/>
+  </object>
+  <object fileName="protocols.xml" id="_PLCMgr" class="PLCMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object fileName="tags.xml" id="_TagMgr" class="TagMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+   <dataLinks>
+    <dataLink dataSource="_IdalGrpSrc" sourceType="Data" readWrite="R" attribute="GroupSource"/>
+    <dataLink dataSource="_IdalTagSrc" sourceType="Data" readWrite="R/W" attribute="TagSource"/>
+   </dataLinks>
+  </object>
+  <object id="_IdalTagSrc" retryCount="1" debugEnable="false" class="IdalItemsWgt" threadEnable="true">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_IdalGrpSrc" retryCount="1" debugEnable="false" class="IdalGroupWgt" threadEnable="false">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object fileName="trends.xml" id="_TrendMgr" class="TrendMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object fileName="reports.xml" id="_ReportMgr" class="ReportMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_ReportPageMgr" class="ReportPageMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+   <categories>
+    <category name="Native" home="PageBlank.jmx" defaultsize="1920,1080" technology="3"/>
+   </categories>
+  </object>
+  <object fileName="dictionaries.xml" id="_DictionaryMgr" class="DictionaryMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object mgrType="Alarm" id="_AlarmMLTextMgr" mlFileName="alarms.xml" class="PageMLTextMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object fileName="alarms.xml" nCustomFields="2" id="_AlarmsMgr" class="AlarmsMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+   <dataLinks>
+    <dataLink dataSource="_IdalAlarms" sourceType="Data" readWrite="R" attribute="AlarmSource"/>
+   </dataLinks>
+  </object>
+  <object fileName="eventconfig.xml" id="_EventMgr" class="EventMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object mgrType="Scheduler" id="_ScheduleMLTextMgr" mlFileName="scheduler.xml" class="PageMLTextMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object fileName="scheduler.xml" id="_ScheduleMgr" class="ScheduleMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_IdalAlarms" retryCount="1" debugEnable="false" class="IdalAlarmsWgt" threadEnable="false">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_IdalUserMgmt" class="IdalUserMgmtWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_IdalMgr" class="IdalMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_RecipeMgr" class="RecipeMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+   <dataLinks>
+    <dataLink dataSource="_IdalRecipe" sourceType="Recipe" readWrite="R/W" attribute="recipeIOSrc"/>
+   </dataLinks>
+  </object>
+  <object id="_AuditTrailMgr" class="AuditTrailMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_DataTransferMgr" syncOnInit="true" class="DataTransferMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_IndexedTagSetMgr" class="IndexedTagSetMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_DBConnectorMgr" class="DBConnectorMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_IdalDBConnector" class="IdalDBConnectorWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_UserGroupMgr" class="UserGroupMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_UserMgr" class="UserMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+   <dataLinks>
+    <dataLink dataSource="_IdalUserMgmt" sourceType="Data" readWrite="R" attribute="userSource"/>
+    <dataLink dataSource="_IdalUserMgmt" sourceType="Data" readWrite="W" attribute="userSource"/>
+   </dataLinks>
+  </object>
+  <object id="_PrintMgr" class="PrintMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_ThreadMgr" class="ThreadMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+   <dataLinks>
+    <dataLink dataSource="_IdalItems" sourceType="Data" readWrite="W" attribute="WriteSource"/>
+   </dataLinks>
+  </object>
+  <object id="_IdalItems" retryCount="1" debugEnable="false" class="IdalItemsWgt" threadEnable="false">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_VariablesWgt" class="VariablesWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_RemoteClientMgr" class="RemoteClientMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_SysPropMgr" class="SysPropMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+   <dataLinks>
+    <dataLink dataSource="_IdalSysProp" sourceType="Data" readWrite="R/W" attribute="sysIOSrc"/>
+   </dataLinks>
+  </object>
+  <object id="_ScreenMgr" TimeOutInterval="60" class="ScreenMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_IdalRecipe" class="IdalRecipeWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_IdalSysProp" class="IdalSysPropWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_KeypadMgr" class="KeypadMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_KeyExtMgr" class="KeyExtMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_OPCUAMgr" class="OPCUAMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_IFMqttMgr" class="IFMqttMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="_SignatureMgr" class="SignatureMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+ </object>
+</wgtPage>

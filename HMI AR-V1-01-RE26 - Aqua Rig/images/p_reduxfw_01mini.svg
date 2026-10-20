@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="34" width="41" version="1.1" viewBox="0 0 41 34">
+	<polygon id="bgColor00" points="0 34 41 25.5 41 8.5 0 0" fill="#917c6f"/>
+		<polygon points="41 8.975 41 8.551 0 0.1 0 0.947" fill="#fff" fill-opacity="0.63"/>
+			<linearGradient id="rect3755-4-1-1-7_1_" y2="209.04" gradientUnits="userSpaceOnUse" x2="-508.12" gradientTransform="matrix(-.4975 0 0 .6527 -232.76 -122.82)" y1="236.78" x1="-509.63">
+			<stop stop-opacity="0.6" offset=".0364"/>
+			<stop stop-opacity=".47" offset=".29090"/>
+			<stop stop-opacity=".04" offset=".58180"/>
+			<stop stop-opacity="0" offset=".9152"/>
+		</linearGradient>
+		<polygon points="41 16.037 41 25.5 0 34 0 15.074" fill="url(#rect3755-4-1-1-7_1_)"/>
+		<polygon points="41 25.5 41 25.076 0 33.154 0 34" fill-opacity=".54740"/>
+			<linearGradient id="rect3789-8-5-6-5_1_" y2="80.151" gradientUnits="userSpaceOnUse" x2="-416.26" gradientTransform="matrix(-.4982 0 0 -1.0171 -186.88 109.56)" y1="77.686" x1="-416.43">
+			<stop stop-color="#fff" stop-opacity=".63" offset="0"/>
+			<stop stop-color="#fff" stop-opacity=".31" offset=".5"/>
+			<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+		</linearGradient>
+		<polygon points="41 25.271 41 22.771 0 28.541 0 33.541" fill="url(#rect3789-8-5-6-5_1_)"/>
+			<radialGradient id="rect3773-1-8-6-0-6-6_1_" gradientUnits="userSpaceOnUse" cy="252.99" cx="-109.76" gradientTransform="matrix(.2862 .0224 .00018316 -.0665 26.821 29.26)" r="117.45">
+			<stop stop-color="#fff" stop-opacity="0.823" offset="0"/>
+			<stop stop-color="#fff" stop-opacity="0.7" offset=".2606"/>
+			<stop stop-color="#fff" stop-opacity=".6275" offset=".5636"/>
+			<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+		</radialGradient>
+		<polygon points="41 8.5 41 18.631 0 18.947 0.001 0.947" fill="url(#rect3773-1-8-6-0-6-6_1_)"/>
+			<linearGradient id="rect3789-9-6-7-9-4_1_" y2="686.19" gradientUnits="userSpaceOnUse" x2="-336.11" gradientTransform="matrix(-.4982 0 0 2.0343 -146.98 -1385.7)" y1="683.33" x1="-336.19">
+			<stop stop-opacity=".47" offset="0"/>
+			<stop stop-opacity=".04" offset=".86060"/>
+			<stop stop-opacity="0" offset=".96360"/>
+		</linearGradient>
+		<polygon points="41 8.764 41 12.115 0 13.934 0 0.525" fill="url(#rect3789-9-6-7-9-4_1_)"/>
+			<radialGradient id="rect3773-1-8-6-0-6-6_2_" gradientUnits="userSpaceOnUse" cy="238.36" cx="1497.2" gradientTransform="matrix(-.1622 -.0163 .0054 -.0405 284.38 47.829)" r="98.298">
+			<stop stop-color="#fff" stop-opacity="0.823" offset=".0245"/>
+			<stop stop-color="#fff" stop-opacity="0.7" offset=".1954"/>
+			<stop stop-color="#fff" stop-opacity=".6275" offset=".384"/>
+			<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+		</radialGradient>
+		<polygon points="26.186 6.49 25.742 16.992 41 18.631 41 9.631" fill="url(#rect3773-1-8-6-0-6-6_2_)"/>
+			<linearGradient id="rect3789-9-6-7-9-4_2_" y2="668.4" gradientUnits="userSpaceOnUse" x2="-515.38" gradientTransform="matrix(-.4918 -.0796 -.3251 2.0082 -7.0095 -1375.5)" y1="666.7" x1="-515.45">
+			<stop stop-opacity=".47" offset="0"/>
+			<stop stop-opacity=".04" offset=".86060"/>
+			<stop stop-opacity="0" offset=".96360"/>
+		</linearGradient>
+		<polygon points="41 8.764 41 15.467 15.614 9.947 16.928 3.926" fill="url(#rect3789-9-6-7-9-4_2_)"/>
+			<linearGradient id="rect3755-4-1-1-7_2_" y2="222.27" gradientUnits="userSpaceOnUse" x2="-508.25" gradientTransform="matrix(-.4975 0 0 .6527 -232.76 -122.82)" y1="240.22" x1="-511.73">
+			<stop stop-opacity="0.6" offset=".0364"/>
+			<stop stop-opacity=".47" offset=".29090"/>
+			<stop stop-opacity=".04" offset=".58180"/>
+			<stop stop-opacity="0" offset=".9152"/>
+		</linearGradient>
+		<polygon points="41 16.037 41 25.5 0 34 0 20.77" fill="url(#rect3755-4-1-1-7_2_)"/>
+			<linearGradient id="rect3789-8-5-6-5_2_" y2="80.563" gradientUnits="userSpaceOnUse" x2="-428.56" gradientTransform="matrix(-.4982 0 0 -1.0171 -186.88 109.56)" y1="78.966" x1="-428.77">
+			<stop stop-color="#fff" stop-opacity=".63" offset="0"/>
+			<stop stop-color="#fff" stop-opacity=".31" offset=".5"/>
+			<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+		</linearGradient>
+		<polygon points="41 25.271 41 22.771 11.962 27.855 12.394 31.041" fill="url(#rect3789-8-5-6-5_2_)"/>
+</svg>

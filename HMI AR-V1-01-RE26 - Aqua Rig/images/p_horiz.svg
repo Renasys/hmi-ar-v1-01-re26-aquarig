@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="34" width="102" version="1.1" viewBox="0 0 102 34">
+	<rect id="bgColor00" height="34" width="102" y="0" x="0" fill="#917c6f"/>
+		<rect fill-opacity="0.63" height=".847" width="102" y=".1" x="0" fill="#fff"/>
+			<linearGradient id="rect3755-4-1-1-7_1_" y2="198.56" gradientUnits="userSpaceOnUse" x2="-466.95" gradientTransform="matrix(-.4975 0 0 .6527 -181.31 -114.22)" y1="226.02" x1="-466.95">
+			<stop stop-opacity="0.6" offset=".0364"/>
+			<stop stop-opacity=".47" offset=".29090"/>
+			<stop stop-opacity=".04" offset=".58180"/>
+			<stop stop-opacity="0" offset=".9152"/>
+		</linearGradient>
+		<rect height="18.927" width="102" y="15.073" x="0" fill="url(#rect3755-4-1-1-7_1_)"/>
+		<rect fill-opacity=".54740" height=".847" width="102" y="33.153" x="0"/>
+			<linearGradient id="rect3789-8-5-6-5_1_" y2="126.03" gradientUnits="userSpaceOnUse" x2="-374.15" gradientTransform="matrix(-.4982 0 0 -1.0171 -135.4 159.48)" y1="123.82" x1="-374.15">
+			<stop stop-color="#fff" stop-opacity=".63" offset="0"/>
+			<stop stop-color="#fff" stop-opacity=".31" offset=".5"/>
+			<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+		</linearGradient>
+		<rect height="5" width="102" y="28.541" x="0" fill="url(#rect3789-8-5-6-5_1_)"/>
+			<linearGradient id="rect3773-1-8-6-0-6-6_1_" y2="155.71" gradientUnits="userSpaceOnUse" x2="-162.51" gradientTransform="matrix(-.4975 0 0 1.5257 -29.85 -235.31)" y1="166.04" x1="-162.51">
+			<stop stop-color="#fff" stop-opacity="0" offset="0"/>
+			<stop stop-color="#fff" stop-opacity=".6275" offset=".24870"/>
+			<stop stop-color="#fff" stop-opacity="0.823" offset=".49740"/>
+			<stop stop-color="#fff" stop-opacity=".6275" offset=".75410"/>
+			<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+		</linearGradient>
+		<rect height="18" width="102" y="2.262" x="0" fill="url(#rect3773-1-8-6-0-6-6_1_)"/>
+			<linearGradient id="rect3789-9-6-7-9-4_1_" y2="697.55" gradientUnits="userSpaceOnUse" x2="-294.05" gradientTransform="matrix(-.4982 0 0 2.0343 -95.496 -1411.3)" y1="694.74" x1="-294.05">
+			<stop stop-opacity=".47" offset="0"/>
+			<stop stop-opacity=".04" offset=".86060"/>
+			<stop stop-opacity="0" offset=".96360"/>
+		</linearGradient>
+		<rect height="13.408" width="102" y="0.524" x="0" fill="url(#rect3789-9-6-7-9-4_1_)"/>
+</svg>

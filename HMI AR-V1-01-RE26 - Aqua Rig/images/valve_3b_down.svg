@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" height="111.72" width="194.58" version="1.1" viewBox="0 0 194.58 111.72">
+	<polygon id="bgColor00" points="195.35 111.72 98.055 0.229 0.773 111.72" fill="#61ff00"/>
+		<radialGradient id="path3273_1_" gradientUnits="userSpaceOnUse" cy="887.33" cx="818.27" gradientTransform="translate(-718.98 -841.27)" r="35.704">
+		<stop stop-color="#fff" stop-opacity="0.6" offset=".51520"/>
+		<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+	</radialGradient>
+	<path fill="url(#path3273_1_)" d="m103.04 75.357c13.65-2.627 26.35-8.283 36.81-15.217l-36.41-41.724c-1.356-1.539-3.299-2.428-5.352-2.428s-4.006 0.887-5.352 2.428l-34 38.965c6.948 8.264 22.252 22.213 44.303 17.976z"/>
+		<linearGradient id="path3294_1_" y2="994.3" gradientUnits="userSpaceOnUse" x2="890.94" gradientTransform="translate(-718.98 -841.27)" y1="873.32" x1="738.56">
+		<stop stop-opacity=".06" offset="0"/>
+		<stop offset=".98180"/>
+	</linearGradient>
+	<path opacity=".5" fill="url(#path3294_1_)" d="m98.057-0.002-97.281 111.49h194.57l-97.293-111.49zm66.052 104.4h-132.1c-2.789 0-5.312-1.631-6.461-4.166-1.166-2.531-0.724-5.506 1.106-7.606l66.063-75.695c1.346-1.539 3.287-2.428 5.339-2.428 2.053 0 4.006 0.889 5.354 2.428l66.054 75.688c1.831 2.098 2.274 5.075 1.11 7.606-1.154 2.535-3.679 4.166-6.466 4.166z"/>
+		<linearGradient id="path3319_1_" y2="925.28" gradientUnits="userSpaceOnUse" x2="897.22" gradientTransform="translate(-718.98 -841.27)" y1="925.28" x1="771.25">
+		<stop stop-color="#fff" stop-opacity="0" offset="0"/>
+		<stop stop-color="#fff" stop-opacity="0.8" offset=".51520"/>
+		<stop stop-color="#fff" stop-opacity="0" offset="1"/>
+	</linearGradient>
+	<path fill="url(#path3319_1_)" d="m176.4 96.314-32.27-36.979c-0.777 0.391-1.141 1.063-0.359 2.311 2.48 3.976 22.338 27.297 22.338 32.75 0 5.457 3.465 8.435-17.373 9.424-20.84 1-78.396 1-91.292 3.479-1.926 0.367-3.604 0.857-5.17 1.388h118.51c2.926 0 5.574-1.705 6.795-4.373 1.204-2.673 0.747-5.794-1.18-8z"/>
+</svg>

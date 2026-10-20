@@ -1,0 +1,15 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object id="KeyPad3" dataWndSize="0,70" staticOptEnable="false" downloadPrepDone="false" pageSize="300,300" class="KeypadPageWgt" pageType="keypad" pageName="KeyPad3">
+  <wgtStyle y="0" x="0" height="300" width="300" color="rgb(230,230,230)" v="04.05.00.224" fitToSize="1" loadOnStartup="true" ver="040500224"/>
+  <object id="_PageMLTextMgrWgt" class="PageMLTextMgrWgt" mlFileName="" mgrType="Page">
+   <wgtStyle y="0" x="0" height="0" width="0"/>
+   <langs curLangId="L1" defLangId="L1">
+    <lang writingsystem="Any" langCode="en-US" defaultFont="Roboto" langId="L1" removable="false" keypads=";;" name="Lang1"/>
+   </langs>
+   <MLTexts/>
+  </object>
+  <object id="keypad_Icon" class="ImageWgt">
+   <wgtStyle y="14" x="12" stroke-width="1" height="16" wgtStaticOpt="dynamic" forcePaint="16" width="16" cx="7.82" cy="7.90" fill="rgb(23,30,40)" stroke="rgb(76,76,77)" imagePath="images/keyboard-grab-dark.svg"/>
+  </object>
+ </object>
+</wgtPage>

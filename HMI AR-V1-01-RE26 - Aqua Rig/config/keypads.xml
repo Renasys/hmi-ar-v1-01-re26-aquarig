@@ -1,0 +1,10 @@
+<keypads>
+ <keypad name="Alphabet" loadOnStartup="true"/>
+ <keypad name="Calendar" loadOnStartup="true"/>
+ <keypad name="KeyPad1" loadOnStartup="true"/>
+ <keypad name="KeyPad2" loadOnStartup="true"/>
+ <keypad name="KeyPad3" loadOnStartup="true"/>
+ <keypad name="KeyPad4" loadOnStartup="true"/>
+ <keypad name="KeyPad5" loadOnStartup="true"/>
+ <keypad name="Numeric" loadOnStartup="true"/>
+</keypads>

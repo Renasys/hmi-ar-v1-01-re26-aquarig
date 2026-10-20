@@ -1,0 +1,292 @@
+<wgtPage projectType="HMI Project" rev="1">
+ <object usedFonts="Roboto,Arial Rounded MT Bold" staticOptEnable="true" id="Alarms" downloadPrepDone="true" dataWndSize="0,70" staticFile="opt/alarms.png" pageName="Alarms" templateFile="maintemplate.jmx" class="PageWgt" pageSize="1920,1080">
+  <wgtStyle height="1080" fitToSize="1" width="1920" v="04.05.00.224" x="0" y="0" ver="040500224"/>
+  <object id="rect6" static="true" class="ShapeWgt">
+   <wgtStyle cy="410" cx="919.34" height="820" width="1900" x="10" y="161" fill="rgb(190,190,190)" stroke-width="3" nodeName="rect"/>
+  </object>
+  <object mgrType="Page" id="_PageMLTextMgrWgt" mlFileName="" class="PageMLTextMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang name="Lang1" langCode="en-US" writingsystem="Any" defaultFont="Roboto" removable="false" keypads=";;" langId="L1"/>
+   </langs>
+   <MLTexts>
+    <MLText id="0" L1="Active Alarms"/>
+    <MLText id="1" L1="Save"/>
+    <MLText id="8" L1="Hide Not Triggered"/>
+    <MLText id="10" L1="Show All"/>
+    <MLText id="11" L1="Filter :"/>
+    <MLText id="12" L1="Check/Uncheck All"/>
+    <MLText id="37" L1="History alarms"/>
+    <MLText id="38" L1="Groups"/>
+    <MLText id="45" L1="Ack"/>
+    <MLText id="46" L1="Reset"/>
+    <MLText id="70" L1="Select"/>
+    <MLText id="71" L1="Time"/>
+    <MLText id="72" L1="Name"/>
+    <MLText id="73" L1="Description"/>
+    <MLText id="74" L1="Severity"/>
+    <MLText id="75" L1="Value"/>
+    <MLText id="76" L1="Groups"/>
+    <MLText id="77" L1="State"/>
+    <MLText id="78" L1="Enable"/>
+    <MLText id="79" L1="Action"/>
+   </MLTexts>
+  </object>
+  <object id="ActvAlrm" class="GroupWgt">
+   <wgtStyle cy="375.10" cx="861.50" height="750.19" width="1723" x="95" y="170"/>
+   <object id="ActvAlrm.lbl" static="true" class="LabelWgt">
+    <wgtStyle font-color="rgb(40,40,40)" font-sizepx="27" cy="9.51" font-size="20" cx="122.19" keypad-type="None" height="40.15" width="276.52" vert-align="top" wrapping="true" x="727.25" y="0" font-family="Arial Rounded MT Bold" alignment="center"/>
+    <links>
+     <lang textid="0" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+   <object id="ActvAlrm.rstbtn" customType="Button" class="GroupWgt">
+    <wgtStyle cy="17.88" cx="36.62" height="50.19" width="60.66" x="446.26" y="700"/>
+    <links>
+     <attr alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage" attrName="bdrImage"/>
+    </links>
+    <object id="ActvAlrm.rstbtn.btn" hmiStyle="type:btn" class="ButtonWgt">
+     <wgtStyle cy="20.44" form="standard" cx="25.36" dx="1" height="50.19" width="60.66" type="momentary" x="0" needlePath="images\btn_kbdwht_long_2_rev1.svg" releasePath="images\btn_kbdwht_long_1_rev1.svg" y="0" fill="rgb(255,255,255)" downFillColor="rgb(255,255,255)" value="0"/>
+     <links>
+      <action alarmID="" event="onMouseDown" actionID="0" attribute="onMousePress" actionWgt="_AlarmsMgr" class="ResetAlarmAction"/>
+     </links>
+    </object>
+    <object id="ActvAlrm.rstbtn.lbl" class="LabelWgt">
+     <wgtStyle font-sizepx="11" cy="12.76" font-size="8" cx="21.21" keypad-type="None" height="20.08" forcePaint="1" width="38.72" vert-align="middle" x="10.33" y="8.36" font-family="Roboto" alignment="center"/>
+     <links>
+      <lang textid="46" class="MLTextLink"/>
+     </links>
+    </object>
+   </object>
+   <object id="ActvAlrm.ackbtn" customType="Button" class="GroupWgt">
+    <wgtStyle cy="25.10" cx="30.34" height="50.19" width="60.66" x="383.02" y="700"/>
+    <links>
+     <attr alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage" attrName="bdrImage"/>
+    </links>
+    <object id="ActvAlrm.ackbtn.btn" hmiStyle="type:btn" class="ButtonWgt">
+     <wgtStyle cy="18.41" form="standard" cx="25.36" dx="1" height="50.19" width="60.66" type="momentary" x="0" needlePath="images\btn_kbdwht_long_2_rev1.svg" releasePath="images\btn_kbdwht_long_1_rev1.svg" y="0" fill="rgb(255,255,255)" downFillColor="rgb(255,255,255)" value="0"/>
+     <links>
+      <action alarmID="" event="onMouseDown" actionID="0" attribute="onMousePress" actionWgt="_AlarmsMgr" class="AckAlarmAction"/>
+     </links>
+    </object>
+    <object id="ActvAlrm.ackbtn.lbl" class="LabelWgt">
+     <wgtStyle font-sizepx="11" cy="14.92" font-size="8" cx="19.26" keypad-type="None" height="23.42" forcePaint="1" width="24.53" vert-align="middle" x="18.08" y="6.69" font-family="Roboto" alignment="center"/>
+     <links>
+      <lang textid="45" class="MLTextLink"/>
+     </links>
+    </object>
+   </object>
+   <object id="ActvAlrm.tbl" class="TableWgt">
+    <wgtStyle font-sizepx="13" datafont-sizepx="13" scrollHeight="25" cy="18.62" defaultSortCol="5" cx="87.53" scroll_type="1" height="646" forcePaint="8" width="1723" x="0" filterCol="8" showHeader="true" y="44.16" filterString="^((Not Triggered Acked|Not Triggered Not Acked|Triggered).*$)" font-family="Arial Rounded MT Bold"/>
+    <dataLinks>
+     <dataLink dataSource="_AlarmsMgr" sourceType="Data" tag="alarmCount" readWrite="R" attribute="rowCount" widgetType="Project"/>
+     <dataLink dataSource="ActvAlrm.fltrcmbo" sourceType="Widget" tag="itemData" readWrite="R/W" attribute="filterString"/>
+     <dataLink dataSource="_AlarmsMgr" sourceType="Data" tag="FGColor" readWrite="R" attribute="fgColor" widgetType="Project">
+      <xForms>
+       <xForm name="ColorPaletteCustom" ColorPaletteCustom="" class="ColorPaletteCustomXForm"/>
+      </xForms>
+     </dataLink>
+     <dataLink dataSource="_AlarmsMgr" sourceType="Data" tag="BGColor" readWrite="R" attribute="bgColor" widgetType="Project">
+      <xForms>
+       <xForm name="ColorPaletteCustom" ColorPaletteCustom="" class="ColorPaletteCustomXForm"/>
+      </xForms>
+     </dataLink>
+     <dataLink dataSource="_AlarmsMgr" sourceType="Widget" tag="alSelect" readWrite="R/W" attribute="selectionAttr" widgetType="Project" tagIndex="-1"/>
+    </dataLinks>
+    <table rows="0" cols="11">
+     <colInfo>
+      <col name="Select" sizeToFit="false" stringList="" type="2" width="60" visibility="true">
+       <links>
+        <lang textid="70" class="MLTableColLink:tableCol:">
+         <MLFontFamily L1="Arial Rounded MT Bold"/>
+        </lang>
+       </links>
+       <dataLinks>
+        <dataLink dataSource="_AlarmsMgr" sourceType="Data" tag="alSelect" readWrite="R/W" attribute="value" widgetType="Project"/>
+       </dataLinks>
+      </col>
+      <col name="Time" numberformat="DD/MM/YYYY - hh:mm:ss" sizeToFit="false" stringList="" type="4" width="200" visibility="true">
+       <links>
+        <lang textid="71" class="MLTableColLink:tableCol:">
+         <MLFontFamily L1="Arial Rounded MT Bold"/>
+        </lang>
+       </links>
+       <dataLinks>
+        <dataLink dataSource="_AlarmsMgr" sourceType="Data" tag="alDateTime" readWrite="R" attribute="value" widgetType="Project"/>
+       </dataLinks>
+      </col>
+      <col name="Name" sizeToFit="false" stringList="" type="0" width="200" visibility="true">
+       <links>
+        <lang textid="72" class="MLTableColLink:tableCol:">
+         <MLFontFamily L1="Arial Rounded MT Bold"/>
+        </lang>
+       </links>
+       <dataLinks>
+        <dataLink dataSource="_AlarmsMgr" sourceType="Data" tag="alName" readWrite="R" attribute="value" widgetType="Project"/>
+       </dataLinks>
+      </col>
+      <col name="Groups" sizeToFit="false" stringList="" type="0" width="100" visibility="true">
+       <links>
+        <lang textid="38" class="MLTableColLink:tableCol:"/>
+       </links>
+       <dataLinks>
+        <dataLink dataSource="_AlarmsMgr" sourceType="Widget" tag="alGroups" readWrite="R" attribute="value" widgetType="Project" tagIndex="-1"/>
+       </dataLinks>
+      </col>
+      <col name="Description" sizeToFit="false" stringList="" type="0" width="900" visibility="true">
+       <links>
+        <lang textid="73" class="MLTableColLink:tableCol:">
+         <MLFontFamily L1="Arial Rounded MT Bold"/>
+        </lang>
+       </links>
+       <dataLinks>
+        <dataLink dataSource="_AlarmsMgr" sourceType="Data" tag="alDescription" readWrite="R" attribute="value" widgetType="Project"/>
+       </dataLinks>
+      </col>
+      <col name="Severity" sizeToFit="false" stringList="" type="0" width="104" visibility="true">
+       <links>
+        <lang textid="74" class="MLTableColLink:tableCol:">
+         <MLFontFamily L1="Arial Rounded MT Bold"/>
+        </lang>
+       </links>
+       <dataLinks>
+        <dataLink dataSource="_AlarmsMgr" sourceType="Data" tag="alSeverity" readWrite="R/W" attribute="value" widgetType="Project"/>
+       </dataLinks>
+      </col>
+      <col name="Value" sizeToFit="false" stringList="" type="0" width="108" visibility="false">
+       <links>
+        <lang textid="75" class="MLTableColLink:tableCol:">
+         <MLFontFamily L1="Arial Rounded MT Bold"/>
+        </lang>
+       </links>
+       <dataLinks>
+        <dataLink dataSource="_AlarmsMgr" sourceType="Data" tag="alValue" readWrite="R" attribute="value" widgetType="Project"/>
+       </dataLinks>
+      </col>
+      <col name="Groups" sizeToFit="false" stringList="" type="0" width="100" visibility="false">
+       <links>
+        <lang textid="76" class="MLTableColLink:tableCol:">
+         <MLFontFamily L1="Arial Rounded MT Bold"/>
+        </lang>
+       </links>
+       <dataLinks>
+        <dataLink dataSource="_AlarmsMgr" sourceType="Widget" tag="alGroups" readWrite="R" attribute="value" widgetType="Project"/>
+       </dataLinks>
+      </col>
+      <col name="State" sizeToFit="false" stringList="" type="0" width="158" visibility="true">
+       <links>
+        <lang textid="77" class="MLTableColLink:tableCol:">
+         <MLFontFamily L1="Arial Rounded MT Bold"/>
+        </lang>
+       </links>
+       <dataLinks>
+        <dataLink dataSource="_AlarmsMgr" sourceType="Data" tag="alState" readWrite="R" attribute="value" widgetType="Project"/>
+       </dataLinks>
+      </col>
+      <col name="Enable" sizeToFit="false" stringList="" type="2" width="45" visibility="false">
+       <links>
+        <lang textid="78" class="MLTableColLink:tableCol:">
+         <MLFontFamily L1="Arial Rounded MT Bold"/>
+        </lang>
+       </links>
+       <dataLinks>
+        <dataLink dataSource="_AlarmsMgr" sourceType="Data" tag="alEnable" readWrite="R/W" attribute="value" widgetType="Project"/>
+       </dataLinks>
+      </col>
+      <col name="Action" sizeToFit="false" imagePath="images/action.png" stringList="" type="5" width="100" visibility="false">
+       <links>
+        <lang textid="79" class="MLTableColLink:tableCol:">
+         <MLFontFamily L1="Arial Rounded MT Bold"/>
+        </lang>
+       </links>
+       <dataLinks>
+        <dataLink dataSource="_AlarmsMgr" sourceType="Widget" tag="alUserAction" readWrite="R/W" attribute="value" widgetType="Project"/>
+       </dataLinks>
+      </col>
+     </colInfo>
+    </table>
+   </object>
+   <object id="ActvAlrm.selallbtn" customType="Button" class="GroupWgt">
+    <wgtStyle cy="25.10" cx="69.69" height="50.19" width="139.41" x="240.03" y="700"/>
+    <links>
+     <attr alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage" attrName="bdrImage"/>
+    </links>
+    <object id="ActvAlrm.selallbtn.btn" hmiStyle="type:btn" class="ButtonWgt">
+     <wgtStyle cy="19.04" form="standard" cx="35.26" dx="1" height="50.19" width="139.41" type="momentary" x="0" needlePath="images\btn_kbdwht_long_2_rev1.svg" releasePath="images\btn_kbdwht_long_1_rev1.svg" y="0" fill="rgb(255,255,255)" downFillColor="rgb(255,255,255)" value="0"/>
+     <links>
+      <action event="onMouseDown" actionID="0" attribute="onMousePress" widgetId="" actionWgt="_AlarmsMgr" mode="0" class="SelectAllAlarmsAction" applyTo="0"/>
+     </links>
+    </object>
+    <object id="ActvAlrm.selallbtn.lbl" class="LabelWgt">
+     <wgtStyle font-sizepx="11" cy="12.19" font-size="8" cx="24.10" keypad-type="None" height="21.75" forcePaint="1" width="121.33" vert-align="middle" x="9.03" y="6.69" font-family="Roboto" alignment="center"/>
+     <links>
+      <lang textid="12" class="MLTextLink"/>
+     </links>
+    </object>
+   </object>
+   <object id="ActvAlrm.fltrlbl" static="true" class="LabelWgt">
+    <wgtStyle font-color="rgb(40,40,40)" font-sizepx="13" cy="18.29" font-size="12" cx="17.03" keypad-type="None" height="33.68" width="46.80" vert-align="middle" x="4.45" y="709" font-family="Roboto" alignment="center"/>
+    <links>
+     <lang textid="11" class="MLTextLink"/>
+    </links>
+   </object>
+   <object id="ActvAlrm.fltrcmbo" class="ComboBoxWgt">
+    <wgtStyle listData="^((Not Triggered Acked|Not Triggered Not Acked|Triggered).*$)," font-family="Roboto" dropdownButtonWidth="30" font-sizepx="11" keypad-type="None" alignment="center" y="696" list="Hide Not Triggered,Show All" height="50.19" width="179.41" text="" dropdownBorderColor="rgb(0,0,0)" dropdownButtonImageWidth="10" vert-align="top" font-size="8" index="0" x="53.34" cx="21.64" dropdownButtonImageHeight="10" continous="true" cy="23.30"/>
+    <links>
+     <lang class="MLComboBoxLink:list:">
+      <MLFontFamily L1="Roboto"/>
+      <textid val="8" idx="0"/>
+      <textid val="10" idx="1"/>
+     </lang>
+    </links>
+   </object>
+   <object id="ActvAlrm.savebtn" customType="Button" class="GroupWgt">
+    <wgtStyle cy="17.88" cx="36.62" height="50.19" width="60.66" x="509.52" y="700"/>
+    <links>
+     <attr alias="ButtonWgt.bdrImage;ImageWgt1.bdrImage" attrName="bdrImage"/>
+    </links>
+    <object id="ActvAlrm.savebtn.btn" hmiStyle="type:btn" class="ButtonWgt">
+     <wgtStyle cy="20.44" form="standard" cx="25.36" dx="1" height="50.19" width="60.66" type="momentary" x="0" needlePath="images\btn_kbdwht_long_2_rev1.svg" releasePath="images\btn_kbdwht_long_1_rev1.svg" y="0" fill="rgb(255,255,255)" downFillColor="rgb(255,255,255)" value="0"/>
+     <links>
+      <action alarmID="" event="onMouseUp" actionID="1" attribute="onMouseRelease" actionWgt="_AlarmsMgr" class="EnableAlarmsAction" enableFlag="false"/>
+      <action event="onMouseUp" actionID="2" attribute="onMouseRelease" actionWgt="_IdalMgr" class="SaveConfigurationAction"/>
+     </links>
+    </object>
+    <object id="ActvAlrm.savebtn.lbl" class="LabelWgt">
+     <wgtStyle font-sizepx="11" cy="11.70" font-size="8" cx="21.21" keypad-type="None" height="18.41" forcePaint="1" width="38.72" vert-align="middle" x="11.63" y="10.03" font-family="Roboto" alignment="center"/>
+     <links>
+      <lang textid="1" class="MLTextLink"/>
+     </links>
+    </object>
+   </object>
+  </object>
+  <object id="Alarms@$GroupSubscrWgt@$0" class="GroupSubscribeWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="BtnWide5" customType="Button" class="GroupWgt">
+   <wgtStyle cy="29.99" cx="89.99" height="60" width="180" x="1636" y="894.79"/>
+   <object id="BtnWide5.frmImg" hmiStyle="hmi-name:chrome; hmi-shape:rrectbar; hmi-type:bkgd" static="true" class="ImageWgt">
+    <wgtStyle cy="39.93" imagePath="images/frame_rrectbar_chrome.svg" cx="98.47" height="78.49" width="196.95" x="-8.47" visibility="false" y="-9.23"/>
+   </object>
+   <object id="BtnWide5.btn" hmiStyle="hmi-name:shiney; hmi-shape:rrectbar; hmi-type:btn; type:btn" class="ButtonWgt">
+    <wgtStyle cy="29.34" form="standard" cx="90.26" dx="1" dy="-1" height="57.70" width="180" type="momentary" x="0" needlePath="images\btn_shiney_rrectbar_2.svg" releasePath="images\btn_shiney_rrectbar_1.svg" y="0" fill="rgb(120,120,120)" downFillColor="rgb(120,120,120)" value="0"/>
+    <links>
+     <action event="onMouseClick" actionID="1" attribute="onMouseClick" actionWgt="_PageMgr" pageName="history alarms.jmx" class="LoadPageAction"/>
+    </links>
+   </object>
+   <object id="BtnWide5.lbl" hmiStyle="hmi-type:wgtlabel" class="LabelWgt">
+    <wgtStyle font-color="rgb(40,40,40)" font-sizepx="19" cy="30.14" font-size="14" cx="78.54" keypad-type="None" height="60" forcePaint="1" width="156.70" vert-align="middle" wrapping="true" x="11" y="0" font-family="Arial Rounded MT Bold" alignment="center"/>
+    <links>
+     <lang textid="37" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+   <object id="BtnWide5.icoImg" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon" static="true" class="ImageWgt">
+    <wgtStyle cy="20.76" cx="32.33" height="39.23" width="63.53" x="57" stroke="rgb(4,255,4)" y="9.23" stroke-width="1"/>
+   </object>
+  </object>
+ </object>
+</wgtPage>

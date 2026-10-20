@@ -1,0 +1,52 @@
+<emailInfos>
+ <emailInfo>
+  <id>eMail1</id>
+  <enable>true</enable>
+  <name></name>
+  <description></description>
+  <from>renasysvakt@gmail.com</from>
+  <to>renasysvakt@icloud.com</to>
+  <subject>Full scale Forde - Fault</subject>
+  <message>There is an active fault in the facility. 
+
+Fault description: "[HMI_COM/Application/Alarms/alarmDescription]"</message>
+  <taglist></taglist>
+ </emailInfo>
+ <emailInfo>
+  <id>eMail2</id>
+  <enable>true</enable>
+  <name></name>
+  <description></description>
+  <from>renasysvakt@gmail.com</from>
+  <to>renasysvakt@icloud.com</to>
+  <subject>Full scale Forde - Alarm</subject>
+  <message>Alarm!
+
+There is an active alarm in the facility. 
+
+Alarm description: "[HMI_COM/Application/Alarms/alarmDescription]"</message>
+  <taglist></taglist>
+ </emailInfo>
+ <emailInfo>
+  <id>eMail3</id>
+  <enable>true</enable>
+  <name></name>
+  <description></description>
+  <from>renasysvakt@gmail.com</from>
+  <to>renasysvakt@icloud.com</to>
+  <subject>Single unit alarm - Alarm</subject>
+  <message>Alarm!</message>
+  <taglist></taglist>
+ </emailInfo>
+ <emailInfo>
+  <id>eMail4</id>
+  <enable>true</enable>
+  <name></name>
+  <description></description>
+  <from>renasysvakt@gmail.com</from>
+  <to>renasysvakt@icloud.com</to>
+  <subject>Single unit alarm - Controlled shutdown</subject>
+  <message>Controlled shutdown!</message>
+  <taglist></taglist>
+ </emailInfo>
+</emailInfos>

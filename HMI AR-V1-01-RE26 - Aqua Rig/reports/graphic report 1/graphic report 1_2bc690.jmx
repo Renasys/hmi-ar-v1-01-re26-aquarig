@@ -1,0 +1,12 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object id="graphic report 1_2bc690" dataWndSize="0,70" staticOptEnable="false" report-cover-page="0" downloadPrepDone="false" pageSize="744,1052" class="ReportPageWgt" pageType="report" report-name="Graphic Report 1" staticFile="opt/graphic report 1_2bc690.png" pageName="graphic report 1_2bc690" report-header-height="0" templateFile="graphic report 1 header footer.jmx" report-footer-height="0">
+  <wgtStyle y="0" x="0" height="1052" forcePaint="512" width="744" v="04.05.00.224" fitToSize="1" ver="040500224"/>
+  <object id="_PageMLTextMgrWgt" class="PageMLTextMgrWgt" mlFileName="" mgrType="Page">
+   <wgtStyle y="0" x="0" height="0" width="0"/>
+   <langs curLangId="L1" defLangId="L1">
+    <lang writingsystem="Any" langCode="en-US" defaultFont="Roboto" langId="L1" removable="false" keypads=";;" name="Lang1"/>
+   </langs>
+   <MLTexts/>
+  </object>
+ </object>
+</wgtPage>

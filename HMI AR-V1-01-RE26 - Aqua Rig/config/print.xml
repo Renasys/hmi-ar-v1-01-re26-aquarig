@@ -1,0 +1,5 @@
+<printdetails ramquota="16000000" spoolFolder="c:/automation/hmi-projects/hmi-ar-v1-01-re26-aquarig/hmi ar-v1-01-re26 - aqua rig/reportspool" spoolMediaType="0" diskquota="-1" maxpixmapsize="16000000">
+ <printerPorts>
+  <port>File</port>
+ </printerPorts>
+</printdetails>

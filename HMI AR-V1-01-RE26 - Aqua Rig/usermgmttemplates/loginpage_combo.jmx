@@ -1,0 +1,134 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object usedFonts="Roboto,Roboto Medium" staticFile="opt/loginpage_combo.png" pageSize="480,480" downloadPrepDone="false" staticOptEnable="false" pageName="LoginPage_combo" id="LoginPage_combo" class="PageWgt" dataWndSize="0,70">
+  <wgtStyle v="04.05.00.224" height="480" y="0" width="480" ver="040500224" x="0" fitToSize="1"/>
+  <object mlFileName="" mgrType="Page" id="_PageMLTextMgrWgt" class="PageMLTextMgrWgt">
+   <wgtStyle height="0" y="0" width="0" x="0"/>
+   <langs curLangId="L1" defLangId="L1">
+    <lang langCode="en-US" keypads=";;" writingsystem="Any" langId="L1" defaultFont="Roboto" removable="false" name="Lang1"/>
+   </langs>
+   <MLTexts>
+    <MLText L1="" id="0"/>
+    <MLText L1="Error : Connection lost with the Runtime. Please verify the Runtime status" id="2"/>
+    <MLText L1="Error : The username or password you entered is incorrect" id="3"/>
+    <MLText L1="Error : The password entered is incorrect" id="4"/>
+    <MLText L1="Error : Action cannot be executed" id="5"/>
+    <MLText L1="Error : Passwords do not match" id="6"/>
+    <MLText L1="Error: Password length too short" id="7"/>
+    <MLText L1="Error: Password must contain numbers" id="8"/>
+    <MLText L1="Error: Password must contain special characters" id="9"/>
+    <MLText L1="Error: Password must be different than previous passwords" id="10"/>
+    <MLText L1="Error : User already exist" id="11"/>
+    <MLText L1="Error:Password cannot be empty" id="12"/>
+    <MLText L1="Error: Your password has expired" id="13"/>
+    <MLText L1="Warning: Your password will expire soon" id="14"/>
+    <MLText L1="Error : You are not authorized. Please contact administrator" id="15"/>
+    <MLText L1="Error : User is set Inactive. Please contact administrator" id="16"/>
+    <MLText L1="Error : Username or password is wrong. Login locked for a while" id="17"/>
+   </MLTexts>
+  </object>
+  <object id="UserListWgt1" class="UserListWgt">
+   <wgtStyle cx="16" height="33" y="0" width="32" x="0" cy="16"/>
+  </object>
+  <object id="image2" class="ImageWgt">
+   <wgtStyle cx="234" height="480" y="0" width="480" imagePath="images/bgLoginPage_combo.svg" x="0" cy="232.80"/>
+  </object>
+  <object id="label1" class="LabelWgt">
+   <wgtStyle cx="42" height="19" font-family="Roboto" y="151" width="80" vert-align="top" marker="true" keypad-type="None" font-size="12" font-color="rgb(76,76,77)" x="92" cy="9.50" text="User name:"/>
+  </object>
+  <object id="label2" class="LabelWgt">
+   <wgtStyle cx="42" height="19" font-family="Roboto" y="198" width="74" vert-align="top" marker="true" keypad-type="None" font-size="12" font-color="rgb(76,76,77)" x="98" cy="9" text="Password:"/>
+  </object>
+  <object id="LogInEditWgt1" class="LogInEditWgt">
+   <wgtStyle cx="85" height="87" y="141" width="170" x="219" cy="43.50"/>
+   <object id="password_edit" class="EditBoxWgt">
+    <wgtStyle cx="23" height="35" font-family="Roboto" y="52" width="170" font-sizepx="16" vert-align="middle" keypad-type="Alphabet" font-size="12" font-color="rgb(76,76,77)" x="0" cy="18.53" text="" forcePaint="8" editType="2"/>
+    <dataLinks>
+     <dataLink sourceType="Widget" tag="password" readWrite="R/W" attribute="text" dataSource="LogInEditWgt1"/>
+    </dataLinks>
+   </object>
+   <object id="LogInEditWgt1.username_edit" class="ComboBoxWgt">
+    <wgtStyle vert-align="top" cx="84.48" font-size="12" dropdownSelBgColor="rgb(0,176,199)" keypad-type="None" x="0" width="170" forcePaint="8" cy="17" index="0" listData="" font-family="Roboto" dropdownFontColor="rgb(76,76,77)" imageList="" type="1" dropdownSelFontColor="rgb(255,255,255)" list="" dropdownButtonImageWidth="10" font-sizepx="16" borderColor="rgb(200,200,200)" dropdownButtonBgColor="rgb(245,245,245)" font-color="rgb(76,76,77)" dropdownBorderColor="rgb(200,200,200)" y="0" height="35" continous="true" bgColor="rgb(245,245,245)" dropdownButtonWidth="30" dropdownButtonImageHeight="10" text=""/>
+    <dataLinks>
+     <dataLink sourceType="Data" tag="editUserList" readWrite="R" attribute="list" dataSource="UserListWgt1"/>
+     <dataLink sourceType="Data" tag="loginUserName" readWrite="R/W" attribute="index" dataSource="UserListWgt1"/>
+    </dataLinks>
+    <links>
+     <lang class="MLComboBoxLink:list:">
+      <MLFontFamily L1="Roboto"/>
+      <textid val="0" idx="0"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object hmiStyle="type:btn" id="checkbox3" class="ButtonWgt">
+   <wgtStyle dy="-1" cx="16" height="32" dx="1" needlePath="images\checkboxOFF.svg" y="236" form="standard" width="32" pushColor="rgb(128,128,0)" x="245" value="1" cy="16" downFillColor="rgb(0,0,0)" releasePath="images\checkboxON.svg" type="maintained" forcePaint="8"/>
+   <dataLinks>
+    <dataLink sourceType="Widget" tag="editType" readWrite="R/W" attribute="value" dataSource="password_edit">
+     <xForms>
+      <xForm class="BitIndexXForm" name="BitIndex" BitIndex="1"/>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+  </object>
+  <object id="label4" class="LabelWgt">
+   <wgtStyle cx="304.04" height="19" font-family="Roboto" y="244" width="114" font-sizepx="16" vert-align="top" marker="true" keypad-type="None" font-size="12" font-color="rgb(76,76,77)" x="275" cy="2.29" text="Show password" forcePaint="1"/>
+  </object>
+  <object id="error_msg" class="MsgTextWgt">
+   <wgtStyle vert-align="top" cx="128.29" font-size="12" viewindex="false" keypad-type="None" value="0" x="17.50" width="261" min="0" wrapping="true" cy="48.32" font-family="Roboto" max="3" font-sizepx="16" marker="true" font-color="rgb(255,0,0)" y="356.61" height="102" continous="false" text="">
+    <msgtxt>
+     <msg index="0"/>
+     <msg index="1"/>
+     <msg index="2"/>
+     <msg index="3"/>
+     <msg index="4"/>
+     <msg index="5"/>
+     <msg index="6"/>
+     <msg index="7"/>
+     <msg index="8"/>
+     <msg index="9"/>
+     <msg index="10"/>
+     <msg index="11"/>
+     <msg index="12"/>
+     <msg index="13"/>
+     <msg index="14"/>
+     <msg index="15"/>
+     <msg index="27"/>
+    </msgtxt>
+   </wgtStyle>
+   <links>
+    <lang class="MLMsgLink:messages:">
+     <MLFontFamily L1="Roboto"/>
+     <textid val="0" idx="0"/>
+     <textid val="15" idx="1"/>
+     <textid val="2" idx="2"/>
+     <textid val="3" idx="3"/>
+     <textid val="4" idx="4"/>
+     <textid val="5" idx="5"/>
+     <textid val="6" idx="6"/>
+     <textid val="7" idx="7"/>
+     <textid val="8" idx="8"/>
+     <textid val="9" idx="9"/>
+     <textid val="10" idx="10"/>
+     <textid val="11" idx="11"/>
+     <textid val="12" idx="12"/>
+     <textid val="13" idx="13"/>
+     <textid val="14" idx="14"/>
+     <textid val="16" idx="15"/>
+     <textid val="17" idx="27"/>
+    </lang>
+   </links>
+  </object>
+  <object customType="ButtonsWithLabel" id="BtnStd1" class="GroupWgt">
+   <wgtStyle cx="51" height="36" y="276" width="102" x="287" cy="18"/>
+   <object hmiStyle="hmi-name:smooth; hmi-shape:rect; hmi-type:btn; type:btn" id="BtnStd1.btn" class="ButtonWgt">
+    <wgtStyle bdrSize="0.17,0.17,0.15,0.16" cx="51" height="36" needlePath="images\Btn_rect_Dwn.svg" y="0" form="standard" width="102" pushColor="rgb(128,128,0)" x="0" value="0" fill="rgb(245,245,245)" cy="18" downFillColor="rgb(0,176,199)" style="0" releasePath="images\btn_rect_grayup.svg" type="momentary" bdrImageSize="54.00,44.00"/>
+    <links>
+     <action event="onMouseUp" LoginEditID="LogInEditWgt1" attribute="onMouseRelease" actionWgt="_UserMgr" class="LogInSelectedUserAction" actionID="0" UserListDataSrcID="UserListWgt1"/>
+    </links>
+   </object>
+   <object hmiStyle="hmi-type:wgtlabel" id="BtnStd1.lbl" class="LabelWgt">
+    <wgtStyle alignment="center" cx="45.33" height="33.55" font-family="Roboto Medium" y="0.82" wrapping="true" width="90.67" font-sizepx="16" vert-align="middle" keypad-type="None" font-size="12" font-color="rgb(76,76,77)" x="3.78" cy="16.37" text="Sign In" forcePaint="1"/>
+   </object>
+  </object>
+ </object>
+</wgtPage>

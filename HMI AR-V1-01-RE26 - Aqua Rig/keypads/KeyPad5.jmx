@@ -1,0 +1,159 @@
+<wgtPage rev="1" projectType="HMI Project">
+ <object id="KeyPad5" dataWndSize="0,70" staticOptEnable="false" downloadPrepDone="false" pageSize="480,272" class="KeypadPageWgt" pageType="keypad" pageName="KeyPad5" usedFonts="Roboto Medium,Roboto">
+  <wgtStyle y="0" x="0" height="272" forcePaint="1" width="480" v="04.05.00.224" fitToSize="1" loadOnStartup="true" ver="040500224"/>
+  <dataLinks>
+   <dataLink dataSource="CalendarKeypad.keypad_Value" readWrite="R/W" sourceType="Widget" attribute="value" tag="daySelected"/>
+  </dataLinks>
+  <object id="_PageMLTextMgrWgt" class="PageMLTextMgrWgt" mlFileName="" mgrType="Page">
+   <wgtStyle y="0" x="0" height="0" forcePaint="1" width="0"/>
+   <langs curLangId="L1" defLangId="L1">
+    <lang writingsystem="Any" langCode="en-US" defaultFont="Roboto" langId="L1" removable="false" keypads=";;" name="Lang1"/>
+   </langs>
+   <MLTexts>
+    <MLText id="0" L1="&lt;"/>
+    <MLText id="5" L1=">"/>
+    <MLText id="6" L1="Enter"/>
+    <MLText id="7" L1="Esc"/>
+    <MLText id="12" L1="TUE"/>
+    <MLText id="13" L1="WED"/>
+    <MLText id="14" L1="THU"/>
+    <MLText id="15" L1="FRI"/>
+    <MLText id="16" L1="SAT"/>
+    <MLText id="17" L1="SUN"/>
+    <MLText id="18" L1="MON"/>
+    <MLText id="20" L1="Select day"/>
+   </MLTexts>
+  </object>
+  <object id="CalendarKeypad" customType="com.hmi.calendarkeypadmodule-:1.2.0" class="GroupWgt">
+   <wgtStyle y="0" x="1" height="272" width="480" cx="240" cy="136"/>
+   <object id="CalendarKeypad.dateShape" class="ShapeWgt">
+    <wgtStyle y="238" x="37" nodeName="rect" height="34" forcePaint="1" width="156" cx="75.47" cy="17.01" fill="rgb(245,245,245)" stroke="none"/>
+   </object>
+   <object id="CalendarKeypad.titleShape1" class="ShapeWgt">
+    <wgtStyle y="0" x="0" nodeName="rect" height="33" forcePaint="1" width="34" cx="16.45" cy="16.52" fill="rgb(245,245,245)" stroke="none"/>
+   </object>
+   <object id="CalendarKeypad.mainShape" class="ShapeWgt">
+    <wgtStyle y="7.79" x="0" nodeName="rect" height="264.21" forcePaint="1" width="478.01" cx="231.30" cy="132.10" fill="none" stroke="none"/>
+   </object>
+   <object id="CalendarKeypad.cancelBtn" customType="ButtonsWithLabel" class="GroupWgt">
+    <wgtStyle y="238" x="327" height="33" width="72" cx="46.58" cy="16.51"/>
+    <object id="btnStd1" class="ButtonWgt" hmiStyle="type:btn">
+     <wgtStyle y="0" type="momentary" x="0" needlePath="images\btn_rect_dwn.svg" height="33" value="0" downFillColor="rgb(0,176,199)" width="72" dx="1" cx="30.11" cy="12.10" form="standard" fill="rgb(0,76,136)" releasePath="images\btn_rect_blueup.svg"/>
+     <links>
+      <action f="this.cancelBtn" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+     </links>
+    </object>
+    <object id="label1" class="LabelWgt">
+     <wgtStyle y="8.61" vert-align="middle" x="21.46" height="15.41" alignment="center" forcePaint="1" width="29.12" font-sizepx="13" font-family="Roboto Medium" font-size="10" cx="22.84" cy="9.81" font-color="rgb(245,245,245)" keypad-type="None"/>
+     <links>
+      <lang textid="7" class="MLTextLink">
+       <MLFontFamily L1="Roboto Medium"/>
+      </lang>
+     </links>
+    </object>
+   </object>
+   <object id="CalendarKeypad.keypad_Value" class="CalendarWgt">
+    <wgtStyle today="-3600000" headerFont="Roboto" numbersTextBold="0" animationType="1" borderWidth="1" forcePaint="8" backgroundColor="none" dateMin="-3600000" width="477" numbersTextColorOtherMonth="rgb(200,200,200)" calendarType="0" numbersTextDim="8" headerTextColor="rgb(76,76,77)" headerTextDim="10" font-aa="1" gridWidth="1" numbersAlignment="2" headerTextBold="0" headerTextStyle="0" height="195" internalLineColor="rgb(200,200,200)" dateMax="32535039600000" numbersTextColorThisMonth="rgb(76,76,77)" numbersTextColorTodayDate="rgb(255,0,0)" selectedFieldColor="rgb(55,114,168)" numbersTextStyle="0" borderColor="rgb(200,200,200)" y="37" gridColor="rgb(230,230,230)" x="0" internalLineWidth="1">
+     <dayofweektxt>
+      <day index="0"/>
+      <day index="1"/>
+      <day index="2"/>
+      <day index="3"/>
+      <day index="4"/>
+      <day index="5"/>
+      <day index="6"/>
+     </dayofweektxt>
+    </wgtStyle>
+    <dataLinks>
+     <dataLink dataSource="_SysPropMgr" tagType="long" readWrite="R" class="SysPropMgrWgt" widgetType="Project" sourceType="System" attribute="today" tag="System Time"/>
+    </dataLinks>
+    <links>
+     <lang class="MLMsgLink:day:">
+      <MLFontFamily L1="Roboto"/>
+      <textid idx="0" val="18"/>
+      <textid idx="1" val="12"/>
+      <textid idx="2" val="13"/>
+      <textid idx="3" val="14"/>
+      <textid idx="4" val="15"/>
+      <textid idx="5" val="16"/>
+      <textid idx="6" val="17"/>
+     </lang>
+    </links>
+   </object>
+   <object id="CalendarKeypad.rightMonthBtn" customType="ButtonsWithLabel" class="GroupWgt">
+    <wgtStyle y="238" x="197" height="33" width="33" cx="16.51" cy="16.51"/>
+    <object id="btnStd2" class="ButtonWgt" hmiStyle="type:btn">
+     <wgtStyle y="0" type="momentary" x="0" needlePath="images\btn_rect_dwn.svg" height="33" value="0" downFillColor="rgb(0,176,199)" width="33" dx="1" cx="13.80" cy="12.10" form="standard" fill="rgb(0,76,136)" releasePath="images\btn_rect_blueup.svg"/>
+     <links>
+      <action f="this.rightMonthBtn" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+     </links>
+    </object>
+    <object id="label2" class="LabelWgt">
+     <wgtStyle y="8.61" vert-align="middle" x="9.83" height="15.41" alignment="center" forcePaint="1" width="13.34" font-sizepx="16" font-family="Roboto Medium" font-size="12" cx="10.47" cy="9.82" font-color="rgb(245,245,245)" keypad-type="None"/>
+     <links>
+      <lang textid="5" class="MLTextLink">
+       <MLFontFamily L1="Roboto Medium"/>
+      </lang>
+     </links>
+    </object>
+   </object>
+   <object id="CalendarKeypad.leftMonthBtn" customType="ButtonsWithLabel" class="GroupWgt">
+    <wgtStyle y="238" x="0" height="33" width="33" cx="16.51" cy="16.51"/>
+    <object id="btnStd4" class="ButtonWgt" hmiStyle="type:btn">
+     <wgtStyle y="0" type="momentary" x="0" needlePath="images\btn_rect_dwn.svg" height="33" value="0" downFillColor="rgb(0,176,199)" width="33" dx="1" cx="13.80" cy="12.10" form="standard" fill="rgb(0,76,136)" releasePath="images\btn_rect_blueup.svg"/>
+     <links>
+      <action f="this.leftMonthBtn" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+     </links>
+    </object>
+    <object id="label3" class="LabelWgt">
+     <wgtStyle y="8.61" vert-align="middle" x="9.83" height="15.41" alignment="center" forcePaint="1" width="13.34" font-sizepx="16" font-family="Roboto Medium" font-size="12" cx="10.47" cy="9.82" font-color="rgb(245,245,245)" keypad-type="None"/>
+     <links>
+      <lang textid="0" class="MLTextLink">
+       <MLFontFamily L1="Roboto Medium"/>
+      </lang>
+     </links>
+    </object>
+   </object>
+   <object id="CalendarKeypad.dateShownField" class="NumericWgt">
+    <wgtStyle font-sizepx="16" usingFormat="MM/YYYY" width="110" value="0" text="0" step="1" vert-align="middle" height="34" alignment="center" cy="25.58" min="0" font-family="Roboto" numberFormat="0" showThousandSeparator="false" timeSpec="local" y="238" cx="99.41" font-size="12" font-color="rgb(76,76,77)" keypad-type="None" max="4096" form="date-time" x="61.08"/>
+    <dataLinks>
+     <dataLink dataSource="CalendarKeypad.keypad_Value" readWrite="R" sourceType="Widget" attribute="value" tag="dateShown"/>
+    </dataLinks>
+   </object>
+   <object id="CalendarKeypad.okBtn" customType="ButtonsWithLabel" class="GroupWgt">
+    <wgtStyle y="238" x="405.46" height="33" width="72" cx="36.01" cy="16.51"/>
+    <object id="btnStd3" class="ButtonWgt" hmiStyle="type:btn">
+     <wgtStyle y="0" type="momentary" x="0" needlePath="images\btn_rect_dwn.svg" height="33" value="0" downFillColor="rgb(0,176,199)" width="72" dx="1" cx="30.11" cy="12.10" form="standard" fill="rgb(0,76,136)" releasePath="images\btn_rect_blueup.svg"/>
+     <links>
+      <action f="this.okBtn" actionID="1" class="JavaScriptAction" actionWgt="_WgtMgr" event="onMouseClick" attribute="onMouseClick"/>
+     </links>
+    </object>
+    <object id="label4" class="LabelWgt">
+     <wgtStyle y="8.61" vert-align="middle" x="21.45" height="15.41" alignment="center" forcePaint="1" width="29.10" font-sizepx="13" font-family="Roboto Medium" font-size="10" cx="22.84" cy="9.81" font-color="rgb(245,245,245)" keypad-type="None"/>
+     <links>
+      <lang textid="6" class="MLTextLink">
+       <MLFontFamily L1="Roboto Medium"/>
+      </lang>
+     </links>
+    </object>
+   </object>
+   <object id="CalendarKeypad.titleShape" class="ShapeWgt">
+    <wgtStyle y="0" x="38" nodeName="rect" height="33" forcePaint="1" width="442" cx="213.87" cy="16.52" fill="rgb(245,245,245)" stroke="none"/>
+   </object>
+   <object id="CalendarKeypad.label" class="LabelWgt">
+    <wgtStyle y="0" vert-align="middle" x="79.50" height="33.63" alignment="right" forcePaint="1" width="397.51" font-sizepx="15" font-family="Roboto Medium" font-size="11" cx="673.06" cy="52.12" font-color="rgb(76,76,77)" wrapping="true" keypad-type="None"/>
+    <links>
+     <lang textid="20" class="MLTextLink">
+      <MLFontFamily L1="Roboto Medium"/>
+     </lang>
+    </links>
+   </object>
+   <object id="CalendarKeypad.keypad.Layer2.icon" class="ImageWgt">
+    <wgtStyle y="8.80" x="7" stroke-width="1" height="15.38" wgtStaticOpt="dynamic" forcePaint="16" width="15.90" cx="7.69" cy="7.55" fill="rgb(23,30,40)" stroke="rgb(76,76,77)" imagePath="images/keyboard-grab-dark.svg"/>
+   </object>
+  </object>
+  <object id="KeyPad5@$GroupSubscrWgt@$0" class="GroupSubscribeWgt">
+   <wgtStyle y="0" x="0" height="0" width="0"/>
+  </object>
+ </object>
+</wgtPage>

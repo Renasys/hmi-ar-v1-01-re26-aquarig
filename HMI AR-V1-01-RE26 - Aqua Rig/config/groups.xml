@@ -1,0 +1,88 @@
+<groups>
+ <group Type="Auto">
+  <name>AddUser@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>Force Change Initial Password</tag>
+  <tag>Force Logoff Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>Calendar@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>External_Valvecontrol_Config@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>HMI_COM/Application/OS_OUT/ExternalControl_Current_State</tag>
+  <tag>HMI_COM/Application/OS_OUT/ExternalControl_StateStatus</tag>
+  <tag>HMI_COM/Application/OS_OUT/POV911_BA</tag>
+  <tag>HMI_COM/Application/OS_OUT/POV911_BCH</tag>
+  <tag>HMI_COM/Application/OS_OUT/POV911_OS_YS</tag>
+  <tag>HMI_COM/Application/OS_OUT/POV912_BA</tag>
+  <tag>HMI_COM/Application/OS_OUT/POV912_BCH</tag>
+  <tag>HMI_COM/Application/OS_OUT/POV912_OS_YS</tag>
+  <tag>HMI_COM/Application/OS_OUT/POV941_BA</tag>
+  <tag>HMI_COM/Application/OS_OUT/POV941_BCH</tag>
+  <tag>HMI_COM/Application/OS_OUT/POV941_OS_YS</tag>
+ </group>
+ <group Type="Auto">
+  <name>KeyPad5@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>M1_Machine@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>HMI_COM/Application/OS_IN/M1_IntakeValve_Reg_Setpoint</tag>
+ </group>
+ <group Type="Auto">
+  <name>M1_Machine_Old_Eramet@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>HMI_COM/Application/OS_IN/M1_Filterbelt_Reg_Setpoint</tag>
+  <tag>HMI_COM/Application/OS_IN/M1_IntakeValve_Reg_Setpoint</tag>
+  <tag>HMI_COM/Application/OS_IN/P911_Reg_Setpoint</tag>
+  <tag>HMI_COM/Application/OS_OUT/LT911_Y</tag>
+  <tag>HMI_COM/Application/OS_OUT/LT911_Y_cm</tag>
+  <tag>HMI_COM/Application/OS_OUT/LT912_Y</tag>
+  <tag>HMI_COM/Application/OS_OUT/LT912_Y_cm</tag>
+  <tag>HMI_COM/Application/OS_OUT/P911_ManualMode</tag>
+  <tag>HMI_COM/Application/OS_OUT/P911_Speed</tag>
+  <tag>HMI_COM/Application/OS_OUT/P911_VFD_Status</tag>
+ </group>
+ <group Type="Auto">
+  <name>M1_ProcessWater_Config@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>HMI_COM/Application/OS_IN/M1_ProcessWater_Event_DisableOutletValve</tag>
+  <tag>HMI_COM/Application/OS_IN/M1_ProcessWater_Event_EnableOutletValve</tag>
+  <tag>HMI_COM/Application/OS_IN/M1_ProcessWater_ProcessedWaterValve_ManClose</tag>
+  <tag>HMI_COM/Application/OS_IN/M1_ProcessWater_ProcessedWaterValve_ManOpen</tag>
+  <tag>HMI_COM/Application/OS_IN/M1_ProcessWater_ProcessedWaterValve_Manual</tag>
+  <tag>HMI_COM/Application/OS_OUT/M1_ProcessWater_ProcessedWaterValve_BA</tag>
+  <tag>HMI_COM/Application/OS_OUT/M1_ProcessWater_ProcessedWaterValve_OS_YS</tag>
+ </group>
+ <group Type="Auto">
+  <name>MainTemplate@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>System Time</tag>
+  <tag>enter datalink definition</tag>
+ </group>
+ <group Type="Auto">
+  <name>MainTemplate_FFS@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>System Time</tag>
+  <tag>enter datalink definition</tag>
+ </group>
+ <group Type="Auto">
+  <name>MainUnitPage@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>HMI_COM/Application/OS_OUT/POV001_Auto</tag>
+  <tag>HMI_COM/Application/OS_OUT/POV001_OS_YS</tag>
+  <tag>HMI_COM/Application/OS_OUT/POV002_Auto</tag>
+  <tag>HMI_COM/Application/OS_OUT/POV002_OS_YS</tag>
+  <tag>HMI_COM/Application/OS_OUT/POV003_Auto</tag>
+  <tag>HMI_COM/Application/OS_OUT/POV003_OS_YS</tag>
+  <tag>HMI_COM/Application/OS_OUT/VFD002_Status</tag>
+  <tag>HMI_COM/Application/OS_OUT/VFD003_Status</tag>
+  <tag>HMI_COM/Application/OS_OUT/VFD005_Status</tag>
+ </group>
+</groups>

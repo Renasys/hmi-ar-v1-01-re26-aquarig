@@ -1,0 +1,1612 @@
+<wgtPage projectType="HMI Project" rev="1">
+ <object usedFonts="Roboto,Arial Rounded MT Bold" staticOptEnable="true" id="Main_P_and_ID_OLD_FFS" downloadPrepDone="true" dataWndSize="0,70" staticFile="opt/main_p_and_id_old_ffs.png" pageName="Main_P_and_ID_OLD_FFS" templateFile="maintemplate.jmx" class="PageWgt" pageSize="1920,1080">
+  <wgtStyle height="1080" fitToSize="1" width="1920" v="04.05.00.224" x="0" y="0" ver="040500224" color="none"/>
+  <object id="rect6" static="true" class="ShapeWgt">
+   <wgtStyle cy="404.50" cx="903.37" height="809" width="1867" x="25" y="164" fill="rgb(190,190,190)" stroke-width="3" nodeName="rect"/>
+  </object>
+  <object id="gstArea19" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="15.69" form="gesture" cx="24.61" dx="1" dy="-1" height="32" width="50" type="momentary" x="165" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="849" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="gstArea18" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="15.69" form="gesture" cx="24.61" dx="1" dy="-1" height="32" width="50" type="momentary" x="1127" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="559" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="gstArea17" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="15.69" form="gesture" cx="24.61" dx="1" dy="-1" height="32" width="50" type="momentary" x="1371" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" visibility="false" y="700.50" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="gstArea16" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="15.69" form="gesture" cx="24.61" dx="1" dy="-1" height="32" width="50" type="momentary" x="1370" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="633" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="gstArea15" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="15.69" form="gesture" cx="24.61" dx="1" dy="-1" height="32" width="50" type="momentary" x="1018" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="585" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="gstArea14" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="15.69" form="gesture" cx="24.61" dx="1" dy="-1" height="32" width="50" type="momentary" x="870" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="659" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="gstArea13" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="15.69" form="gesture" cx="24.61" dx="1" dy="-1" height="32" width="50" type="momentary" x="721" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="611" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="gstArea12" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="15.69" form="gesture" cx="24.61" dx="1" dy="-1" height="32" width="50" type="momentary" x="367" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="700.50" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="gstArea11" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="25.39" form="gesture" cx="15.69" dx="1" dy="-1" height="32" width="50" type="momentary" x="333" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="649" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" mtx="0,-1,0,1,0,0,0,50,1" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="gstArea10" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="15.69" form="gesture" cx="24.61" dx="1" dy="-1" height="32" width="50" type="momentary" x="227" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="775" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="gstArea9" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="15.69" form="gesture" cx="24.61" dx="1" dy="-1" height="32" width="50" type="momentary" x="1668" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="776" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="gstArea8" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="15.69" form="gesture" cx="24.61" dx="1" dy="-1" height="32" width="50" type="momentary" x="1373" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="775" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="gstArea7" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="15.69" form="gesture" cx="24.61" dx="1" dy="-1" height="32" width="50" type="momentary" x="875" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="775" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="gstArea6" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="15.69" form="gesture" cx="24.61" dx="1" dy="-1" height="32" width="50" type="momentary" x="367" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="775" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="gstArea5" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="15.69" form="gesture" cx="24.61" dx="1" dy="-1" height="32" width="50" type="momentary" x="1475" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="492" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="gstArea4" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="26.96" form="gesture" cx="39.38" dx="1" dy="-1" height="55" width="80" type="momentary" x="1460" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="860" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="gstArea3" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="26.96" form="gesture" cx="39.38" dx="1" dy="-1" height="55" width="80" type="momentary" x="962" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="860" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object mgrType="Page" id="_PageMLTextMgrWgt" mlFileName="" class="PageMLTextMgrWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+   <langs defLangId="L1" curLangId="L1">
+    <lang name="Lang1" langCode="en-US" writingsystem="Any" defaultFont="Roboto" removable="false" keypads=";;" langId="L1"/>
+   </langs>
+   <MLTexts>
+    <MLText id="0" L1="Machine 4 Pre Bio"/>
+    <MLText id="1" L1="Machine 3 Pre Bio"/>
+    <MLText id="3" L1="Before BIO&#xa;Raw sewage inlet"/>
+    <MLText id="4" L1="%"/>
+    <MLText id="5" L1="After BIO Inlet"/>
+    <MLText id="6" L1="POV&#xa;005"/>
+    <MLText id="7" L1="l/s"/>
+    <MLText id="8" L1="Machine 2 post Bio"/>
+    <MLText id="9" L1="Machine 1 post Bio"/>
+    <MLText id="12" L1="Machine 4 flow"/>
+    <MLText id="13" L1="POV &#xa;402"/>
+    <MLText id="14" L1="POV &#xa;401"/>
+    <MLText id="16" L1="MOV &#xa;401"/>
+    <MLText id="17" L1="POV &#xa;404"/>
+    <MLText id="18" L1="POV &#xa;403"/>
+    <MLText id="19" L1="POV &#xa;002"/>
+    <MLText id="21" L1="CV&#xa;401"/>
+    <MLText id="22" L1="CV&#xa;301"/>
+    <MLText id="23" L1="POV &#xa;301"/>
+    <MLText id="24" L1="MOV &#xa;301"/>
+    <MLText id="25" L1="POV &#xa;003"/>
+    <MLText id="26" L1="POV &#xa;303"/>
+    <MLText id="27" L1="POV &#xa;302"/>
+    <MLText id="28" L1="CV&#xa;201"/>
+    <MLText id="29" L1="CV&#xa;101"/>
+    <MLText id="30" L1="POV &#xa;006"/>
+    <MLText id="31" L1="P&#xa;401"/>
+    <MLText id="32" L1="P&#xa;301"/>
+    <MLText id="33" L1="FT&#xa;002"/>
+    <MLText id="34" L1="FT&#xa;001"/>
+    <MLText id="35" L1="MOV &#xa;001"/>
+    <MLText id="36" L1="POV &#xa;001"/>
+    <MLText id="38" L1="MOV &#xa;201"/>
+    <MLText id="39" L1="P&#xa;201"/>
+    <MLText id="40" L1="POV &#xa;201"/>
+    <MLText id="41" L1="POV &#xa;004"/>
+    <MLText id="43" L1="POV &#xa;204"/>
+    <MLText id="45" L1="POV &#xa;203"/>
+    <MLText id="46" L1="POV &#xa;202"/>
+    <MLText id="47" L1="POV &#xa;102"/>
+    <MLText id="48" L1="MOV &#xa;101"/>
+    <MLText id="49" L1="POV &#xa;101"/>
+    <MLText id="50" L1="P&#xa;101"/>
+    <MLText id="61" L1="Config"/>
+    <MLText id="76" L1="l/s"/>
+    <MLText id="81" L1="Machine 3 flow"/>
+    <MLText id="82" L1="Machine 2 flow"/>
+    <MLText id="83" L1="P001"/>
+    <MLText id="84" L1="Outlets"/>
+    <MLText id="85" L1="Machine 1 flow"/>
+    <MLText id="86" L1="Service mode activated"/>
+    <MLText id="114" L1="Service mode activated"/>
+    <MLText id="154" L1="Sampling ongoing"/>
+    <MLText id="168" L1="Service mode activated"/>
+    <MLText id="222" L1="Service mode activated"/>
+   </MLTexts>
+  </object>
+  <object id="label4" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="23" cy="13.22" font-size="17" cx="101.96" keypad-type="None" height="27.79" width="220" vert-align="top" wrapping="true" marker="true" x="601" y="178" mtx="1,-0.000517055,0,7.25568e-05,1,0,0,0.113752,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="1" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label5" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="23" cy="13.22" font-size="17" cx="101.96" keypad-type="None" height="27.79" width="220" vert-align="top" wrapping="true" marker="true" x="1107" y="178" mtx="1,-0.000517055,0,7.25568e-05,1,0,0,0.113752,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="8" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label6" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="23" cy="13.22" font-size="17" cx="101.96" keypad-type="None" height="27.79" width="220" vert-align="top" wrapping="true" marker="true" x="1615" y="178" mtx="1,-0.000517055,0,7.25568e-05,1,0,0,0.113752,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="9" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label7" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="23" cy="13.22" font-size="17" cx="101.96" keypad-type="None" height="27.79" width="220" vert-align="top" wrapping="true" marker="true" x="95" y="178" mtx="1,-0.000517055,0,7.25568e-05,1,0,0,0.113752,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="0" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="line" static="true" class="LineWgt">
+   <wgtStyle cy="0" cx="932.48" height="0" width="1860" x="28" y="351" stroke-width="3" anchorIdx="2"/>
+  </object>
+  <object id="Main_P_and_ID_OLD_FFS@$GroupSubscrWgt@$0" class="GroupSubscribeWgt">
+   <wgtStyle height="0" width="0" x="0" y="0"/>
+  </object>
+  <object id="tbsImg16" static="true" class="ImageWgt">
+   <wgtStyle cy="12" imagePath="images/P_horiz.svg" cx="34.52" height="25" width="70" x="28" y="547" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="clscflwmtrImg7" static="true" class="ImageWgt">
+   <wgtStyle cy="15.51" imagePath="images/fltoelemnt.svg" cx="32.01" height="32" width="65" x="95" y="544"/>
+  </object>
+  <object id="corImg7" static="true" class="ImageWgt">
+   <wgtStyle cy="30" imagePath="images/P_90corner_03.svg" cx="29.56" height="58" width="60" x="161" y="514" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,58,0,1"/>
+  </object>
+  <object id="jntImg34" static="true" class="ImageWgt">
+   <wgtStyle cy="37.50" imagePath="images/P_joint_top.svg" cx="26" height="52" width="75" x="193" y="442" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,52,0,1"/>
+  </object>
+  <object id="gstArea2" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="26.96" form="gesture" cx="39.38" dx="1" dy="-1" height="55" width="80" type="momentary" x="456" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="450" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="tbsImg2" class="ImageWgt">
+   <wgtStyle cy="12" imagePath="images/P_horiz.svg" cx="107.02" height="25" forcePaint="1" width="217" x="245" y="467" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="vlvWgt1" class="GroupWgt">
+   <wgtStyle cy="35" cx="35" height="70" forcePaint="33" width="70" x="461" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt1.png" y="442"/>
+   <object id="vlvWgt1.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="10" imagePath="images/Valve_h_RG.svg" cx="10" height="70" width="70" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt1.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="4.51" imagePath="images/Valve_3b_right.svg" cx="7.50" height="48.12" width="27.12" x="35.88" y="12.26" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt1.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="4.51" imagePath="images/Valve_3b_left.svg" cx="7.50" height="48.12" width="27.12" x="7" y="13.12" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="tbsImg4" class="ImageWgt">
+   <wgtStyle cy="12" imagePath="images/P_horiz.svg" cx="70.03" height="25" forcePaint="1" width="142" x="531" y="468" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="tbsImg6" class="ImageWgt">
+   <wgtStyle cy="7.20" imagePath="images/P_horiz.svg" cx="118.36" height="15" forcePaint="1" width="240" x="1244" ver-flip="true" y="501" fill="rgb(102,102,102)" mtx="1,0,0,0,-1,0,0,15,1"/>
+  </object>
+  <object id="tbsImg7" class="ImageWgt">
+   <wgtStyle cy="7.20" imagePath="images/P_horiz.svg" cx="91.24" height="15" forcePaint="1" width="185" x="1521" y="501" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="tbsImg10" static="true" class="ImageWgt">
+   <wgtStyle cy="54.25" imagePath="images/P_horiz.svg" cx="26" height="50" width="110" x="275" y="265" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,50,0,1"/>
+  </object>
+  <object id="rdctImg5" static="true" class="ImageWgt">
+   <wgtStyle cy="19.26" imagePath="images/P_reduxfw_01mini.svg" cx="25" height="50" width="40" x="275" y="373" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,50,0,1"/>
+  </object>
+  <object id="tbsImg29" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="103.90" height="15" forcePaint="1" width="205" x="28" ver-flip="true" y="784" fill="rgb(102,102,102)" mtx="-1,0,0,0,1,0,205,0,1"/>
+  </object>
+  <object id="tbsImg12" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="30.41" height="15" forcePaint="1" width="60" x="270" ver-flip="true" y="784" fill="rgb(102,102,102)" mtx="-1,0,0,0,1,0,60,0,1"/>
+  </object>
+  <object id="tbsImg33" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="223.02" height="15" forcePaint="1" width="440" x="286" y="619" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,440,15,1"/>
+  </object>
+  <object id="tbsImg50" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="387.75" height="15" forcePaint="1" width="765" x="259" y="593" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,765,15,1"/>
+  </object>
+  <object id="tbsImg55" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="456.18" height="15" forcePaint="1" width="900" x="232" y="569" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,900,15,1"/>
+  </object>
+  <object id="tbsImg11" class="ImageWgt">
+   <wgtStyle cy="214.56" imagePath="images/P_horiz.svg" cx="13" height="25" forcePaint="1" width="435" x="288" y="413" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,25,0,1"/>
+  </object>
+  <object id="gstArea1" hmiStyle="type:btn" class="ButtonWgt">
+   <wgtStyle cy="26.96" form="gesture" cx="39.38" dx="1" dy="-1" height="55" width="80" type="momentary" x="454" needlePath="../../shared/gallery/images/bu_other/win-like-press.svg" releasePath="../../shared/gallery/images/bu_other/win-like.svg" y="861" fill="rgb(160,160,164)" downFillColor="rgb(160,160,164)" value="0" pushColor="rgb(128,128,0)"/>
+  </object>
+  <object id="tbsImg13" class="ImageWgt">
+   <wgtStyle cy="12" imagePath="images/P_horiz.svg" cx="118.36" height="25" forcePaint="1" width="240" x="529" y="876" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="tbsImg15" static="true" class="ImageWgt">
+   <wgtStyle cy="54.25" imagePath="images/P_horiz.svg" cx="26" height="50" width="110" x="781" y="265" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,50,0,1"/>
+  </object>
+  <object id="rdctImg1" static="true" class="ImageWgt">
+   <wgtStyle cy="19.26" imagePath="images/P_reduxfw_01mini.svg" cx="25" height="50" width="40" x="781" y="373" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,50,0,1"/>
+  </object>
+  <object id="tbsImg35" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="212.88" height="15" forcePaint="1" width="420" x="412" y="709" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,420,15,1"/>
+  </object>
+  <object id="tbsImg34" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="30.41" height="15" forcePaint="1" width="60" x="766" y="619" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,60,15,1"/>
+  </object>
+  <object id="tbsImg17" class="ImageWgt">
+   <wgtStyle cy="217.03" imagePath="images/P_horiz.svg" cx="13" height="25" forcePaint="1" width="440" x="794" y="413" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,25,0,1"/>
+  </object>
+  <object id="tbsImg18" static="true" class="ImageWgt">
+   <wgtStyle cy="12" imagePath="images/P_horiz.svg" cx="39.45" height="25" width="80" x="844" y="876" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="tbsImg19" class="ImageWgt">
+   <wgtStyle cy="12" imagePath="images/P_horiz.svg" cx="118.36" height="25" forcePaint="1" width="240" x="1036" y="876" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="jntImg2" class="ImageWgt">
+   <wgtStyle cy="25" imagePath="images/P_joint_left.svg" cx="38.16" height="75" forcePaint="1" width="50" x="769" y="851" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,75,0,1"/>
+  </object>
+  <object id="tbsImg21" static="true" class="ImageWgt">
+   <wgtStyle cy="54.25" imagePath="images/P_horiz.svg" cx="26" height="50" width="110" x="1286" y="265" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,50,0,1"/>
+  </object>
+  <object id="rdctImg2" static="true" class="ImageWgt">
+   <wgtStyle cy="19.26" imagePath="images/P_reduxfw_01mini.svg" cx="25" height="50" width="40" x="1286" y="373" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,50,0,1"/>
+  </object>
+  <object id="tbsImg39" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="134.31" height="15" forcePaint="1" width="265" x="1064" y="593" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,265,15,1"/>
+  </object>
+  <object id="tbsImg60" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="228.09" height="15" forcePaint="1" width="450" x="1172" y="568" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,450,15,1"/>
+  </object>
+  <object id="tbsImg22" class="ImageWgt">
+   <wgtStyle cy="217.03" imagePath="images/P_horiz.svg" cx="13" height="25" forcePaint="1" width="440" x="1299" y="413" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,25,0,1"/>
+  </object>
+  <object id="tbsImg23" static="true" class="ImageWgt">
+   <wgtStyle cy="12" imagePath="images/P_horiz.svg" cx="36.99" height="25" width="75" x="1349" y="876" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="tbsImg24" class="ImageWgt">
+   <wgtStyle cy="12" imagePath="images/P_horiz.svg" cx="88.77" height="25" forcePaint="1" width="180" x="1536" y="876" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="jntImg3" class="ImageWgt">
+   <wgtStyle cy="25" imagePath="images/P_joint_left.svg" cx="38.16" height="75" forcePaint="1" width="50" x="1274" y="851" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,75,0,1"/>
+  </object>
+  <object id="tbsImg26" static="true" class="ImageWgt">
+   <wgtStyle cy="54.25" imagePath="images/P_horiz.svg" cx="26" height="50" width="110" x="1794" y="265" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,50,0,1"/>
+  </object>
+  <object id="rdctImg3" static="true" class="ImageWgt">
+   <wgtStyle cy="19.26" imagePath="images/P_reduxfw_01mini.svg" cx="25" height="50" width="40" x="1794" y="373" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,50,0,1"/>
+  </object>
+  <object id="tbsImg27" static="true" class="ImageWgt">
+   <wgtStyle cy="214.56" imagePath="images/P_horiz.svg" cx="13" height="25" width="435" x="1807" y="413" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,25,0,1"/>
+  </object>
+  <object id="corImg32" class="ImageWgt">
+   <wgtStyle cy="28" imagePath="images/P_90corner_04.svg" cx="28.55" height="56" forcePaint="1" width="56" x="288" y="846" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,56,0,1"/>
+  </object>
+  <object id="corImg3" static="true" class="ImageWgt">
+   <wgtStyle cy="28" imagePath="images/P_90corner_03.svg" cx="28.55" height="56" width="56" x="1776" y="845" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,56,0,1"/>
+  </object>
+  <object id="jntImg4" class="ImageWgt">
+   <wgtStyle cy="25" imagePath="images/P_joint_left.svg" cx="22.90" height="45" forcePaint="1" width="50" x="414" y="852" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,45,0,1"/>
+  </object>
+  <object id="tbsImg30" class="ImageWgt">
+   <wgtStyle cy="12" imagePath="images/P_horiz.svg" cx="36.98" height="25" forcePaint="1" width="75" x="344" y="877" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="jntImg5" class="ImageWgt">
+   <wgtStyle cy="22.90" imagePath="images/P_joint_left.svg" cx="15" height="45" forcePaint="1" width="30" x="342" y="694" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,30,45,1"/>
+  </object>
+  <object id="jntImg6" class="ImageWgt">
+   <wgtStyle cy="15" imagePath="images/P_joint_left.svg" cx="22.90" height="45" forcePaint="1" width="30" x="327" y="769" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,45,0,1"/>
+  </object>
+  <object id="jntImg7" class="ImageWgt">
+   <wgtStyle cy="37.50" imagePath="images/P_joint_top.svg" cx="26" height="52" forcePaint="1" width="75" x="671" y="443" hor-flip="true" fill="rgb(102,102,102)" mtx="0,1,0,1,0,0,0,0,1"/>
+  </object>
+  <object id="corImg1" class="ImageWgt">
+   <wgtStyle cy="16.67" imagePath="images/P_90corner_03.svg" cx="29" height="34" forcePaint="1" width="58" x="665" y="516" hor-flip="true" fill="rgb(102,102,102)" mtx="1,0,0,0,-1,0,0,34,1"/>
+  </object>
+  <object id="tbsImg28" static="true" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="146.99" height="15" width="290" x="375" y="535" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,290,15,1"/>
+  </object>
+  <object id="tbsImg31" static="true" class="ImageWgt">
+   <wgtStyle cy="15.21" imagePath="images/P_horiz.svg" cx="7.20" height="15" width="30" x="342" ver-flip="true" y="739" fill="rgb(102,102,102)" mtx="0,-1,0,-1,0,0,15,30,1"/>
+  </object>
+  <object id="tbsImg32" class="ImageWgt">
+   <wgtStyle cy="43.10" imagePath="images/P_horiz.svg" cx="7.20" height="15" forcePaint="1" width="85" x="342" ver-flip="true" y="569" fill="rgb(102,102,102)" mtx="0,-1,0,-1,0,0,15,85,1"/>
+  </object>
+  <object id="corImg4" static="true" class="ImageWgt">
+   <wgtStyle cy="17.33" imagePath="images/P_90corner_04.svg" cx="17" height="34" width="34" x="342" y="535" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,34,34,1"/>
+  </object>
+  <object id="jntImg8" class="ImageWgt">
+   <wgtStyle cy="25" imagePath="images/P_joint_left.svg" cx="22.90" height="45" forcePaint="1" width="50" x="921" y="851" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,45,0,1"/>
+  </object>
+  <object id="jntImg22" class="ImageWgt">
+   <wgtStyle cy="22.89" imagePath="images/P_joint_right.svg" cx="15" height="45" forcePaint="1" width="30" x="830" y="694" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,30,45,1"/>
+  </object>
+  <object id="tbsImg36" class="ImageWgt">
+   <wgtStyle cy="14.20" imagePath="images/P_horiz.svg" cx="7.20" height="15" forcePaint="1" width="28" x="845" ver-flip="true" y="738" fill="rgb(102,102,102)" mtx="0,-1,0,-1,0,0,15,28,1"/>
+  </object>
+  <object id="corImg5" class="ImageWgt">
+   <wgtStyle cy="17" imagePath="images/P_90corner_04.svg" cx="17.33" height="34" forcePaint="1" width="34" x="845" y="765" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,34,0,1"/>
+  </object>
+  <object id="jntImg9" class="ImageWgt">
+   <wgtStyle cy="22.90" imagePath="images/P_joint_left.svg" cx="15" height="45" forcePaint="1" width="30" x="845" y="652" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,30,45,1"/>
+  </object>
+  <object id="corImg16" class="ImageWgt">
+   <wgtStyle cy="17" imagePath="images/P_90corner_03.svg" cx="17.33" height="34" forcePaint="1" width="34" x="825" y="619" hor-flip="true" fill="rgb(102,102,102)" mtx="0,-1,0,-1,0,0,34,34,1"/>
+  </object>
+  <object id="corImg6" static="true" class="ImageWgt">
+   <wgtStyle cy="17.33" imagePath="images/P_90corner_04.svg" cx="17" height="34" width="34" x="252" y="618" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,34,34,1"/>
+  </object>
+  <object id="tbsImg37" static="true" class="ImageWgt">
+   <wgtStyle cy="43.61" imagePath="images/P_horiz.svg" cx="7.20" height="15" width="86" x="252" ver-flip="true" y="651" fill="rgb(102,102,102)" mtx="0,-1,0,-1,0,0,15,86,1"/>
+  </object>
+  <object id="corImg8" static="true" class="ImageWgt">
+   <wgtStyle cy="17" imagePath="images/P_90corner_03.svg" cx="17.33" height="34" width="34" x="233" y="737" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,34,0,1"/>
+  </object>
+  <object id="tbsImg38" static="true" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="106.44" height="15" width="210" x="28" ver-flip="true" y="756" fill="rgb(102,102,102)" mtx="-1,0,0,0,1,0,210,0,1"/>
+  </object>
+  <object id="label8" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="232" y="806" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="13" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label9" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="372" y="805" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="14" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label10" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" width="40" vert-align="middle" wrapping="true" marker="true" x="448" y="814.50" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="16" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label12" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="372" y="730" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="17" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label13" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="359" y="656.50" mtx="0.999994,-0.00357315,0,1.2614e-05,1,0,0,0.142927,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="18" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label14" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="474" y="911" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="19" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label16" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" width="40" vert-align="middle" wrapping="true" marker="true" x="225" y="389.50" mtx="0.999994,-0.00356678,0,1.0518e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="21" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label17" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" width="40" vert-align="middle" wrapping="true" marker="true" x="731" y="389.50" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="22" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label18" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="879" y="805" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="23" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label19" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" width="40" vert-align="middle" wrapping="true" marker="true" x="957" y="814.50" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="24" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label20" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="982" y="911" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="25" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label21" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="875" y="690" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="26" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label22" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="726" y="640" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="27" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label23" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="1481" y="521" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="30" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label24" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" width="40" vert-align="middle" wrapping="true" marker="true" x="1239" y="388.50" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="28" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label25" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" width="40" vert-align="middle" wrapping="true" marker="true" x="1745" y="389.50" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="29" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="jntImg1" static="true" class="ImageWgt">
+   <wgtStyle cy="22.90" imagePath="images/P_joint_left.svg" cx="15" height="45" width="30" x="1214" y="486" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,30,45,1"/>
+  </object>
+  <object id="rdctImg4" static="true" class="ImageWgt">
+   <wgtStyle cy="21.67" imagePath="images/P_reduxfw_01mini.svg" cx="14" height="28" width="45" x="1208" y="442" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,28,0,1"/>
+  </object>
+  <object id="rdctImg6" static="true" class="ImageWgt">
+   <wgtStyle cy="21.67" imagePath="images/P_reduxfw_01mini.svg" cx="14" height="28" width="45" x="1713" y="441" hor-flip="true" fill="rgb(102,102,102)" mtx="0,1,0,1,0,0,0,0,1"/>
+  </object>
+  <object id="jntImg10" class="ImageWgt">
+   <wgtStyle cy="22.10" imagePath="images/P_joint_left.svg" cx="15" height="45" forcePaint="1" width="30" x="1704" y="486" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="label26" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" width="40" vert-align="middle" wrapping="true" marker="true" x="452" y="729" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="31" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label27" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" width="40" vert-align="middle" wrapping="true" marker="true" x="959" y="729" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="32" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="tbsImg40" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="76.03" height="15" forcePaint="1" width="150" x="916" ver-flip="true" y="667" fill="rgb(102,102,102)" mtx="-1,0,0,0,1,0,150,0,1"/>
+  </object>
+  <object id="corImg2" static="true" class="ImageWgt">
+   <wgtStyle cy="17" imagePath="images/P_90corner_03.svg" cx="17.33" height="34" width="34" x="1195" y="647" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,34,0,1"/>
+  </object>
+  <object id="clscflwmtrImg1" static="true" class="ImageWgt">
+   <wgtStyle cy="9.69" imagePath="images/fltoelemnt.svg" cx="22.16" height="20" width="45" x="1123" y="664"/>
+  </object>
+  <object id="tbsImg41" class="ImageWgt">
+   <wgtStyle cy="60.84" imagePath="images/P_horiz.svg" cx="7.20" height="15" forcePaint="1" width="120" x="1214" ver-flip="true" y="530" fill="rgb(102,102,102)" mtx="0,-1,0,-1,0,0,15,120,1"/>
+  </object>
+  <object id="label28" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" width="40" vert-align="middle" wrapping="true" marker="true" x="1126" y="630" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="33" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label29" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" width="40" vert-align="middle" wrapping="true" marker="true" x="108" y="509" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="34" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="jntImg11" class="ImageWgt">
+   <wgtStyle cy="15" imagePath="images/P_joint_right.svg" cx="22.89" height="45" forcePaint="1" width="30" x="1051" y="667" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,45,0,1"/>
+  </object>
+  <object id="tbsImg44" static="true" class="ImageWgt">
+   <wgtStyle cy="13.44" imagePath="images/P_horiz.svg" cx="24.66" height="28" width="50" x="27" y="937" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="rdctImg7" static="true" class="ImageWgt">
+   <wgtStyle cy="14" imagePath="images/P_reduxfw_01mini.svg" cx="21.67" height="28" width="45" x="76" y="937" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="corImg10" static="true" class="ImageWgt">
+   <wgtStyle cy="17" imagePath="images/P_90corner_03.svg" cx="17.33" height="34" width="34" x="120" y="925" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,34,0,1"/>
+  </object>
+  <object id="label30" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" width="40" vert-align="middle" wrapping="true" marker="true" x="160" y="886.50" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="35" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label31" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="169" y="818" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="36" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label32" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="11.85" font-size="10" cx="37.08" keypad-type="None" height="24.90" width="80" vert-align="middle" wrapping="true" marker="true" x="39" y="801" mtx="0.999999,-0.00127375,0,2.94528e-05,1,0,0,0.101899,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="83" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="jntImg12" class="ImageWgt">
+   <wgtStyle cy="25" imagePath="images/P_joint_left.svg" cx="22.90" height="45" forcePaint="1" width="50" x="1421" y="851" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,45,0,1"/>
+  </object>
+  <object id="corImg13" class="ImageWgt">
+   <wgtStyle cy="17" imagePath="images/P_90corner_04.svg" cx="17.33" height="34" forcePaint="1" width="34" x="1345" y="765" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,34,0,1"/>
+  </object>
+  <object id="label33" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="1379" y="806" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="40" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label34" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" width="40" vert-align="middle" wrapping="true" marker="true" x="1457" y="815.50" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="38" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label35" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" width="40" vert-align="middle" wrapping="true" marker="true" x="1459" y="730" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="39" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="tbsImg46" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="14.19" height="15" forcePaint="1" width="28" x="1095" ver-flip="true" y="667" fill="rgb(102,102,102)" mtx="-1,0,0,0,1,0,28,0,1"/>
+  </object>
+  <object id="tbsImg47" static="true" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="14.19" height="15" width="28" x="1168" ver-flip="true" y="666" fill="rgb(102,102,102)" mtx="-1,0,0,0,1,0,28,0,1"/>
+  </object>
+  <object id="label36" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="1480" y="911" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="41" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="tbsImg48" class="ImageWgt">
+   <wgtStyle cy="14.20" imagePath="images/P_horiz.svg" cx="7.20" height="15" forcePaint="1" width="28" x="1345" ver-flip="true" y="738" fill="rgb(102,102,102)" mtx="0,-1,0,-1,0,0,15,28,1"/>
+  </object>
+  <object id="jntImg14" class="ImageWgt">
+   <wgtStyle cy="22.90" imagePath="images/P_joint_left.svg" cx="15" height="45" forcePaint="1" width="30" x="1345" y="626" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,30,45,1"/>
+  </object>
+  <object id="corImg14" class="ImageWgt">
+   <wgtStyle cy="17" imagePath="images/P_90corner_03.svg" cx="17.33" height="34" forcePaint="1" width="34" x="1326" y="593" hor-flip="true" fill="rgb(102,102,102)" mtx="0,-1,0,-1,0,0,34,34,1"/>
+  </object>
+  <object id="label37" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="1375" y="664" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="45" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label38" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="1024" y="614" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="46" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label39" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" width="40" vert-align="middle" wrapping="true" marker="true" x="1376" visibility="false" y="731" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="43" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="tbsImg51" class="ImageWgt">
+   <wgtStyle cy="35.51" imagePath="images/P_horiz.svg" cx="7.20" height="15" forcePaint="1" width="70" x="1345" ver-flip="true" y="669" fill="rgb(102,102,102)" mtx="0,-1,0,-1,0,0,15,70,1"/>
+  </object>
+  <object id="jntImg13" static="true" class="ImageWgt">
+   <wgtStyle cy="22.90" imagePath="images/P_joint_left.svg" cx="15" height="45" width="30" x="1345" visibility="false" y="694" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,30,45,1"/>
+  </object>
+  <object id="corImg15" class="ImageWgt">
+   <wgtStyle cy="17.33" imagePath="images/P_90corner_04.svg" cx="17" height="34" forcePaint="1" width="34" x="226" y="593" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,34,34,1"/>
+  </object>
+  <object id="tbsImg52" class="ImageWgt">
+   <wgtStyle cy="43.10" imagePath="images/P_horiz.svg" cx="7.20" height="15" forcePaint="1" width="85" x="226" ver-flip="true" y="626" fill="rgb(102,102,102)" mtx="0,-1,0,-1,0,0,15,85,1"/>
+  </object>
+  <object id="corImg17" static="true" class="ImageWgt">
+   <wgtStyle cy="17" imagePath="images/P_90corner_03.svg" cx="17.33" height="34" width="34" x="207" y="711" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,34,0,1"/>
+  </object>
+  <object id="tbsImg53" static="true" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="91.23" height="15" width="180" x="28" ver-flip="true" y="730" fill="rgb(102,102,102)" mtx="-1,0,0,0,1,0,180,0,1"/>
+  </object>
+  <object id="corImg18" class="ImageWgt">
+   <wgtStyle cy="17.33" imagePath="images/P_90corner_04.svg" cx="17" height="34" forcePaint="1" width="34" x="198" y="569" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,34,34,1"/>
+  </object>
+  <object id="tbsImg54" class="ImageWgt">
+   <wgtStyle cy="43.10" imagePath="images/P_horiz.svg" cx="7.20" height="15" forcePaint="1" width="85" x="198" ver-flip="true" y="602" fill="rgb(102,102,102)" mtx="0,-1,0,-1,0,0,15,85,1"/>
+  </object>
+  <object id="corImg19" static="true" class="ImageWgt">
+   <wgtStyle cy="17" imagePath="images/P_90corner_03.svg" cx="17.33" height="34" width="34" x="179" y="687" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,34,0,1"/>
+  </object>
+  <object id="label40" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="1133" y="527" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="47" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="tbsImg56" static="true" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="77.04" height="15" width="152" x="28" ver-flip="true" y="706" fill="rgb(102,102,102)" mtx="-1,0,0,0,1,0,152,0,1"/>
+  </object>
+  <object id="tbsImg57" class="ImageWgt">
+   <wgtStyle cy="48.68" imagePath="images/P_horiz.svg" cx="7.20" height="15" forcePaint="1" width="96" x="1719" y="530" hor-flip="true" fill="rgb(102,102,102)" mtx="0,1,0,1,0,0,0,0,1"/>
+  </object>
+  <object id="tbsImg59" static="true" class="ImageWgt">
+   <wgtStyle cy="83.71" imagePath="images/P_horiz.svg" cx="7.20" height="15" width="165" x="1639" ver-flip="true" y="601" fill="rgb(102,102,102)" mtx="0,-1,0,-1,0,0,15,165,1"/>
+  </object>
+  <object id="tbsImg58" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="146.98" height="15" forcePaint="1" width="290" x="1415" y="641" fill="rgb(102,102,102)" mtx="-1,0,0,0,-1,0,290,15,1"/>
+  </object>
+  <object id="corImg21" class="ImageWgt">
+   <wgtStyle cy="17.33" imagePath="images/P_90corner_03.svg" cx="17" height="34" forcePaint="1" width="34" x="1700" y="622" hor-flip="true" fill="rgb(102,102,102)" mtx="1,0,0,0,-1,0,0,34,1"/>
+  </object>
+  <object id="jntImg15" class="ImageWgt">
+   <wgtStyle cy="25" imagePath="images/P_joint_left.svg" cx="22.90" height="45" forcePaint="1" width="50" x="1715" y="851" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,45,0,1"/>
+  </object>
+  <object id="corImg20" class="ImageWgt">
+   <wgtStyle cy="17" imagePath="images/P_90corner_04.svg" cx="17.33" height="34" forcePaint="1" width="34" x="1639" y="765" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,34,0,1"/>
+  </object>
+  <object id="label41" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="1673" y="806" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="49" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label42" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" width="40" vert-align="middle" wrapping="true" marker="true" x="1751" y="815.50" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="48" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label43" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" width="40" vert-align="middle" wrapping="true" marker="true" x="1750" y="730" mtx="0.999994,-0.00356675,0,1.05181e-05,1,0,0,0.14267,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="50" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="tbsImg49" class="ImageWgt">
+   <wgtStyle cy="12" imagePath="images/P_horiz.svg" cx="9.86" height="25" forcePaint="1" width="20" x="1756" y="876" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="corImg22" class="ImageWgt">
+   <wgtStyle cy="17" imagePath="images/P_90corner_03.svg" cx="17.33" height="34" forcePaint="1" width="34" x="1620" y="568" hor-flip="true" fill="rgb(102,102,102)" mtx="0,-1,0,-1,0,0,34,34,1"/>
+  </object>
+  <object id="tbsImg42" class="ImageWgt">
+   <wgtStyle cy="117.65" imagePath="images/P_horiz.svg" cx="7.20" height="15" forcePaint="1" width="232" x="1066" ver-flip="true" y="697" fill="rgb(102,102,102)" mtx="0,-1,0,-1,0,0,15,232,1"/>
+  </object>
+  <object id="corImg9" static="true" class="ImageWgt">
+   <wgtStyle cy="17" imagePath="images/P_90corner_03.svg" cx="17.33" height="34" width="34" x="1047" y="929" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,34,0,1"/>
+  </object>
+  <object id="tbsImg43" static="true" class="ImageWgt">
+   <wgtStyle cy="7.80" imagePath="images/P_horiz.svg" cx="397.89" height="15" width="785" x="262" ver-flip="true" y="948" fill="rgb(102,102,102)" mtx="-1,0,0,0,1,0,785,0,1"/>
+  </object>
+  <object id="corImg11" class="ImageWgt">
+   <wgtStyle cy="16.67" imagePath="images/P_90corner_03.svg" cx="17" height="34" forcePaint="1" width="34" x="210" y="857" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="corImg12" static="true" class="ImageWgt">
+   <wgtStyle cy="17" imagePath="images/P_90corner_03.svg" cx="16.67" height="34" width="34" x="229" y="929" hor-flip="true" fill="rgb(102,102,102)" mtx="0,1,0,1,0,0,0,0,1"/>
+  </object>
+  <object id="tbsImg45" class="ImageWgt">
+   <wgtStyle cy="20.28" imagePath="images/P_horiz.svg" cx="7.20" height="15" forcePaint="1" width="40" x="229" y="890" hor-flip="true" fill="rgb(102,102,102)" mtx="0,1,0,1,0,0,0,0,1"/>
+  </object>
+  <object id="label44" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="16" cy="18.95" font-size="12" cx="69.52" keypad-type="None" height="39.84" width="150" vert-align="top" wrapping="true" marker="true" x="35" y="457" mtx="0.999999,-0.0010871,0,3.451e-05,1,0,0,0.163065,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="3" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label45" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="16" cy="18.95" font-size="12" cx="37.08" keypad-type="None" height="39.84" width="80" vert-align="top" wrapping="true" marker="true" x="36" y="896" mtx="0.999998,-0.00203817,0,1.84066e-05,1,0,0,0.163054,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="5" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="vlvWgt30" class="GroupWgt">
+   <wgtStyle cy="35" cx="35" height="70" width="70" x="168" y="372" mtx="0,-1,0,1,0,0,0,70,1"/>
+   <object id="vlvWgt30.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="10" imagePath="images/Valve_h_RG.svg" cx="10" height="70" width="70" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt30.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="4.51" imagePath="images/Valve_3b_right.svg" cx="7.50" height="48.12" width="27.12" x="35.88" y="12.26" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt30.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="4.51" imagePath="images/Valve_3b_left.svg" cx="7.50" height="48.12" width="27.12" x="7" y="13.12" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt3" class="GroupWgt">
+   <wgtStyle cy="35" cx="35" height="70" width="70" x="674" y="372" mtx="0,-1,0,1,0,0,0,70,1"/>
+   <object id="vlvWgt3.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="10" imagePath="images/Valve_h_RG.svg" cx="10" height="70" width="70" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(127,127,127)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt3.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="4.51" imagePath="images/Valve_3b_right.svg" cx="7.50" height="48.12" width="27.12" x="35.88" y="12.26" fill="rgb(127,127,127)"/>
+   </object>
+   <object id="vlvWgt3.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="4.51" imagePath="images/Valve_3b_left.svg" cx="7.50" height="48.12" width="27.12" x="7" y="13.12" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt2" class="GroupWgt">
+   <wgtStyle cy="35" cx="35" height="70" width="70" x="1185" y="372" mtx="0,-1,0,1,0,0,0,70,1"/>
+   <object id="vlvWgt2.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="10" imagePath="images/Valve_h_RG.svg" cx="10" height="70" width="70" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt2.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="4.51" imagePath="images/Valve_3b_right.svg" cx="7.50" height="48.12" width="27.12" x="35.88" y="12.26" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt2.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="4.51" imagePath="images/Valve_3b_left.svg" cx="7.50" height="48.12" width="27.12" x="7" y="13.12" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt4" class="GroupWgt">
+   <wgtStyle cy="35" cx="35" height="70" width="70" x="1690" y="372" mtx="0,-1,0,1,0,0,0,70,1"/>
+   <object id="vlvWgt4.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="10" imagePath="images/Valve_h_RG.svg" cx="10" height="70" width="70" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt4.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="4.51" imagePath="images/Valve_3b_right.svg" cx="7.50" height="48.12" width="27.12" x="35.88" y="12.26" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt4.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="4.51" imagePath="images/Valve_3b_left.svg" cx="7.50" height="48.12" width="27.12" x="7" y="13.12" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt6" class="GroupWgt">
+   <wgtStyle cy="35" cx="35" height="70" forcePaint="33" width="70" x="459" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt6.png" y="852"/>
+   <object id="vlvWgt6.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="10" imagePath="images/Valve_h_RG.svg" cx="10" height="70" width="70" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt6.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="4.51" imagePath="images/Valve_3b_right.svg" cx="7.50" height="48.12" width="27.12" x="35.88" y="12.26" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt6.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="4.51" imagePath="images/Valve_3b_left.svg" cx="7.50" height="48.12" width="27.12" x="7" y="13.12" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt7" class="GroupWgt">
+   <wgtStyle cy="35" cx="35" height="70" forcePaint="33" width="70" x="967" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt7.png" y="850"/>
+   <object id="vlvWgt7.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="10" imagePath="images/Valve_h_RG.svg" cx="10" height="70" width="70" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt7.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="4.51" imagePath="images/Valve_3b_right.svg" cx="7.50" height="48.12" width="27.12" x="35.88" y="12.26" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt7.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="4.51" imagePath="images/Valve_3b_left.svg" cx="7.50" height="48.12" width="27.12" x="7" y="13.12" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt9" class="GroupWgt">
+   <wgtStyle cy="35" cx="35" height="70" forcePaint="33" width="70" x="1465" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt9.png" y="851"/>
+   <object id="vlvWgt9.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="10" imagePath="images/Valve_h_RG.svg" cx="10" height="70" width="70" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt9.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="4.51" imagePath="images/Valve_3b_right.svg" cx="7.50" height="48.12" width="27.12" x="35.88" y="12.26" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt9.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="4.51" imagePath="images/Valve_3b_left.svg" cx="7.50" height="48.12" width="27.12" x="7" y="13.12" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt31" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="232" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt31.png" y="770"/>
+   <object id="vlvWgt31.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt31.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt31.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt12" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="169" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt12.png" y="844"/>
+   <object id="vlvWgt12.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt12.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt12.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt10" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="372" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt10.png" y="770"/>
+   <object id="vlvWgt10.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt10.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt10.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt13" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="372" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt13.png" y="696"/>
+   <object id="vlvWgt13.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt13.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt13.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt20" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="328" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt20.png" y="654" mtx="0,-1,0,1,0,0,0,40,1"/>
+   <object id="vlvWgt20.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt20.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt20.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt14" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="726" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt14.png" y="606"/>
+   <object id="vlvWgt14.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt14.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt14.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt17" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="875" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt17.png" y="654"/>
+   <object id="vlvWgt17.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt17.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt17.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt18" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="1024" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt18.png" y="579"/>
+   <object id="vlvWgt18.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt18.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt18.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt24" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="1133" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt24.png" y="555"/>
+   <object id="vlvWgt24.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt24.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt24.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt5" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="1481" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt5.png" y="487"/>
+   <object id="vlvWgt5.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt5.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt5.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt23" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="1375" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt23.png" y="628"/>
+   <object id="vlvWgt23.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt23.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt23.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt25" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" width="40" x="1376" visibility="false" y="696"/>
+   <object id="vlvWgt25.bkgImg" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" forcePaint="1" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt25.rgtImg" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" forcePaint="1" width="15.50" x="20.50" y="7.01" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt25.lftImg" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" forcePaint="1" width="15.50" x="4" y="7.50" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt16" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="879" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt16.png" y="770"/>
+   <object id="vlvWgt16.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt16.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt16.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt22" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="1379" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt22.png" y="770"/>
+   <object id="vlvWgt22.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt22.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt22.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt26" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="1673" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt26.png" y="771"/>
+   <object id="vlvWgt26.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt26.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(130,130,130)"/>
+   </object>
+   <object id="vlvWgt26.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="label48" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="16.59" font-size="10" cx="18.54" keypad-type="None" height="34.86" forcePaint="1" width="40" vert-align="middle" wrapping="true" marker="true" x="476" y="421" mtx="0.999994,-0.00356678,0,1.0518e-05,1,0,0,0.142671,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="6" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="BtnKbd28" customType="Keyboard Button" class="GroupWgt">
+   <wgtStyle cy="12.10" cx="39.30" height="25" width="80" x="39" y="867"/>
+   <object id="BtnKbd28.frmImg" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" static="true" class="ImageWgt">
+    <wgtStyle cy="25.10" bdrImageSize="71.00,46.00" cx="52.01" height="40.32" width="105.26" x="-14.03" bdrEdges="0.14,0.16,0.14,0.14" bdrSize="0.19,0.18,0.17,0.17" visibility="false" y="-7.26" enableCache="true"/>
+   </object>
+   <object id="BtnKbd28.btn" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" class="ButtonWgt">
+    <wgtStyle cy="8.87" form="standard" cx="47.72" height="25" width="80" type="momentary" x="0" needlePath="images\btn_kbdblk_wide_2_rev2.svg" releasePath="images\btn_kbdblk_wide_1_rev1.svg" y="0" fill="rgb(102,102,102)" downFillColor="rgb(102,102,102)" value="0"/>
+   </object>
+   <object id="BtnKbd28.lbl" hmiStyle="hmi-type:wgtlabel" class="LabelWgt">
+    <wgtStyle font-sizepx="15" cy="8.87" font-size="11" cx="28.07" keypad-type="None" height="17.74" forcePaint="1" width="61.75" vert-align="middle" wrapping="true" x="8.42" y="1.61" font-family="Arial Rounded MT Bold" alignment="center"/>
+    <links>
+     <lang textid="61" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+   <object id="BtnKbd28.icoImg" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon" static="true" class="ImageWgt">
+    <wgtStyle cy="8.06" cx="18.25" height="12.90" width="25.26" x="26.67" y="4.04"/>
+   </object>
+  </object>
+  <object id="label53" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="16" cy="9.47" font-size="12" cx="69.52" keypad-type="None" height="19.92" width="150" vert-align="top" wrapping="true" marker="true" x="35" y="682" mtx="1,-0.000543509,0,6.90253e-05,1,0,0,0.0815263,1" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="84" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="GroupWgt5" class="GroupWgt">
+   <wgtStyle cy="17.50" cx="40" height="35" width="80" x="91.61" y="389.50"/>
+   <object id="GroupWgt5.field6" class="NumericWgt">
+    <wgtStyle font-family="Arial Rounded MT Bold" usingFormat="#.##" decimalDigits="2" font-sizepx="13" showThousandSeparator="false" keypad-type="Numeric" alignment="center" y="0" max="3.40282e+38" height="34" width="79" step="1" timeSpec="local" font-color="rgb(23,30,40)" text="" readWrite="true" vert-align="middle" font-size="10" numberFormat="6" value="" x="0" form="Numeric" frameFill="rgb(255,255,255)" cx="36.80" min="-3.40282e+38" cy="15.75" frame="true"/>
+   </object>
+   <object id="GroupWgt5.label15" class="LabelWgt">
+    <wgtStyle font-sizepx="16" cy="16.57" font-size="12" cx="9.26" keypad-type="None" height="35" forcePaint="65" width="20" vert-align="middle" wrapping="true" marker="true" x="57.50" y="0" font-family="Arial Rounded MT Bold" alignment="right"/>
+    <links>
+     <lang textid="4" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object id="GroupWgt6" class="GroupWgt">
+   <wgtStyle cy="17.50" cx="40" height="35" width="80" x="603.40" y="389.50"/>
+   <object id="GroupWgt6.field7" class="NumericWgt">
+    <wgtStyle font-family="Arial Rounded MT Bold" usingFormat="#.##" decimalDigits="2" font-sizepx="13" showThousandSeparator="false" keypad-type="Numeric" alignment="center" y="0" max="3.40282e+38" height="34" width="79" step="1" timeSpec="local" font-color="rgb(23,30,40)" text="" readWrite="true" vert-align="middle" font-size="10" numberFormat="6" value="" x="0" form="Numeric" frameFill="rgb(255,255,255)" cx="36.80" min="-3.40282e+38" cy="15.75" frame="true"/>
+   </object>
+   <object id="GroupWgt6.label49" class="LabelWgt">
+    <wgtStyle font-sizepx="16" cy="16.57" font-size="12" cx="9.26" keypad-type="None" height="35" forcePaint="65" width="20" vert-align="middle" wrapping="true" marker="true" x="57.50" y="0" font-family="Arial Rounded MT Bold" alignment="right"/>
+    <links>
+     <lang textid="4" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object id="GroupWgt7" class="GroupWgt">
+   <wgtStyle cy="17.50" cx="40" height="35" width="80" x="1110.90" y="389.50"/>
+   <object id="GroupWgt7.field8" class="NumericWgt">
+    <wgtStyle font-family="Arial Rounded MT Bold" usingFormat="#.##" decimalDigits="2" font-sizepx="13" showThousandSeparator="false" keypad-type="Numeric" alignment="center" y="0" max="3.40282e+38" height="34" width="79" step="1" timeSpec="local" font-color="rgb(23,30,40)" text="" readWrite="true" vert-align="middle" font-size="10" numberFormat="6" value="" x="0" form="Numeric" frameFill="rgb(255,255,255)" cx="36.80" min="-3.40282e+38" cy="15.75" frame="true"/>
+   </object>
+   <object id="GroupWgt7.label50" class="LabelWgt">
+    <wgtStyle font-sizepx="16" cy="16.57" font-size="12" cx="9.26" keypad-type="None" height="35" forcePaint="65" width="20" vert-align="middle" wrapping="true" marker="true" x="57.50" y="0" font-family="Arial Rounded MT Bold" alignment="right"/>
+    <links>
+     <lang textid="4" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object id="GroupWgt8" class="GroupWgt">
+   <wgtStyle cy="17.50" cx="40" height="35" width="80" x="87.50" y="583"/>
+   <object id="GroupWgt8.field12" class="NumericWgt">
+    <wgtStyle font-family="Arial Rounded MT Bold" usingFormat="#.##" decimalDigits="2" font-sizepx="13" showThousandSeparator="false" keypad-type="Numeric" alignment="center" y="0" max="3.40282e+38" height="34" width="79" step="1" timeSpec="local" font-color="rgb(23,30,40)" text="" readWrite="true" vert-align="middle" font-size="10" numberFormat="6" value="" x="0" form="Numeric" frameFill="rgb(255,255,255)" cx="36.80" min="-3.40282e+38" cy="15.75" frame="true"/>
+   </object>
+   <object id="GroupWgt8.label46" class="LabelWgt">
+    <wgtStyle font-sizepx="13" cy="16.57" font-size="10" cx="9.26" keypad-type="None" height="35" forcePaint="65" width="20" vert-align="middle" wrapping="true" marker="true" x="57.50" y="0" font-family="Arial Rounded MT Bold" alignment="right"/>
+    <links>
+     <lang textid="76" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object id="GroupWgt9" class="GroupWgt">
+   <wgtStyle cy="17.50" cx="40" height="35" width="80" x="39" y="829"/>
+   <object id="GroupWgt9.field10" class="NumericWgt">
+    <wgtStyle font-family="Arial Rounded MT Bold" usingFormat="#.##" decimalDigits="2" font-sizepx="13" showThousandSeparator="false" keypad-type="Numeric" alignment="center" y="0" max="3.40282e+38" height="34" width="79" step="1" timeSpec="local" font-color="rgb(23,30,40)" text="" readWrite="true" vert-align="middle" font-size="10" numberFormat="6" value="" x="0" form="Numeric" frameFill="rgb(255,255,255)" cx="36.80" min="-3.40282e+38" cy="15.75" frame="true"/>
+   </object>
+   <object id="GroupWgt9.label52" class="LabelWgt">
+    <wgtStyle font-sizepx="16" cy="16.57" font-size="12" cx="9.26" keypad-type="None" height="35" forcePaint="65" width="20" vert-align="middle" wrapping="true" marker="true" x="58" y="0" font-family="Arial Rounded MT Bold" alignment="right"/>
+    <links>
+     <lang textid="4" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object id="GroupWgt10" class="GroupWgt">
+   <wgtStyle cy="17.50" cx="40" height="35" width="80" x="1105.50" y="689"/>
+   <object id="GroupWgt10.field5" class="NumericWgt">
+    <wgtStyle font-family="Arial Rounded MT Bold" usingFormat="#.##" decimalDigits="2" font-sizepx="13" showThousandSeparator="false" keypad-type="Numeric" alignment="center" y="0" max="3.40282e+38" height="34" width="79" step="1" timeSpec="local" font-color="rgb(23,30,40)" text="" readWrite="true" vert-align="middle" font-size="10" numberFormat="6" value="" x="0" form="Numeric" frameFill="rgb(255,255,255)" cx="36.80" min="-3.40282e+38" cy="15.75" frame="true"/>
+   </object>
+   <object id="GroupWgt10.label47" class="LabelWgt">
+    <wgtStyle font-sizepx="13" cy="16.57" font-size="10" cx="9.26" keypad-type="None" height="35" forcePaint="65" width="20" vert-align="middle" wrapping="true" marker="true" x="58.50" y="0" font-family="Arial Rounded MT Bold" alignment="right"/>
+    <links>
+     <lang textid="7" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object id="GroupWgt11" class="GroupWgt">
+   <wgtStyle cy="17.50" cx="40" height="35" width="80" x="1613.78" y="389.50"/>
+   <object id="GroupWgt11.field9" class="NumericWgt">
+    <wgtStyle font-family="Arial Rounded MT Bold" usingFormat="#.##" decimalDigits="2" font-sizepx="13" showThousandSeparator="false" keypad-type="Numeric" alignment="center" y="0" max="3.40282e+38" height="34" width="79" step="1" timeSpec="local" font-color="rgb(23,30,40)" text="" readWrite="true" vert-align="middle" font-size="10" numberFormat="6" value="" x="0" form="Numeric" frameFill="rgb(255,255,255)" cx="36.80" min="-3.40282e+38" cy="15.75" frame="true"/>
+   </object>
+   <object id="GroupWgt11.label51" class="LabelWgt">
+    <wgtStyle font-sizepx="16" cy="16.57" font-size="12" cx="9.26" keypad-type="None" height="35" forcePaint="65" width="20" vert-align="middle" wrapping="true" marker="true" x="57.50" y="0" font-family="Arial Rounded MT Bold" alignment="right"/>
+    <links>
+     <lang textid="4" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object id="GroupWgt1" class="GroupWgt">
+   <wgtStyle cy="58" cx="61" height="116" width="122.01" x="145" y="230"/>
+   <object id="GroupWgt1.rect16" static="true" class="ShapeWgt">
+    <wgtStyle cy="56.46" cx="58.51" height="112.93" width="120.87" x="0" stroke="rgb(190,190,190)" y="3.06" fill="none" stroke-width="4" nodeName="rect" mtx="1,-9.52966e-05,0,0.000393675,1,0,0,0.0115184,1"/>
+   </object>
+   <object id="GroupWgt1.GroupWgt3" class="GroupWgt">
+    <wgtStyle cy="56.68" cx="60.69" height="113.36" width="121.38" x="0.63" y="0"/>
+    <object id="GroupWgt1.GroupWgt3.image2" static="true" class="ImageWgt">
+     <wgtStyle cy="56.68" imagePath="images/Skjermbilde_2024-08-27_144224-removebg-preview.png" cx="60.69" height="113.33" width="121.36" x="0" y="0" mtx="1,-0.000261433,0,0.000143501,1,0,0,0.0317265,1"/>
+    </object>
+    <object id="GroupWgt1.GroupWgt3.rect14" static="true" class="ShapeWgt">
+     <wgtStyle cy="6.65" cx="37.07" height="13.18" width="76.60" x="26.59" stroke="rgb(95,95,95)" y="47.38" fill="rgb(62,62,62)" stroke-width="0" nodeName="rect" mtx="0.999999,-0.00146017,0,0.000501171,1,0,0,0.111852,1"/>
+    </object>
+    <object id="GroupWgt1.GroupWgt3.BarStd5" customType="Bargraph" class="GroupWgt">
+     <wgtStyle cy="13.24" cx="43.56" height="70.15" width="35.61" x="21.33" y="44.19" mtx="2.44632,0,0,0,0.377499,0,0,0,1" groupStyle="xform-scaling"/>
+     <links>
+      <attr alias="TicksWgt.labelFreq;LabelsWgt.labelFreq" attrName="labelFreq"/>
+      <attr alias="BargraphWgt.reverseScale;ScaleWgt.!reverseScale;LabelsWgt.!reverseScale;TicksWgt.!reverseScale" attrName="reverseScale"/>
+      <attr alias="TicksWgt.align;ScaleWgt.align;LabelsWgt.align" attrName="align"/>
+      <attr alias="BargraphWgt.max;ScaleWgt.max;LabelsWgt.max" attrName="max"/>
+      <attr alias="TicksWgt.visibility2;ScaleWgt.visibility2;LabelsWgt.visibility2" attrName="visibility2"/>
+      <attr alias="BargraphWgt.min;ScaleWgt.min;LabelsWgt.min" attrName="min"/>
+     </links>
+     <object id="GroupWgt1.GroupWgt3.BarStd5.scale" static="true" class="ScaleWgt">
+      <wgtStyle reverseScale="yes" startAngle="-20" stroke-width="15" autoAdjust="true" fill="none" y="-3.01" max="217" height="72" width="65" alarmMax="217" alarmMin="173.6" Color="none" x="-13.63" form="vertical" visibility="false" cx="29" size="99" endAngle="185" stroke="rgb(255,0,0)" align="1" cy="32"/>
+     </object>
+     <object id="GroupWgt1.GroupWgt3.BarStd5.lbl" class="LabelsWgt">
+      <wgtStyle reverseScale="true" font-family="Roboto" startAngle="-20" usingFormat="" font-sizepx="8" showThousandSeparator="false" keypad-type="None" y="-11.01" max="217" labelFreq="4" height="85" width="99" step="1" timeSpec="local" text="" readWrite="true" vert-align="top" font-size="6" numberFormat="1" rotated="true" value="" x="-29.63" form="vertical" visibility="false" labelNames="" cx="48" min="0" endAngle="185" align="1" tickFreq="5" cy="41"/>
+     </object>
+     <object id="GroupWgt1.GroupWgt3.BarStd5.ticks" static="true" class="TicksWgt">
+      <wgtStyle reverseScale="true" startAngle="-10" strokeMinor="rgb(128,128,128)" y="-3.01" labelFreq="4" max="10" height="72" width="63" stroke-linecap="butt" strokeMajor="rgb(128,128,128)" tickSize2="1" x="-12.63" form="vertical" visibility="false" cx="29" endAngle="200" stroke="rgb(128,128,128)" align="1" tickFreq="1" tickSize="1" cy="35"/>
+     </object>
+     <object id="GroupWgt1.GroupWgt3.BarStd5.bar" hmiStyle="hmi-type:*barv" class="BargraphWgt">
+      <wgtStyle cy="34.18" form="vertical" imagePath="images/bar_vert_cylinder.svg" cx="16.28" height="70.15" forcePaint="65" width="35.61" reverseScale="false" x="0" y="0" fill="rgb(124,71,7)" max="217" value="100"/>
+     </object>
+    </object>
+    <object id="GroupWgt1.GroupWgt3.mtrImg13" class="ImageWgt">
+     <wgtStyle cy="4.64" imagePath="images/PNG - Renasys.png" cx="16.33" height="9.22" forcePaint="65" width="32.67" x="48.56" y="49.42" fill="rgb(245,245,245)"/>
+    </object>
+   </object>
+   <object id="GroupWgt1.label13" static="true" class="LabelWgt">
+    <wgtStyle font-color="rgb(255,255,0)" font-sizepx="8" cy="6.93" font-size="6" cx="45.11" keypad-type="None" height="14.30" width="97.04" vert-align="middle" wrapping="true" marker="true" x="17.27" visibility="false" y="76.06" font-family="Arial Rounded MT Bold" alignment="center"/>
+    <links>
+     <lang textid="86" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object id="tbsImg9" class="ImageWgt">
+   <wgtStyle cy="12" imagePath="images/P_horiz.svg" cx="9.86" height="25" forcePaint="65" width="20" x="257" y="293" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="GroupWgt2" class="GroupWgt">
+   <wgtStyle cy="58" cx="61" height="116" width="122.01" x="651" y="230"/>
+   <object id="GroupWgt2.rect16" static="true" class="ShapeWgt">
+    <wgtStyle cy="56.46" cx="58.51" height="112.93" width="120.87" x="0" stroke="rgb(190,190,190)" y="3.06" fill="none" stroke-width="4" nodeName="rect" mtx="1,-9.52966e-05,0,0.000393675,1,0,0,0.0115184,1"/>
+   </object>
+   <object id="GroupWgt2.GroupWgt3" class="GroupWgt">
+    <wgtStyle cy="56.68" cx="60.69" height="113.36" width="121.38" x="0.63" y="0"/>
+    <object id="GroupWgt2.GroupWgt3.image2" static="true" class="ImageWgt">
+     <wgtStyle cy="56.68" imagePath="images/Skjermbilde_2024-08-27_144224-removebg-preview.png" cx="60.69" height="113.33" width="121.36" x="0" y="0" mtx="1,-0.000261433,0,0.000143501,1,0,0,0.0317265,1"/>
+    </object>
+    <object id="GroupWgt2.GroupWgt3.rect14" static="true" class="ShapeWgt">
+     <wgtStyle cy="6.65" cx="37.07" height="13.18" width="76.60" x="26.59" stroke="rgb(95,95,95)" y="47.38" fill="rgb(62,62,62)" stroke-width="0" nodeName="rect" mtx="0.999999,-0.00146017,0,0.000501171,1,0,0,0.111852,1"/>
+    </object>
+    <object id="GroupWgt2.GroupWgt3.BarStd5" customType="Bargraph" class="GroupWgt">
+     <wgtStyle cy="13.24" cx="43.56" height="70.15" width="35.61" x="21.33" y="44.19" mtx="2.44632,0,0,0,0.377499,0,0,0,1" groupStyle="xform-scaling"/>
+     <links>
+      <attr alias="TicksWgt.labelFreq;LabelsWgt.labelFreq" attrName="labelFreq"/>
+      <attr alias="BargraphWgt.reverseScale;ScaleWgt.!reverseScale;LabelsWgt.!reverseScale;TicksWgt.!reverseScale" attrName="reverseScale"/>
+      <attr alias="TicksWgt.align;ScaleWgt.align;LabelsWgt.align" attrName="align"/>
+      <attr alias="BargraphWgt.max;ScaleWgt.max;LabelsWgt.max" attrName="max"/>
+      <attr alias="TicksWgt.visibility2;ScaleWgt.visibility2;LabelsWgt.visibility2" attrName="visibility2"/>
+      <attr alias="BargraphWgt.min;ScaleWgt.min;LabelsWgt.min" attrName="min"/>
+     </links>
+     <object id="GroupWgt2.GroupWgt3.BarStd5.scale" static="true" class="ScaleWgt">
+      <wgtStyle reverseScale="yes" startAngle="-20" stroke-width="15" autoAdjust="true" fill="none" y="-3.01" max="217" height="72" width="65" alarmMax="217" alarmMin="173.6" Color="none" x="-13.63" form="vertical" visibility="false" cx="29" size="99" endAngle="185" stroke="rgb(255,0,0)" align="1" cy="32"/>
+     </object>
+     <object id="GroupWgt2.GroupWgt3.BarStd5.lbl" class="LabelsWgt">
+      <wgtStyle reverseScale="true" font-family="Roboto" startAngle="-20" usingFormat="" font-sizepx="8" showThousandSeparator="false" keypad-type="None" y="-11.01" max="217" labelFreq="4" height="85" width="99" step="1" timeSpec="local" text="" readWrite="true" vert-align="top" font-size="6" numberFormat="1" rotated="true" value="" x="-29.63" form="vertical" visibility="false" labelNames="" cx="48" min="0" endAngle="185" align="1" tickFreq="5" cy="41"/>
+     </object>
+     <object id="GroupWgt2.GroupWgt3.BarStd5.ticks" static="true" class="TicksWgt">
+      <wgtStyle reverseScale="true" startAngle="-10" strokeMinor="rgb(128,128,128)" y="-3.01" labelFreq="4" max="10" height="72" width="63" stroke-linecap="butt" strokeMajor="rgb(128,128,128)" tickSize2="1" x="-12.63" form="vertical" visibility="false" cx="29" endAngle="200" stroke="rgb(128,128,128)" align="1" tickFreq="1" tickSize="1" cy="35"/>
+     </object>
+     <object id="GroupWgt2.GroupWgt3.BarStd5.bar" hmiStyle="hmi-type:*barv" class="BargraphWgt">
+      <wgtStyle cy="34.18" form="vertical" imagePath="images/bar_vert_cylinder.svg" cx="16.28" height="70.15" forcePaint="65" width="35.61" reverseScale="false" x="0" y="0" fill="rgb(124,71,7)" max="217" value="100"/>
+     </object>
+    </object>
+    <object id="GroupWgt2.GroupWgt3.mtrImg13" class="ImageWgt">
+     <wgtStyle cy="4.64" imagePath="images/PNG - Renasys.png" cx="16.33" height="9.22" forcePaint="65" width="32.67" x="48.56" y="49.42" fill="rgb(245,245,245)"/>
+    </object>
+   </object>
+   <object id="GroupWgt2.label13" static="true" class="LabelWgt">
+    <wgtStyle font-color="rgb(255,255,0)" font-sizepx="8" cy="6.93" font-size="6" cx="45.11" keypad-type="None" height="14.30" width="97.04" vert-align="middle" wrapping="true" marker="true" x="17.27" visibility="false" y="76.06" font-family="Arial Rounded MT Bold" alignment="center"/>
+    <links>
+     <lang textid="114" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object id="tbsImg14" class="ImageWgt">
+   <wgtStyle cy="12" imagePath="images/P_horiz.svg" cx="9.86" height="25" forcePaint="65" width="20" x="763" y="293" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="GroupWgt3" class="GroupWgt">
+   <wgtStyle cy="58" cx="61" height="116" width="122.01" x="1157" y="230"/>
+   <object id="GroupWgt3.rect16" static="true" class="ShapeWgt">
+    <wgtStyle cy="56.46" cx="58.51" height="112.93" width="120.87" x="0" stroke="rgb(190,190,190)" y="3.06" fill="none" stroke-width="4" nodeName="rect" mtx="1,-9.52966e-05,0,0.000393675,1,0,0,0.0115184,1"/>
+   </object>
+   <object id="GroupWgt3.GroupWgt3" class="GroupWgt">
+    <wgtStyle cy="56.68" cx="60.69" height="113.36" width="121.38" x="0.63" y="0"/>
+    <object id="GroupWgt3.GroupWgt3.image2" static="true" class="ImageWgt">
+     <wgtStyle cy="56.68" imagePath="images/Skjermbilde_2024-08-27_144224-removebg-preview.png" cx="60.69" height="113.33" width="121.36" x="0" y="0" mtx="1,-0.000261433,0,0.000143501,1,0,0,0.0317265,1"/>
+    </object>
+    <object id="GroupWgt3.GroupWgt3.rect14" static="true" class="ShapeWgt">
+     <wgtStyle cy="6.65" cx="37.07" height="13.18" width="76.60" x="26.59" stroke="rgb(95,95,95)" y="47.38" fill="rgb(62,62,62)" stroke-width="0" nodeName="rect" mtx="0.999999,-0.00146017,0,0.000501171,1,0,0,0.111852,1"/>
+    </object>
+    <object id="GroupWgt3.GroupWgt3.BarStd5" customType="Bargraph" class="GroupWgt">
+     <wgtStyle cy="13.24" cx="43.56" height="70.15" width="35.61" x="21.33" y="44.19" mtx="2.44632,0,0,0,0.377499,0,0,0,1" groupStyle="xform-scaling"/>
+     <links>
+      <attr alias="TicksWgt.labelFreq;LabelsWgt.labelFreq" attrName="labelFreq"/>
+      <attr alias="BargraphWgt.reverseScale;ScaleWgt.!reverseScale;LabelsWgt.!reverseScale;TicksWgt.!reverseScale" attrName="reverseScale"/>
+      <attr alias="TicksWgt.align;ScaleWgt.align;LabelsWgt.align" attrName="align"/>
+      <attr alias="BargraphWgt.max;ScaleWgt.max;LabelsWgt.max" attrName="max"/>
+      <attr alias="TicksWgt.visibility2;ScaleWgt.visibility2;LabelsWgt.visibility2" attrName="visibility2"/>
+      <attr alias="BargraphWgt.min;ScaleWgt.min;LabelsWgt.min" attrName="min"/>
+     </links>
+     <object id="GroupWgt3.GroupWgt3.BarStd5.scale" static="true" class="ScaleWgt">
+      <wgtStyle reverseScale="yes" startAngle="-20" stroke-width="15" autoAdjust="true" fill="none" y="-3.01" max="217" height="72" width="65" alarmMax="217" alarmMin="173.6" Color="none" x="-13.63" form="vertical" visibility="false" cx="29" size="99" endAngle="185" stroke="rgb(255,0,0)" align="1" cy="32"/>
+     </object>
+     <object id="GroupWgt3.GroupWgt3.BarStd5.lbl" class="LabelsWgt">
+      <wgtStyle reverseScale="true" font-family="Roboto" startAngle="-20" usingFormat="" font-sizepx="8" showThousandSeparator="false" keypad-type="None" y="-11.01" max="217" labelFreq="4" height="85" width="99" step="1" timeSpec="local" text="" readWrite="true" vert-align="top" font-size="6" numberFormat="1" rotated="true" value="" x="-29.63" form="vertical" visibility="false" labelNames="" cx="48" min="0" endAngle="185" align="1" tickFreq="5" cy="41"/>
+     </object>
+     <object id="GroupWgt3.GroupWgt3.BarStd5.ticks" static="true" class="TicksWgt">
+      <wgtStyle reverseScale="true" startAngle="-10" strokeMinor="rgb(128,128,128)" y="-3.01" labelFreq="4" max="10" height="72" width="63" stroke-linecap="butt" strokeMajor="rgb(128,128,128)" tickSize2="1" x="-12.63" form="vertical" visibility="false" cx="29" endAngle="200" stroke="rgb(128,128,128)" align="1" tickFreq="1" tickSize="1" cy="35"/>
+     </object>
+     <object id="GroupWgt3.GroupWgt3.BarStd5.bar" hmiStyle="hmi-type:*barv" class="BargraphWgt">
+      <wgtStyle cy="34.18" form="vertical" imagePath="images/bar_vert_cylinder.svg" cx="16.28" height="70.15" forcePaint="65" width="35.61" reverseScale="false" x="0" y="0" fill="rgb(124,71,7)" max="217" value="100"/>
+     </object>
+    </object>
+    <object id="GroupWgt3.GroupWgt3.mtrImg13" class="ImageWgt">
+     <wgtStyle cy="4.64" imagePath="images/PNG - Renasys.png" cx="16.33" height="9.22" forcePaint="65" width="32.67" x="48.56" y="49.42" fill="rgb(245,245,245)"/>
+    </object>
+   </object>
+   <object id="GroupWgt3.label13" static="true" class="LabelWgt">
+    <wgtStyle font-color="rgb(255,255,0)" font-sizepx="8" cy="6.93" font-size="6" cx="45.11" keypad-type="None" height="14.30" width="97.04" vert-align="middle" wrapping="true" marker="true" x="17.27" visibility="false" y="76.06" font-family="Arial Rounded MT Bold" alignment="center"/>
+    <links>
+     <lang textid="168" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object id="tbsImg20" class="ImageWgt">
+   <wgtStyle cy="12" imagePath="images/P_horiz.svg" cx="9.86" height="25" forcePaint="65" width="20" x="1268" y="293" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="GroupWgt4" class="GroupWgt">
+   <wgtStyle cy="58" cx="61" height="116" width="122.01" x="1665" y="230"/>
+   <object id="GroupWgt4.rect16" static="true" class="ShapeWgt">
+    <wgtStyle cy="56.46" cx="58.51" height="112.93" width="120.87" x="0" stroke="rgb(190,190,190)" y="3.06" fill="none" stroke-width="4" nodeName="rect" mtx="1,-9.52966e-05,0,0.000393675,1,0,0,0.0115184,1"/>
+   </object>
+   <object id="GroupWgt4.GroupWgt3" class="GroupWgt">
+    <wgtStyle cy="56.68" cx="60.69" height="113.36" width="121.38" x="0.63" y="0"/>
+    <object id="GroupWgt4.GroupWgt3.image2" static="true" class="ImageWgt">
+     <wgtStyle cy="56.68" imagePath="images/Skjermbilde_2024-08-27_144224-removebg-preview.png" cx="60.69" height="113.33" width="121.36" x="0" y="0" mtx="1,-0.000261433,0,0.000143501,1,0,0,0.0317265,1"/>
+    </object>
+    <object id="GroupWgt4.GroupWgt3.rect14" static="true" class="ShapeWgt">
+     <wgtStyle cy="6.65" cx="37.07" height="13.18" width="76.60" x="26.59" stroke="rgb(95,95,95)" y="47.38" fill="rgb(62,62,62)" stroke-width="0" nodeName="rect" mtx="0.999999,-0.00146017,0,0.000501171,1,0,0,0.111852,1"/>
+    </object>
+    <object id="GroupWgt4.GroupWgt3.BarStd5" customType="Bargraph" class="GroupWgt">
+     <wgtStyle cy="13.24" cx="43.56" height="70.15" width="35.61" x="21.33" y="44.19" mtx="2.44632,0,0,0,0.377499,0,0,0,1" groupStyle="xform-scaling"/>
+     <links>
+      <attr alias="TicksWgt.labelFreq;LabelsWgt.labelFreq" attrName="labelFreq"/>
+      <attr alias="BargraphWgt.reverseScale;ScaleWgt.!reverseScale;LabelsWgt.!reverseScale;TicksWgt.!reverseScale" attrName="reverseScale"/>
+      <attr alias="TicksWgt.align;ScaleWgt.align;LabelsWgt.align" attrName="align"/>
+      <attr alias="BargraphWgt.max;ScaleWgt.max;LabelsWgt.max" attrName="max"/>
+      <attr alias="TicksWgt.visibility2;ScaleWgt.visibility2;LabelsWgt.visibility2" attrName="visibility2"/>
+      <attr alias="BargraphWgt.min;ScaleWgt.min;LabelsWgt.min" attrName="min"/>
+     </links>
+     <object id="GroupWgt4.GroupWgt3.BarStd5.scale" static="true" class="ScaleWgt">
+      <wgtStyle reverseScale="yes" startAngle="-20" stroke-width="15" autoAdjust="true" fill="none" y="-3.01" max="217" height="72" width="65" alarmMax="217" alarmMin="173.6" Color="none" x="-13.63" form="vertical" visibility="false" cx="29" size="99" endAngle="185" stroke="rgb(255,0,0)" align="1" cy="32"/>
+     </object>
+     <object id="GroupWgt4.GroupWgt3.BarStd5.lbl" class="LabelsWgt">
+      <wgtStyle reverseScale="true" font-family="Roboto" startAngle="-20" usingFormat="" font-sizepx="8" showThousandSeparator="false" keypad-type="None" y="-11.01" max="217" labelFreq="4" height="85" width="99" step="1" timeSpec="local" text="" readWrite="true" vert-align="top" font-size="6" numberFormat="1" rotated="true" value="" x="-29.63" form="vertical" visibility="false" labelNames="" cx="48" min="0" endAngle="185" align="1" tickFreq="5" cy="41"/>
+     </object>
+     <object id="GroupWgt4.GroupWgt3.BarStd5.ticks" static="true" class="TicksWgt">
+      <wgtStyle reverseScale="true" startAngle="-10" strokeMinor="rgb(128,128,128)" y="-3.01" labelFreq="4" max="10" height="72" width="63" stroke-linecap="butt" strokeMajor="rgb(128,128,128)" tickSize2="1" x="-12.63" form="vertical" visibility="false" cx="29" endAngle="200" stroke="rgb(128,128,128)" align="1" tickFreq="1" tickSize="1" cy="35"/>
+     </object>
+     <object id="GroupWgt4.GroupWgt3.BarStd5.bar" hmiStyle="hmi-type:*barv" class="BargraphWgt">
+      <wgtStyle cy="34.18" form="vertical" imagePath="images/bar_vert_cylinder.svg" cx="16.28" height="70.15" forcePaint="65" width="35.61" reverseScale="false" x="0" y="0" fill="rgb(124,71,7)" max="217" value="100"/>
+     </object>
+    </object>
+    <object id="GroupWgt4.GroupWgt3.mtrImg13" class="ImageWgt">
+     <wgtStyle cy="4.64" imagePath="images/PNG - Renasys.png" cx="16.33" height="9.22" forcePaint="65" width="32.67" x="48.56" y="49.42" fill="rgb(245,245,245)"/>
+    </object>
+   </object>
+   <object id="GroupWgt4.label13" static="true" class="LabelWgt">
+    <wgtStyle font-color="rgb(255,255,0)" font-sizepx="8" cy="6.93" font-size="6" cx="45.11" keypad-type="None" height="14.30" width="97.04" vert-align="middle" wrapping="true" marker="true" x="17.27" visibility="false" y="76.06" font-family="Arial Rounded MT Bold" alignment="center"/>
+    <links>
+     <lang textid="222" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object id="tbsImg25" class="ImageWgt">
+   <wgtStyle cy="12" imagePath="images/P_horiz.svg" cx="9.86" height="25" forcePaint="65" width="20" x="1776" y="293" fill="rgb(102,102,102)"/>
+  </object>
+  <object id="tbsImg1" static="true" class="ImageWgt">
+   <wgtStyle cy="19.73" imagePath="images/P_horiz.svg" cx="13" height="25" width="40" x="193" y="331" fill="rgb(127,127,127)" mtx="0,1,0,-1,0,0,25,0,1"/>
+  </object>
+  <object id="tbsImg5" static="true" class="ImageWgt">
+   <wgtStyle cy="20.72" imagePath="images/P_horiz.svg" cx="13" height="25" width="42" x="699" y="331" hor-flip="true" fill="rgb(102,102,102)" mtx="0,1,0,1,0,0,0,0,1"/>
+  </object>
+  <object id="tbsImg3" static="true" class="ImageWgt">
+   <wgtStyle cy="19.73" imagePath="images/P_horiz.svg" cx="13" height="25" width="40" x="1209" y="331" fill="rgb(102,102,102)" mtx="0,1,0,-1,0,0,25,0,1"/>
+  </object>
+  <object id="tbsImg8" static="true" class="ImageWgt">
+   <wgtStyle cy="19.73" imagePath="images/P_horiz.svg" cx="13" height="25" width="40" x="1714" y="331" hor-flip="true" fill="rgb(102,102,102)" mtx="0,1,0,1,0,0,0,0,1"/>
+  </object>
+  <object id="GroupWgt12" class="GroupWgt">
+   <wgtStyle cy="43.50" cx="21" height="87" forcePaint="1" width="42" x="127" y="803"/>
+   <object id="GroupWgt12.rect14" class="ShapeWgt">
+    <wgtStyle cy="42.10" cx="21" height="42" forcePaint="1" width="86.97" x="0" stroke="rgb(190,190,190)" y="0" fill="none" stroke-width="4" nodeName="rect" mtx="4.29485e-05,1,0,-1,0.000752356,0,41.9963,0,1"/>
+   </object>
+   <object id="GroupWgt12.pmpImg6" class="ImageWgt">
+    <wgtStyle cy="40.60" imagePath="images/Pump03.svg" cx="19.93" height="39.86" forcePaint="1" width="81.20" x="2.01" y="0.20" hor-flip="true" fill="rgb(130,130,130)" mtx="0,-1,0,-1,0,0,39.8584,81.2009,1"/>
+   </object>
+  </object>
+  <object id="vlvWgt28" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="126" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt28.png" y="884" mtx="0,-1,0,1,0,0,0,40,1"/>
+   <object id="vlvWgt28.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt28.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(0,170,0)"/>
+   </object>
+   <object id="vlvWgt28.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(0,170,0)"/>
+   </object>
+  </object>
+  <object id="GroupWgt13" class="GroupWgt">
+   <wgtStyle cy="44.50" cx="22" height="43.99" forcePaint="1" width="88.99" x="1713" y="726" mtx="0.000143521,-1,0,1,0.000203244,0,0,88.9884,1"/>
+   <object id="GroupWgt13.rect14" class="ShapeWgt">
+    <wgtStyle cy="21.99" cx="43.06" height="43.98" forcePaint="1" width="88.96" x="0" stroke="rgb(190,190,190)" y="0" fill="none" stroke-width="4" nodeName="rect" mtx="1,-4.39994e-05,0,0.000734824,1,0,0,0.00391402,1"/>
+   </object>
+   <object id="GroupWgt13.pmpImg2" class="ImageWgt">
+    <wgtStyle cy="20.88" imagePath="images/Pump03.svg" cx="41.53" height="41.74" forcePaint="1" width="83.06" x="2.70" y="0" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="GroupWgt14" class="GroupWgt">
+   <wgtStyle cy="44.50" cx="22" height="43.86" forcePaint="1" width="88.90" x="412" y="726" mtx="-0.00149992,-0.999999,0,0.999998,-0.00213183,0,0.133353,89,1"/>
+   <object id="GroupWgt14.rect14" class="ShapeWgt">
+    <wgtStyle cy="21.93" cx="43.02" height="43.86" forcePaint="1" width="88.87" x="0" stroke="rgb(190,190,190)" y="0" fill="none" stroke-width="4" nodeName="rect" mtx="1,-5.03375e-05,0,0.000745289,1,0,0,0.00447369,1"/>
+   </object>
+   <object id="GroupWgt14.pmpImg2" class="ImageWgt">
+    <wgtStyle cy="20.82" imagePath="images/Pump03.svg" cx="41.49" height="41.63" forcePaint="1" width="82.98" x="2.69" y="0" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt19" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="415" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt19.png" y="812" mtx="0,-1,0,1,0,0,0,40,1"/>
+   <object id="vlvWgt19.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt19.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(0,170,0)"/>
+   </object>
+   <object id="vlvWgt19.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(0,170,0)"/>
+   </object>
+  </object>
+  <object id="GroupWgt15" class="GroupWgt">
+   <wgtStyle cy="44.50" cx="22" height="43.75" forcePaint="1" width="88.82" x="919" y="726" mtx="-0.00285872,-0.999996,0,0.999992,-0.00407785,0,0.253921,89.0013,1"/>
+   <object id="GroupWgt15.rect14" class="ShapeWgt">
+    <wgtStyle cy="21.87" cx="42.98" height="43.74" forcePaint="1" width="88.79" x="0" stroke="rgb(190,190,190)" y="0" fill="none" stroke-width="4" nodeName="rect" mtx="1,-5.02466e-05,0,0.000746637,1,0,0,0.00446143,1"/>
+   </object>
+   <object id="GroupWgt15.pmpImg2" class="ImageWgt">
+    <wgtStyle cy="20.76" imagePath="images/Pump03.svg" cx="41.45" height="41.52" forcePaint="1" width="82.90" x="2.69" y="0" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt8" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="923" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt8.png" y="812" mtx="0,-1,0,1,0,0,0,40,1"/>
+   <object id="vlvWgt8.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt8.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(0,170,0)"/>
+   </object>
+   <object id="vlvWgt8.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(0,170,0)"/>
+   </object>
+  </object>
+  <object id="GroupWgt16" class="GroupWgt">
+   <wgtStyle cy="44.50" cx="22" height="43.80" forcePaint="1" width="88.86" x="1419" y="726" mtx="-0.00226219,-0.999997,0,0.999995,-0.00322176,0,0.201017,89,1"/>
+   <object id="GroupWgt16.rect14" class="ShapeWgt">
+    <wgtStyle cy="21.90" cx="43" height="43.79" forcePaint="1" width="88.83" x="0" stroke="rgb(190,190,190)" y="0" fill="none" stroke-width="4" nodeName="rect" mtx="1,-5.02868e-05,0,0.000746039,1,0,0,0.0044668,1"/>
+   </object>
+   <object id="GroupWgt16.pmpImg2" class="ImageWgt">
+    <wgtStyle cy="20.79" imagePath="images/Pump03.svg" cx="41.47" height="41.57" forcePaint="1" width="82.94" x="2.69" y="0" fill="rgb(130,130,130)"/>
+   </object>
+  </object>
+  <object id="vlvWgt15" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="1423" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt15.png" y="813" mtx="0,-1,0,1,0,0,0,40,1"/>
+   <object id="vlvWgt15.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt15.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(0,170,0)"/>
+   </object>
+   <object id="vlvWgt15.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(0,170,0)"/>
+   </object>
+  </object>
+  <object id="vlvWgt21" class="GroupWgt">
+   <wgtStyle cy="20" cx="20" height="40" forcePaint="33" width="40" x="1716" staticFile="opt/Main_P_and_ID_OLD_FFSvlvWgt21.png" y="813" mtx="0,-1,0,1,0,0,0,40,1"/>
+   <object id="vlvWgt21.bkgImg" static="true" class="ImageWgt">
+    <wgtStyle cy="5.71" imagePath="images/Valve_h_RG.svg" cx="5.71" height="40" width="40" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+   </object>
+   <object id="vlvWgt21.rgtImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_right.svg" cx="4.29" height="27.50" width="15.50" x="20.50" y="7.01" fill="rgb(0,170,0)"/>
+   </object>
+   <object id="vlvWgt21.lftImg" static="true" class="ImageWgt">
+    <wgtStyle cy="2.58" imagePath="images/Valve_3b_left.svg" cx="4.29" height="27.50" width="15.50" x="4" y="7.50" fill="rgb(0,170,0)"/>
+   </object>
+  </object>
+  <object id="GroupWgt19" class="GroupWgt">
+   <wgtStyle cy="17.50" cx="40" height="35" forcePaint="65" width="80" x="58" y="270.50"/>
+   <object id="GroupWgt19.field12" class="NumericWgt">
+    <wgtStyle font-family="Arial Rounded MT Bold" usingFormat="#.##" decimalDigits="2" font-sizepx="13" showThousandSeparator="false" keypad-type="Numeric" alignment="center" y="0" max="3.40282e+38" height="34" width="79" step="1" timeSpec="local" font-color="rgb(23,30,40)" text="" readWrite="true" vert-align="middle" font-size="10" numberFormat="6" value="" x="0" form="Numeric" frameFill="rgb(255,255,255)" cx="36.80" min="-3.40282e+38" cy="15.75" frame="true"/>
+   </object>
+   <object id="GroupWgt19.label46" class="LabelWgt">
+    <wgtStyle font-sizepx="13" cy="16.57" font-size="10" cx="9.26" keypad-type="None" height="35" forcePaint="65" width="20" vert-align="middle" wrapping="true" marker="true" x="57.50" y="0" font-family="Arial Rounded MT Bold" alignment="right"/>
+    <links>
+     <lang textid="76" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object id="GroupWgt20" class="GroupWgt">
+   <wgtStyle cy="17.50" cx="40" height="35" forcePaint="65" width="80" x="563.40" y="270.50"/>
+   <object id="GroupWgt20.field12" class="NumericWgt">
+    <wgtStyle font-family="Arial Rounded MT Bold" usingFormat="#.##" decimalDigits="2" font-sizepx="13" showThousandSeparator="false" keypad-type="Numeric" alignment="center" y="0" max="3.40282e+38" height="34" width="79" step="1" timeSpec="local" font-color="rgb(23,30,40)" text="" readWrite="true" vert-align="middle" font-size="10" numberFormat="6" value="" x="0" form="Numeric" frameFill="rgb(255,255,255)" cx="36.80" min="-3.40282e+38" cy="15.75" frame="true"/>
+   </object>
+   <object id="GroupWgt20.label46" class="LabelWgt">
+    <wgtStyle font-sizepx="13" cy="16.57" font-size="10" cx="9.26" keypad-type="None" height="35" forcePaint="65" width="20" vert-align="middle" wrapping="true" marker="true" x="57.50" y="0" font-family="Arial Rounded MT Bold" alignment="right"/>
+    <links>
+     <lang textid="76" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object id="GroupWgt21" class="GroupWgt">
+   <wgtStyle cy="17.50" cx="40" height="35" forcePaint="65" width="80" x="1070.90" y="270.50"/>
+   <object id="GroupWgt21.field12" class="NumericWgt">
+    <wgtStyle font-family="Arial Rounded MT Bold" usingFormat="#.##" decimalDigits="2" font-sizepx="13" showThousandSeparator="false" keypad-type="Numeric" alignment="center" y="0" max="3.40282e+38" height="34" width="79" step="1" timeSpec="local" font-color="rgb(23,30,40)" text="" readWrite="true" vert-align="middle" font-size="10" numberFormat="6" value="" x="0" form="Numeric" frameFill="rgb(255,255,255)" cx="36.80" min="-3.40282e+38" cy="15.75" frame="true"/>
+   </object>
+   <object id="GroupWgt21.label46" class="LabelWgt">
+    <wgtStyle font-sizepx="13" cy="16.57" font-size="10" cx="9.26" keypad-type="None" height="35" forcePaint="65" width="20" vert-align="middle" wrapping="true" marker="true" x="57.50" y="0" font-family="Arial Rounded MT Bold" alignment="right"/>
+    <links>
+     <lang textid="76" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object id="GroupWgt22" class="GroupWgt">
+   <wgtStyle cy="17.50" cx="40" height="35" forcePaint="65" width="80" x="1578.03" y="270.50"/>
+   <object id="GroupWgt22.field12" class="NumericWgt">
+    <wgtStyle font-family="Arial Rounded MT Bold" usingFormat="#.##" decimalDigits="2" font-sizepx="13" showThousandSeparator="false" keypad-type="Numeric" alignment="center" y="0" max="3.40282e+38" height="34" width="79" step="1" timeSpec="local" font-color="rgb(23,30,40)" text="" readWrite="true" vert-align="middle" font-size="10" numberFormat="6" value="" x="0" form="Numeric" frameFill="rgb(255,255,255)" cx="36.80" min="-3.40282e+38" cy="15.75" frame="true"/>
+   </object>
+   <object id="GroupWgt22.label46" class="LabelWgt">
+    <wgtStyle font-sizepx="13" cy="16.57" font-size="10" cx="9.26" keypad-type="None" height="35" forcePaint="65" width="20" vert-align="middle" wrapping="true" marker="true" x="57.50" y="0" font-family="Arial Rounded MT Bold" alignment="right"/>
+    <links>
+     <lang textid="76" class="MLTextLink">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object id="label54" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="14.21" font-size="10" cx="37.07" keypad-type="None" height="30" width="80" vert-align="middle" wrapping="true" marker="true" x="58" y="235" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="12" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label15" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="14.21" font-size="10" cx="37.07" keypad-type="None" height="30" width="80" vert-align="middle" wrapping="true" marker="true" x="563.40" y="235" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="81" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label46" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="14.21" font-size="10" cx="37.07" keypad-type="None" height="30" width="80" vert-align="middle" wrapping="true" marker="true" x="1070.90" y="235" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="82" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label47" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(23,30,40)" font-sizepx="13" cy="14.21" font-size="10" cx="37.07" keypad-type="None" height="30" width="80" vert-align="middle" wrapping="true" marker="true" x="1578.03" y="235" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="85" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label49" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(4,255,4)" font-sizepx="23" cy="14.54" font-size="17" cx="102.25" keypad-type="None" height="30" width="220" vert-align="middle" wrapping="true" marker="true" x="95" y="205" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="154" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label50" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(4,255,4)" font-sizepx="23" cy="14.54" font-size="17" cx="102.25" keypad-type="None" height="30" width="220" vert-align="middle" wrapping="true" marker="true" x="601" y="205" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="154" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label51" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(4,255,4)" font-sizepx="23" cy="14.54" font-size="17" cx="102.25" keypad-type="None" height="30" width="220" vert-align="middle" wrapping="true" marker="true" x="1107" y="205" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="154" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object id="label52" static="true" class="LabelWgt">
+   <wgtStyle font-color="rgb(4,255,4)" font-sizepx="23" cy="14.54" font-size="17" cx="102.25" keypad-type="None" height="30" width="220" vert-align="middle" wrapping="true" marker="true" x="1615" y="205" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <links>
+    <lang textid="154" class="MLTextLink">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+ </object>
+</wgtPage>

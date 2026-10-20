@@ -1,0 +1,26 @@
+<scheduledActions>
+ <multiLangs>
+  <langs curLangId="L1" defLangId="L1">
+   <lang writingsystem="Any" langCode="en-US" defaultFont="Roboto" langId="L1" removable="false" keypads=";;" name="Lang1"/>
+  </langs>
+  <MLTexts>
+   <MLText id="0" L1="Every"/>
+   <MLText id="1" L1="Hourly"/>
+   <MLText id="2" L1="Daily"/>
+   <MLText id="3" L1="Weekly"/>
+   <MLText id="4" L1="Monthly"/>
+   <MLText id="5" L1="Yearly"/>
+   <MLText id="6" L1="By Date"/>
+   <MLText id="7" L1="Hi-Res"/>
+   <MLText id="8" L1="Time"/>
+   <MLText id="9" L1="Sunrise+"/>
+   <MLText id="10" L1="Sunrise-"/>
+   <MLText id="11" L1="Sunset+"/>
+   <MLText id="12" L1="Sunset-"/>
+   <MLText id="13" L1="Random10"/>
+   <MLText id="14" L1="Random20"/>
+  </MLTexts>
+ </multiLangs>
+ <typeMLDesc HiRes="[7@Schedule]Hi-Res" Hourly="[1@Schedule]Hourly" Every="[0@Schedule]Every" Yearly="[5@Schedule]Yearly" Monthly="[4@Schedule]Monthly" Weekly="[3@Schedule]Weekly" ByDate="[6@Schedule]By Date" Daily="[2@Schedule]Daily"/>
+ <modeMLDesc SunriseMinus="[10@Schedule]Sunrise-" Random20="[14@Schedule]Random20" SunrisePlus="[9@Schedule]Sunrise+" Random10="[13@Schedule]Random10" SunsetPlus="[11@Schedule]Sunset+" Time="[8@Schedule]Time" SunsetMinus="[12@Schedule]Sunset-"/>
+</scheduledActions>

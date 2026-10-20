@@ -1,0 +1,5 @@
+<multiLangs>
+ <langs curLangId="L1" defLangId="L1">
+  <lang writingsystem="Any" langCode="en-US" defaultFont="Roboto" langId="L1" removable="false" keypads=";;" name="Lang1"/>
+ </langs>
+</multiLangs>
