@@ -1,0 +1,508 @@
+<wgtPage projectType="HMI Project" rev="1">
+ <object downloadPrepDone="true" pageType="non-modal" staticFile="opt/m1_drummotor_config.png" class="DialogWgt" staticOptEnable="true" dynPosition="false" titlebar="true" pageName="M1_DrumMotor_Config" dataWndSize="0,70" py="0" px="0" titleName="DrumMotor" singleInstance="true" id="M1_DrumMotor_Config" usedFonts="Arial Rounded MT Bold" pageSize="620,725">
+  <wgtStyle ver="040500224" fitToSize="1" x="0" v="04.05.00.224" y="0" width="620" height="725" color="rgb(60,60,60)"/>
+  <object class="LabelWgt" id="label3" static="true">
+   <wgtStyle marker="true" cy="16.58" keypad-type="None" cx="287.33" alignment="center" x="-0.81" wrapping="true" font-size="17" y="3" width="620" height="35" vert-align="top" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="23"/>
+   <links>
+    <lang class="MLTextLink" textid="49">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object mlFileName="" class="PageMLTextMgrWgt" mgrType="Page" id="_PageMLTextMgrWgt">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <langs curLangId="L1" defLangId="L1">
+    <lang defaultFont="Roboto" name="Lang1" langId="L1" langCode="en-US" writingsystem="Any" removable="false" keypads=";;"/>
+   </langs>
+   <MLTexts>
+    <MLText L1="%" id="8"/>
+    <MLText L1="Level sensor parameters" id="9"/>
+    <MLText L1="Warning H" id="11"/>
+    <MLText L1="Integral Gain&#xa;" id="12"/>
+    <MLText L1="%" id="13"/>
+    <MLText L1="%" id="14"/>
+    <MLText L1="Setpoint" id="15"/>
+    <MLText L1="%" id="18"/>
+    <MLText L1="%" id="21"/>
+    <MLText L1="Manual control" id="23"/>
+    <MLText L1="%" id="25"/>
+    <MLText L1="Manual Speed" id="26"/>
+    <MLText L1="Disclaimer: This is a dynamic control system. Any manual intervention may introduce risk and should be performed with caution. Unauthorized adjustments or manual overrides can impact system performance and safety." id="27"/>
+    <MLText L1="Flow Control SM - Batch control" id="28"/>
+    <MLText L1="Batch speed" id="30"/>
+    <MLText L1="Regulator settings" id="31"/>
+    <MLText L1="Min" id="32"/>
+    <MLText L1="Max" id="33"/>
+    <MLText L1="Gain" id="34"/>
+    <MLText L1="Deadband" id="36"/>
+    <MLText L1="Start" id="38"/>
+    <MLText L1="Stop" id="39"/>
+    <MLText L1="Manual" id="40"/>
+    <MLText L1="Close" id="41"/>
+    <MLText L1="Reset VFD" id="42"/>
+    <MLText L1="Alarm level HH" id="43"/>
+    <MLText L1="M101 - Drum motor" id="49"/>
+   </MLTexts>
+  </object>
+  <object class="ShapeWgt" id="rect1" static="true">
+   <wgtStyle cy="0.90" cx="295" x="16" nodeName="rect" y="641" width="590" height="1.79" fill="rgb(255,255,255)" stroke="rgb(255,255,255)"/>
+  </object>
+  <object class="ShapeWgt" id="rect2" static="true">
+   <wgtStyle cy="0.90" cx="295" x="15" nodeName="rect" y="39" width="590" height="1.79" fill="rgb(255,255,255)" stroke="rgb(255,255,255)"/>
+  </object>
+  <object class="GroupWgt" id="BtnRect" customType="Shape Button">
+   <wgtStyle cy="30" cx="50" x="504" y="652" width="100" height="60"/>
+   <object class="ButtonWgt" id="BtnRect.btn" hmiStyle="type:btn">
+    <wgtStyle x="0" needlePath="images\win-like-press.svg" dy="-1" downFillColor="rgb(190,190,190)" needleColor="rgb(255,255,255)" value="0" pushColor="rgb(0,255,0)" y="0" width="100" form="rectangle" type="momentary" height="60" dx="1" fill="rgb(60,60,60)" releasePath="images\win-like.svg" stroke="rgb(255,255,255)"/>
+    <links>
+     <action event="onMouseUp" attribute="onMouseRelease" class="CloseDialogAction" closeParam="Selected" pageName="" actionWgt="_PageMgr" actionID="0"/>
+    </links>
+   </object>
+   <object class="LabelWgt" id="BtnRect.txt">
+    <wgtStyle cy="9.98" keypad-type="None" cx="37.17" alignment="center" x="15.52" forcePaint="1" wrapping="true" font-size="11" y="20.40" width="72.41" height="19.20" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="15"/>
+    <links>
+     <lang class="MLTextLink" textid="41">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="ImageWgt" id="mtrImg13" static="true">
+   <wgtStyle cy="25.14" cx="91.50" x="16" y="660" width="183" height="50" fill="rgb(245,245,245)" imagePath="images/PNG - Renasys.png"/>
+  </object>
+  <object class="GroupSubscribeWgt" id="M1_DrumMotor_Config@$GroupSubscrWgt@$0">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="ShapeWgt" id="rect3" static="true">
+   <wgtStyle cy="150" cx="136.93" x="24" nodeName="rect" y="62" width="283" height="300" fill="none" stroke="rgb(255,255,255)"/>
+  </object>
+  <object class="LabelWgt" id="label12" static="true">
+   <wgtStyle marker="true" cy="9.47" keypad-type="None" cx="41.70" alignment="center" x="57" wrapping="true" visibility="false" font-size="8" y="100" width="90" height="20" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="11"/>
+   <links>
+    <lang class="MLTextLink" textid="15">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label1" static="true">
+   <wgtStyle marker="true" cy="12.32" keypad-type="None" cx="131.14" alignment="center" x="24" wrapping="true" font-size="14" y="64" width="283" height="26" vert-align="top" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="19"/>
+   <links>
+    <lang class="MLTextLink" textid="31">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label2" static="true">
+   <wgtStyle marker="true" cy="9.47" keypad-type="None" cx="41.70" alignment="center" x="180" wrapping="true" font-size="8" y="100" width="90" height="20" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="11"/>
+   <links>
+    <lang class="MLTextLink" textid="34">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label4" static="true">
+   <wgtStyle marker="true" cy="9.47" keypad-type="None" cx="41.70" alignment="center" x="58" wrapping="true" font-size="8" y="170" width="90" height="20" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="11"/>
+   <links>
+    <lang class="MLTextLink" textid="32">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label5" static="true">
+   <wgtStyle marker="true" cy="9.47" keypad-type="None" cx="41.70" alignment="center" x="56" wrapping="true" font-size="8" y="240" width="90" height="20" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="11"/>
+   <links>
+    <lang class="MLTextLink" textid="33">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label6" static="true">
+   <wgtStyle marker="true" cy="9.47" keypad-type="None" cx="41.70" alignment="center" x="180" wrapping="true" font-size="8" y="240" width="90" height="20" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="11"/>
+   <links>
+    <lang class="MLTextLink" textid="36">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object class="ShapeWgt" id="rect4" static="true">
+   <wgtStyle cy="87.49" cx="130.64" x="326.22" nodeName="rect" y="62.29" width="270" height="175" fill="none" stroke="rgb(255,255,255)"/>
+  </object>
+  <object class="LabelWgt" id="label8" static="true">
+   <wgtStyle marker="true" cy="12.02" keypad-type="None" cx="125.12" alignment="center" x="327" wrapping="true" font-size="14" y="62.93" width="270" height="25.38" vert-align="top" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="19"/>
+   <links>
+    <lang class="MLTextLink" textid="9">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label10" static="true">
+   <wgtStyle marker="true" cy="9.24" keypad-type="None" cx="41.70" alignment="center" x="355" wrapping="true" font-size="8" y="100.48" width="90" height="19.52" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="11"/>
+   <links>
+    <lang class="MLTextLink" textid="11">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label13" static="true">
+   <wgtStyle marker="true" cy="9.24" keypad-type="None" cx="41.70" alignment="center" x="477" wrapping="true" font-size="8" y="100.48" width="90" height="19.52" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="11"/>
+   <links>
+    <lang class="MLTextLink" textid="43">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object class="ShapeWgt" id="rect6" static="true">
+   <wgtStyle cy="126.50" cx="276.77" x="24" nodeName="rect" y="376" width="572" height="253" fill="none" stroke="rgb(255,255,255)"/>
+  </object>
+  <object class="LabelWgt" id="label9" static="true">
+   <wgtStyle marker="true" cy="15.16" keypad-type="None" cx="265.08" alignment="center" x="24" wrapping="true" font-size="14" y="377" width="572" height="32" vert-align="top" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="19"/>
+   <links>
+    <lang class="MLTextLink" textid="23">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label39" static="true">
+   <wgtStyle marker="true" cy="11.84" keypad-type="None" cx="55.60" alignment="center" x="173.85" wrapping="true" font-size="12" y="534" width="120" height="25" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="16"/>
+   <links>
+    <lang class="MLTextLink" textid="26">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label26" static="true">
+   <wgtStyle marker="true" cy="56.82" keypad-type="None" cx="115.83" alignment="center" x="185" wrapping="true" font-size="10" y="403" width="250" height="120" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="13"/>
+   <links>
+    <lang class="MLTextLink" textid="27">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object class="GroupWgt" id="BtnKbd4" customType="Keyboard Button">
+   <wgtStyle cy="16.94" cx="58.95" x="35.33" y="576" width="120" height="35"/>
+   <object class="ImageWgt" id="BtnKbd4.frmImg" static="true" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd">
+    <wgtStyle enableCache="true" cy="35.14" bdrEdges="0.14,0.16,0.14,0.14" cx="78.02" bdrSize="0.19,0.18,0.17,0.17" x="-21.05" bdrImageSize="71.00,46.00" visibility="false" y="-10.16" width="157.89" height="56.45"/>
+   </object>
+   <object class="ButtonWgt" id="BtnKbd4.btn" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn">
+    <wgtStyle cy="12.42" cx="71.58" x="0" forcePaint="8" needlePath="images\btn_kbdblk_wide_2_rev2.svg" downFillColor="rgb(60,60,60)" value="0" y="0" width="120" form="standard" type="momentary" height="35" fill="rgb(60,60,60)" releasePath="images\btn_kbdblk_wide_1_rev1.svg"/>
+    <dataLinks>
+     <dataLink attribute="value" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_IN/M1_DrumMotor_VFD_Reset" tagType="boolean" readWrite="R/W" sourceType="Tag"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="BtnKbd4.lbl" hmiStyle="hmi-type:wgtlabel">
+    <wgtStyle cy="12.42" keypad-type="None" cx="42.11" alignment="center" x="12.63" forcePaint="1" wrapping="true" font-size="11" y="2.26" width="92.63" height="24.84" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="15"/>
+    <links>
+     <lang class="MLTextLink" textid="42">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnKbd4.icoImg" static="true" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon">
+    <wgtStyle cy="11.29" cx="27.37" x="40" y="5.65" width="37.89" height="18.06"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnKbd5" customType="Keyboard Button">
+   <wgtStyle cy="17.50" cx="60" x="35.33" forcePaint="8" visibility="false" y="493" width="120" height="35"/>
+   <dataLinks>
+    <dataLink attribute="visibility" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_OUT/M1_DrumMotor_ManualMode" tagType="boolean" readWrite="R" sourceType="Tag"/>
+   </dataLinks>
+   <object class="ImageWgt" id="BtnKbd5.frmImg" static="true" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd">
+    <wgtStyle enableCache="true" cy="35.14" bdrEdges="0.14,0.16,0.14,0.14" cx="78.02" bdrSize="0.19,0.18,0.17,0.17" x="-21.05" bdrImageSize="71.00,46.00" visibility="false" y="-10.16" width="157.89" height="56.45"/>
+   </object>
+   <object class="ButtonWgt" id="BtnKbd5.btn" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn">
+    <wgtStyle cy="12.42" cx="71.58" x="0" forcePaint="9" needlePath="images\btn_kbdblk_wide_2_rev2.svg" downFillColor="rgb(127,127,127)" value="0" y="0" width="120" form="standard" type="momentary" height="35" fill="rgb(127,127,127)" releasePath="images\btn_kbdblk_wide_1_rev1.svg"/>
+    <dataLinks>
+     <dataLink attribute="value" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_IN/M1_DrumMotor_ManStart" tagType="boolean" readWrite="R/W" sourceType="Tag"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="BtnKbd5.lbl" hmiStyle="hmi-type:wgtlabel">
+    <wgtStyle cy="12.42" keypad-type="None" cx="42.11" alignment="center" x="12.63" forcePaint="1" wrapping="true" font-size="11" y="2.26" width="92.63" height="24.84" vert-align="middle" font-family="Arial Rounded MT Bold" font-sizepx="15"/>
+    <links>
+     <lang class="MLTextLink" textid="38">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnKbd5.icoImg" static="true" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon">
+    <wgtStyle cy="11.29" cx="27.37" x="40" y="5.65" width="37.89" height="18.06"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnKbd6" customType="Keyboard Button">
+   <wgtStyle cy="17.50" cx="60" x="35.33" forcePaint="8" visibility="false" y="534" width="120" height="35"/>
+   <dataLinks>
+    <dataLink attribute="visibility" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_OUT/M1_DrumMotor_ManualMode" tagType="boolean" readWrite="R" sourceType="Tag"/>
+   </dataLinks>
+   <object class="ImageWgt" id="BtnKbd6.frmImg" static="true" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd">
+    <wgtStyle enableCache="true" cy="35.14" bdrEdges="0.14,0.16,0.14,0.14" cx="78.02" bdrSize="0.19,0.18,0.17,0.17" x="-21.05" bdrImageSize="71.00,46.00" visibility="false" y="-10.16" width="157.89" height="56.45"/>
+   </object>
+   <object class="ButtonWgt" id="BtnKbd6.btn" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn">
+    <wgtStyle cy="12.42" cx="71.58" x="0" forcePaint="9" needlePath="images\btn_kbdblk_wide_2_rev2.svg" downFillColor="rgb(127,127,127)" value="0" y="0" width="120" form="standard" type="momentary" height="35" fill="rgb(127,127,127)" releasePath="images\btn_kbdblk_wide_1_rev1.svg"/>
+    <dataLinks>
+     <dataLink attribute="value" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_IN/M1_DrumMotor_ManStop" tagType="boolean" readWrite="R/W" sourceType="Tag"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="BtnKbd6.lbl" hmiStyle="hmi-type:wgtlabel">
+    <wgtStyle cy="12.42" keypad-type="None" cx="42.11" alignment="center" x="12.63" forcePaint="1" wrapping="true" font-size="11" y="2.26" width="92.63" height="24.84" vert-align="middle" font-family="Arial Rounded MT Bold" font-sizepx="15"/>
+    <links>
+     <lang class="MLTextLink" textid="39">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnKbd6.icoImg" static="true" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon">
+    <wgtStyle cy="11.29" cx="27.37" x="40" y="5.65" width="37.89" height="18.06"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="BtnKbd7" customType="Keyboard Button">
+   <wgtStyle cy="16.94" cx="58.95" x="35.33" y="453" width="120" height="35"/>
+   <object class="ImageWgt" id="BtnKbd7.frmImg" static="true" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd">
+    <wgtStyle enableCache="true" cy="35.14" bdrEdges="0.14,0.16,0.14,0.14" cx="78.02" bdrSize="0.19,0.18,0.17,0.17" x="-21.05" bdrImageSize="71.00,46.00" visibility="false" y="-10.16" width="157.89" height="56.45"/>
+   </object>
+   <object class="ButtonWgt" id="BtnKbd7.btn" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn">
+    <wgtStyle cy="12.42" cx="71.58" x="0" forcePaint="136" needlePath="images\btn_kbdblk_wide_2_rev2.svg" downFillColor="rgb(127,127,127)" value="0" y="0" width="120" form="standard" type="momentary" height="35" fill="rgb(127,127,127)" releasePath="images\btn_kbdblk_wide_1_rev1.svg"/>
+    <dataLinks>
+     <dataLink attribute="fill" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_OUT/M1_DrumMotor_ManualMode" tagType="boolean" readWrite="R/W" sourceType="Tag">
+      <xForms>
+       <xForm ColorPaletteCustom="#7f7f7f;#ffff00" class="ColorPaletteCustomXForm" name="ColorPaletteCustom"/>
+      </xForms>
+     </dataLink>
+    </dataLinks>
+    <links>
+     <action event="onMouseClick" attribute="onMouseClick" class="ToggleBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="1">
+      <dataLinks>
+       <dataLink attribute="tagSrc" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_IN/M1_DrumMotor_Manual" tagType="boolean" readWrite="R" sourceType="Tag"/>
+      </dataLinks>
+     </action>
+    </links>
+   </object>
+   <object class="LabelWgt" id="BtnKbd7.lbl" hmiStyle="hmi-type:wgtlabel">
+    <wgtStyle cy="12.42" keypad-type="None" cx="42.11" alignment="center" x="12.63" forcePaint="1" wrapping="true" font-size="11" y="2.26" width="92.63" height="24.84" vert-align="middle" font-family="Arial Rounded MT Bold" font-sizepx="15"/>
+    <links>
+     <lang class="MLTextLink" textid="40">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+   <object class="ImageWgt" id="BtnKbd7.icoImg" static="true" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon">
+    <wgtStyle cy="11.29" cx="27.37" x="40" y="5.65" width="37.89" height="18.06"/>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt6">
+   <wgtStyle cy="55" cx="90" x="407" y="511" width="180" height="110"/>
+   <object class="ShapeWgt" id="GroupWgt6.rect16">
+    <wgtStyle cy="54.99" cx="87.10" x="0" forcePaint="136" stroke-width="4" nodeName="rect" y="0" width="179.93" mtx="1,-6.23453e-05,0,0.000601744,1,0,0,0.0112178,1" height="109.99" fill="none" stroke="rgb(60,60,60)"/>
+    <dataLinks>
+     <dataLink attribute="stroke" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_OUT/M1_DrumMotor_ManualMode" tagType="boolean" readWrite="R" sourceType="Tag">
+      <xForms>
+       <xForm ColorPaletteCustom="#3c3c3c;#ffff7f" class="ColorPaletteCustomXForm" name="ColorPaletteCustom"/>
+      </xForms>
+     </dataLink>
+    </dataLinks>
+   </object>
+   <object class="ImageWgt" id="GroupWgt6.mtrImg4">
+    <wgtStyle cy="48.89" cx="85" x="5" forcePaint="137" y="5" width="170" height="100" fill="rgb(192,192,192)" imagePath="images/Engine_Regular.svg"/>
+    <dataLinks>
+     <dataLink attribute="fill" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_OUT/M1_DrumMotor_VFD_Status" tagType="short" readWrite="R" sourceType="Tag">
+      <xForms>
+       <xForm ColorPaletteCustom="#c0c0c0;#00aa00;#c60000" class="ColorPaletteCustomXForm" name="ColorPaletteCustom"/>
+      </xForms>
+     </dataLink>
+    </dataLinks>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt1">
+   <wgtStyle cy="15" cx="45" x="57" visibility="false" y="125" width="90" height="30"/>
+   <object class="NumericWgt" id="GroupWgt1.field4">
+    <wgtStyle showThousandSeparator="false" font-family="Arial Rounded MT Bold" max="3.40282e+38" usingFormat="#.##" form="Numeric" alignment="center" frameFill="rgb(60,60,60)" numberFormat="6" frameColor="rgb(255,255,255)" font-sizepx="15" min="-3.40282e+38" cy="13.50" height="29" timeSpec="local" font-size="11" value="" frame="true" vert-align="middle" font-color="rgb(255,255,255)" readWrite="true" cx="41.40" width="89" keypad-type="Numeric" x="0" y="0" step="1" text=""/>
+   </object>
+   <object class="LabelWgt" id="GroupWgt1.label14">
+    <wgtStyle marker="true" cy="11.84" keypad-type="None" cx="11.58" alignment="right" x="63" forcePaint="65" wrapping="true" font-size="11" y="2.50" width="25" height="25" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="15"/>
+    <links>
+     <lang class="MLTextLink" textid="18">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt2">
+   <wgtStyle cy="15" cx="45" x="180" y="125" width="90" height="30"/>
+   <object class="NumericWgt" id="GroupWgt2.field1">
+    <wgtStyle showThousandSeparator="false" font-family="Arial Rounded MT Bold" max="3.40282e+38" usingFormat="#.##" form="Numeric" alignment="center" forcePaint="8" frameFill="rgb(60,60,60)" numberFormat="6" frameColor="rgb(255,255,255)" font-sizepx="15" min="-3.40282e+38" cy="13.50" height="29" timeSpec="local" font-size="11" value="" frame="true" vert-align="middle" font-color="rgb(255,255,255)" readWrite="true" cx="41.40" width="89" x="0" keypad-type="Numeric" y="0" step="1" text=""/>
+    <dataLinks>
+     <dataLink attribute="value" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_KGain" tagType="float" readWrite="R/W" sourceType="Tag"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="GroupWgt2.label16">
+    <wgtStyle marker="true" cy="11.84" keypad-type="None" cx="11.58" alignment="right" x="61" forcePaint="65" wrapping="true" font-size="11" y="2.50" width="25" height="25" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="15"/>
+    <links>
+     <lang class="MLTextLink" textid="8">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt3">
+   <wgtStyle cy="15" cx="45" x="58" y="195" width="90" height="30"/>
+   <object class="NumericWgt" id="GroupWgt3.field2">
+    <wgtStyle showThousandSeparator="false" font-family="Arial Rounded MT Bold" max="3.40282e+38" usingFormat="#.##" form="Numeric" alignment="center" forcePaint="8" frameFill="rgb(60,60,60)" numberFormat="6" frameColor="rgb(255,255,255)" font-sizepx="15" min="-3.40282e+38" cy="13.50" height="29" timeSpec="local" font-size="11" value="" frame="true" vert-align="middle" font-color="rgb(255,255,255)" readWrite="true" cx="41.40" width="89" x="0" keypad-type="Numeric" y="0" step="1" text=""/>
+    <dataLinks>
+     <dataLink attribute="value" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_PMIN" tagType="float" readWrite="R/W" sourceType="Tag"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="GroupWgt3.label17">
+    <wgtStyle marker="true" cy="11.84" keypad-type="None" cx="11.58" alignment="right" x="62" forcePaint="65" wrapping="true" font-size="11" y="2.50" width="25" height="25" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="15"/>
+    <links>
+     <lang class="MLTextLink" textid="8">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt4">
+   <wgtStyle cy="15" cx="45" x="180" y="265" width="90" height="30"/>
+   <object class="NumericWgt" id="GroupWgt4.field5">
+    <wgtStyle showThousandSeparator="false" font-family="Arial Rounded MT Bold" max="3.40282e+38" usingFormat="#.##" form="Numeric" alignment="center" forcePaint="8" frameFill="rgb(60,60,60)" numberFormat="6" frameColor="rgb(255,255,255)" font-sizepx="15" min="-3.40282e+38" cy="13.50" height="29" timeSpec="local" font-size="11" value="" frame="true" vert-align="middle" font-color="rgb(255,255,255)" readWrite="true" cx="41.40" width="89" x="0" keypad-type="Numeric" y="0" step="1" text=""/>
+    <dataLinks>
+     <dataLink attribute="value" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_Deadband" tagType="float" readWrite="R/W" sourceType="Tag"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="GroupWgt4.label15">
+    <wgtStyle marker="true" cy="11.84" keypad-type="None" cx="11.58" alignment="right" x="61" forcePaint="65" wrapping="true" font-size="11" y="2.50" width="25" height="25" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="15"/>
+    <links>
+     <lang class="MLTextLink" textid="21">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt5">
+   <wgtStyle cy="15" cx="45" x="57" y="265" width="90" height="30"/>
+   <object class="NumericWgt" id="GroupWgt5.field3">
+    <wgtStyle showThousandSeparator="false" font-family="Arial Rounded MT Bold" max="3.40282e+38" usingFormat="#.##" form="Numeric" alignment="center" forcePaint="8" frameFill="rgb(60,60,60)" numberFormat="6" frameColor="rgb(255,255,255)" font-sizepx="15" min="-3.40282e+38" cy="13.50" height="29" timeSpec="local" font-size="11" value="" frame="true" vert-align="middle" font-color="rgb(255,255,255)" readWrite="true" cx="41.40" width="89" x="0" keypad-type="Numeric" y="0" step="1" text=""/>
+    <dataLinks>
+     <dataLink attribute="value" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_PMAX" tagType="float" readWrite="R/W" sourceType="Tag"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="GroupWgt5.label18">
+    <wgtStyle marker="true" cy="11.84" keypad-type="None" cx="11.58" alignment="right" x="63" forcePaint="65" wrapping="true" font-size="11" y="1" width="25" height="25" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="15"/>
+    <links>
+     <lang class="MLTextLink" textid="8">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt9">
+   <wgtStyle cy="14.64" cx="45" x="355" y="125.72" width="90" height="29.28"/>
+   <object class="NumericWgt" id="GroupWgt9.field8">
+    <wgtStyle showThousandSeparator="false" font-family="Arial Rounded MT Bold" max="3.40282e+38" usingFormat="#.##" form="Numeric" alignment="center" forcePaint="8" frameFill="rgb(60,60,60)" numberFormat="6" frameColor="rgb(255,255,255)" font-sizepx="15" min="-3.40282e+38" cy="13.18" height="28.28" timeSpec="local" font-size="11" value="" frame="true" vert-align="middle" font-color="rgb(255,255,255)" readWrite="true" cx="41.40" width="89" x="0" keypad-type="Numeric" y="0" step="1" text=""/>
+    <dataLinks>
+     <dataLink attribute="value" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_IN/LT111_PWH" tagType="float" readWrite="R/W" sourceType="Tag"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="GroupWgt9.label23">
+    <wgtStyle marker="true" cy="11.56" keypad-type="None" cx="11.58" alignment="right" x="61" forcePaint="65" wrapping="true" font-size="11" y="2.44" width="25" height="24.40" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="15"/>
+    <links>
+     <lang class="MLTextLink" textid="13">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt10">
+   <wgtStyle cy="14.64" cx="45" x="477" y="125.72" width="90" height="29.28"/>
+   <object class="NumericWgt" id="GroupWgt10.field10">
+    <wgtStyle showThousandSeparator="false" font-family="Arial Rounded MT Bold" max="3.40282e+38" usingFormat="#.##" form="Numeric" alignment="center" forcePaint="8" frameFill="rgb(60,60,60)" numberFormat="6" frameColor="rgb(255,255,255)" font-sizepx="15" min="-3.40282e+38" cy="13.18" height="28.28" timeSpec="local" font-size="11" value="" frame="true" vert-align="middle" font-color="rgb(255,255,255)" readWrite="true" cx="41.40" width="89" x="0" keypad-type="Numeric" y="0" step="1" text=""/>
+    <dataLinks>
+     <dataLink attribute="value" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_IN/LT111_PAHH" tagType="float" readWrite="R/W" sourceType="Tag"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="GroupWgt10.label24">
+    <wgtStyle marker="true" cy="11.56" keypad-type="None" cx="11.58" alignment="right" x="60" forcePaint="65" wrapping="true" font-size="11" y="2.44" width="25" height="24.40" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="15"/>
+    <links>
+     <lang class="MLTextLink" textid="13">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="GroupWgt" id="GroupWgt12">
+   <wgtStyle cy="22.50" cx="60" x="173.85" y="566" width="120" height="45"/>
+   <object class="NumericWgt" id="GroupWgt12.field15">
+    <wgtStyle showThousandSeparator="false" font-family="Arial Rounded MT Bold" max="3.40282e+38" usingFormat="#.##" form="Numeric" alignment="center" forcePaint="8" frameFill="rgb(60,60,60)" numberFormat="6" frameColor="rgb(255,255,255)" font-sizepx="16" min="-3.40282e+38" cy="20.25" height="43.97" timeSpec="local" font-size="12" value="" decimalDigits="2" frame="true" vert-align="middle" font-color="rgb(255,255,255)" readWrite="true" cx="55.20" mtx="1,-0.000229375,0,0.000163557,1,0,0,0.0275227,1" width="118.99" x="0" keypad-type="Numeric" y="0" step="1" text=""/>
+    <dataLinks>
+     <dataLink attribute="value" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_IN/M1_DrumMotor_ManSpeed" tagType="float" readWrite="R/W" sourceType="Tag"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="GroupWgt12.label33">
+    <wgtStyle marker="true" cy="18.94" keypad-type="None" cx="18.53" alignment="right" x="77" forcePaint="65" wrapping="true" font-size="14" y="2.08" width="40" height="40" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="19"/>
+    <links>
+     <lang class="MLTextLink" textid="25">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="LabelWgt" id="label11" static="true">
+   <wgtStyle marker="true" cy="11.36" keypad-type="None" cx="41.70" alignment="center" x="179" wrapping="true" font-size="8" y="172" width="90" height="24" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="11"/>
+   <links>
+    <lang class="MLTextLink" textid="12">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object class="GroupWgt" id="GroupWgt13">
+   <wgtStyle cy="15" cx="45" x="179" y="194" width="90" height="30"/>
+   <object class="NumericWgt" id="GroupWgt13.field5">
+    <wgtStyle showThousandSeparator="false" font-family="Arial Rounded MT Bold" max="3.40282e+38" usingFormat="#.##" form="Numeric" alignment="center" forcePaint="8" frameFill="rgb(60,60,60)" numberFormat="6" frameColor="rgb(255,255,255)" font-sizepx="15" min="-3.40282e+38" cy="13.50" height="29" timeSpec="local" font-size="11" value="" frame="true" vert-align="middle" font-color="rgb(255,255,255)" readWrite="true" cx="41.40" width="89" x="0" keypad-type="Numeric" y="0" step="1" text=""/>
+    <dataLinks>
+     <dataLink attribute="value" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_IGain" tagType="float" readWrite="R/W" sourceType="Tag"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="GroupWgt13.label15">
+    <wgtStyle marker="true" cy="11.84" keypad-type="None" cx="11.58" alignment="right" x="61" forcePaint="65" wrapping="true" font-size="11" y="2.50" width="25" height="25" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="15"/>
+    <links>
+     <lang class="MLTextLink" textid="21">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+  <object class="ShapeWgt" id="rect5" static="true">
+   <wgtStyle cy="54.50" cx="130.65" x="325" nodeName="rect" y="253.27" width="270" height="109" fill="none" stroke="rgb(255,255,255)"/>
+  </object>
+  <object class="LabelWgt" id="label20" static="true">
+   <wgtStyle marker="true" cy="11.97" keypad-type="None" cx="125.12" alignment="center" x="327" wrapping="true" font-size="13" y="254" width="270" height="25.27" vert-align="top" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="17"/>
+   <links>
+    <lang class="MLTextLink" textid="28">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object class="LabelWgt" id="label21" static="true">
+   <wgtStyle marker="true" cy="11.51" keypad-type="None" cx="41.53" alignment="center" x="351" wrapping="true" font-size="8" y="287" width="89.64" height="24.29" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="11"/>
+   <links>
+    <lang class="MLTextLink" textid="30">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object class="GroupWgt" id="GroupWgt11">
+   <wgtStyle cy="14.57" cx="44.82" x="352" y="315" width="89.64" height="29.15"/>
+   <object class="NumericWgt" id="GroupWgt11.field7">
+    <wgtStyle showThousandSeparator="false" font-family="Arial Rounded MT Bold" max="3.40282e+38" usingFormat="#.##" form="Numeric" alignment="center" forcePaint="8" frameFill="rgb(60,60,60)" numberFormat="6" frameColor="rgb(255,255,255)" font-sizepx="15" min="-3.40282e+38" cy="13.12" height="28.15" timeSpec="local" font-size="11" value="" frame="true" vert-align="middle" font-color="rgb(255,255,255)" readWrite="true" cx="41.23" width="88.64" x="0" keypad-type="Numeric" y="0" step="1" text=""/>
+    <dataLinks>
+     <dataLink attribute="value" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_IN/M1_DrumMotor_BatchSpeed" tagType="float" readWrite="R/W" sourceType="Tag"/>
+    </dataLinks>
+   </object>
+   <object class="LabelWgt" id="GroupWgt11.label22">
+    <wgtStyle marker="true" cy="11.51" keypad-type="None" cx="11.53" alignment="right" x="63" forcePaint="65" wrapping="true" font-size="11" y="2" width="24.90" height="24.29" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="15"/>
+    <links>
+     <lang class="MLTextLink" textid="14">
+      <MLFontFamily L1="Arial Rounded MT Bold"/>
+     </lang>
+    </links>
+   </object>
+  </object>
+ </object>
+</wgtPage>

@@ -1,153 +1,211 @@
 <wgtPage projectType="HMI Project" rev="1">
- <object usedFonts="Arial Rounded MT Bold" staticOptEnable="true" px="0" id="POV121_Config" py="0" downloadPrepDone="true" dynPosition="false" titlebar="true" dataWndSize="0,70" titleName="Manual valve control" staticFile="opt/pov121_config.png" pageName="POV121_Config" singleInstance="true" class="DialogWgt" pageType="non-modal" pageSize="350,610">
-  <wgtStyle height="610" fitToSize="1" width="350" v="04.05.00.224" x="0" y="0" ver="040500224" color="rgb(60,60,60)"/>
-  <object id="label3" static="true" class="LabelWgt">
-   <wgtStyle font-color="rgb(255,255,255)" font-sizepx="23" cy="16.58" font-size="17" cx="157.57" keypad-type="None" height="35" width="340" vert-align="top" wrapping="true" marker="true" x="5" y="4" font-family="Arial Rounded MT Bold" alignment="center"/>
+ <object downloadPrepDone="true" pageType="non-modal" staticFile="opt/pov121_config.png" class="DialogWgt" staticOptEnable="true" dynPosition="false" titlebar="true" pageName="POV121_Config" dataWndSize="0,70" py="0" px="0" titleName="Manual valve control" singleInstance="true" id="POV121_Config" usedFonts="Arial Rounded MT Bold" pageSize="350,610">
+  <wgtStyle ver="040500224" fitToSize="1" x="0" v="04.05.00.224" y="0" width="350" height="610" color="rgb(60,60,60)"/>
+  <object class="LabelWgt" id="label3" static="true">
+   <wgtStyle marker="true" cy="16.58" keypad-type="None" cx="157.57" alignment="center" x="5" wrapping="true" font-size="17" y="4" width="340" height="35" vert-align="top" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="23"/>
    <links>
-    <lang textid="0" class="MLTextLink">
+    <lang class="MLTextLink" textid="0">
      <MLFontFamily L1="Arial Rounded MT Bold"/>
     </lang>
    </links>
   </object>
-  <object mgrType="Page" id="_PageMLTextMgrWgt" mlFileName="" class="PageMLTextMgrWgt">
-   <wgtStyle height="0" width="0" x="0" y="0"/>
-   <langs defLangId="L1" curLangId="L1">
-    <lang name="Lang1" langCode="en-US" writingsystem="Any" defaultFont="Roboto" removable="false" keypads=";;" langId="L1"/>
+  <object mlFileName="" class="PageMLTextMgrWgt" mgrType="Page" id="_PageMLTextMgrWgt">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+   <langs curLangId="L1" defLangId="L1">
+    <lang defaultFont="Roboto" name="Lang1" langId="L1" langCode="en-US" writingsystem="Any" removable="false" keypads=";;"/>
    </langs>
    <MLTexts>
-    <MLText id="0" L1="POV121&#xa;"/>
-    <MLText id="11" L1="Open"/>
-    <MLText id="12" L1="Close"/>
-    <MLText id="15" L1="Manual control"/>
-    <MLText id="41" L1="Close"/>
-    <MLText id="95" L1="Manual"/>
-    <MLText id="130" L1="Disclaimer: This is a dynamic control system. Any manual intervention may introduce risk and should be performed with caution. Unauthorized adjustments or manual overrides can impact system performance and safety."/>
+    <MLText L1="POV121&#xa;" id="0"/>
+    <MLText L1="Close" id="3"/>
+    <MLText L1="Manual" id="4"/>
+    <MLText L1="Disclaimer: This is a dynamic control system. Any manual intervention may introduce risk and should be performed with caution. Unauthorized adjustments or manual overrides can impact system performance and safety." id="5"/>
+    <MLText L1="Open" id="8"/>
+    <MLText L1="Manual control" id="15"/>
+    <MLText L1="Close" id="41"/>
    </MLTexts>
   </object>
-  <object id="rect1" static="true" class="ShapeWgt">
-   <wgtStyle cy="0.90" cx="160" height="1.79" width="320" x="15" stroke="rgb(255,255,255)" y="519.19" fill="rgb(255,255,255)" nodeName="rect"/>
+  <object class="ShapeWgt" id="rect1" static="true">
+   <wgtStyle cy="0.90" cx="160" x="15" nodeName="rect" y="519.19" width="320" height="1.79" fill="rgb(255,255,255)" stroke="rgb(255,255,255)"/>
   </object>
-  <object id="rect2" static="true" class="ShapeWgt">
-   <wgtStyle cy="0.90" cx="160" height="1.79" width="320" x="15" stroke="rgb(255,255,255)" y="39" fill="rgb(255,255,255)" nodeName="rect"/>
+  <object class="ShapeWgt" id="rect2" static="true">
+   <wgtStyle cy="0.90" cx="160" x="15" nodeName="rect" y="39" width="320" height="1.79" fill="rgb(255,255,255)" stroke="rgb(255,255,255)"/>
   </object>
-  <object id="rect6" static="true" class="ShapeWgt">
-   <wgtStyle cy="225" cx="147.58" height="450" width="305" x="22.50" stroke="rgb(255,255,255)" y="53.01" fill="none" nodeName="rect"/>
+  <object class="ShapeWgt" id="rect6" static="true">
+   <wgtStyle cy="225" cx="147.58" x="22.50" nodeName="rect" y="53.01" width="305" height="450" fill="none" stroke="rgb(255,255,255)"/>
   </object>
-  <object id="BtnRect" customType="Shape Button" class="GroupWgt">
-   <wgtStyle cy="30" cx="50" height="60" width="100" x="227.50" y="533.19"/>
-   <object id="BtnRect.btn" hmiStyle="type:btn" class="ButtonWgt">
-    <wgtStyle form="rectangle" needleColor="rgb(255,255,255)" dx="1" dy="-1" height="60" width="100" type="momentary" x="0" needlePath="images\win-like-press.svg" releasePath="images\win-like.svg" stroke="rgb(255,255,255)" y="0" fill="rgb(60,60,60)" downFillColor="rgb(190,190,190)" value="0" pushColor="rgb(0,255,0)"/>
+  <object class="GroupWgt" id="BtnRect" customType="Shape Button">
+   <wgtStyle cy="30" cx="50" x="227.50" y="533.19" width="100" height="60"/>
+   <object class="ButtonWgt" id="BtnRect.btn" hmiStyle="type:btn">
+    <wgtStyle x="0" needlePath="images\win-like-press.svg" dy="-1" downFillColor="rgb(190,190,190)" needleColor="rgb(255,255,255)" value="0" pushColor="rgb(0,255,0)" y="0" width="100" form="rectangle" type="momentary" height="60" dx="1" fill="rgb(60,60,60)" releasePath="images\win-like.svg" stroke="rgb(255,255,255)"/>
     <links>
-     <action event="onMouseUp" actionID="0" attribute="onMouseRelease" actionWgt="_PageMgr" pageName="" class="CloseDialogAction" closeParam="Selected"/>
+     <action event="onMouseUp" attribute="onMouseRelease" class="CloseDialogAction" closeParam="Selected" pageName="" actionWgt="_PageMgr" actionID="0"/>
     </links>
    </object>
-   <object id="BtnRect.txt" class="LabelWgt">
-    <wgtStyle font-color="rgb(255,255,255)" font-sizepx="15" cy="9.98" font-size="11" cx="37.17" keypad-type="None" height="19.20" forcePaint="1" width="72.41" vert-align="middle" wrapping="true" x="15.52" y="20.40" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <object class="LabelWgt" id="BtnRect.txt">
+    <wgtStyle cy="9.98" keypad-type="None" cx="37.17" alignment="center" x="15.52" forcePaint="1" wrapping="true" font-size="11" y="20.40" width="72.41" height="19.20" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="15"/>
     <links>
-     <lang textid="41" class="MLTextLink">
+     <lang class="MLTextLink" textid="41">
       <MLFontFamily L1="Arial Rounded MT Bold"/>
      </lang>
     </links>
    </object>
   </object>
-  <object id="mtrImg13" static="true" class="ImageWgt">
-   <wgtStyle cy="25.14" imagePath="images/PNG - Renasys.png" cx="91.50" height="50" width="183" x="22.50" y="538.19" fill="rgb(245,245,245)"/>
+  <object class="ImageWgt" id="mtrImg13" static="true">
+   <wgtStyle cy="25.14" cx="91.50" x="22.50" y="538.19" width="183" height="50" fill="rgb(245,245,245)" imagePath="images/PNG - Renasys.png"/>
   </object>
-  <object id="BtnKbd26" customType="Keyboard Button" class="GroupWgt">
-   <wgtStyle cy="17.50" cx="60" height="35" width="120" x="115" visibility="false" y="140"/>
-   <object id="BtnKbd26.frmImg" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" static="true" class="ImageWgt">
-    <wgtStyle cy="35.14" bdrImageSize="71.00,46.00" cx="78.02" height="56.45" width="157.89" x="-21.05" bdrEdges="0.14,0.16,0.14,0.14" bdrSize="0.19,0.18,0.17,0.17" visibility="false" y="-10.16" enableCache="true"/>
+  <object class="LabelWgt" id="label1" static="true">
+   <wgtStyle marker="true" cy="16.58" keypad-type="None" cx="141.35" alignment="center" x="22.50" wrapping="true" font-size="14" y="55.01" width="305" height="35" vert-align="top" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="19"/>
+   <links>
+    <lang class="MLTextLink" textid="15">
+     <MLFontFamily L1="Arial Rounded MT Bold"/>
+    </lang>
+   </links>
+  </object>
+  <object class="GroupSubscribeWgt" id="POV121_Config@$GroupSubscrWgt@$0">
+   <wgtStyle x="0" y="0" width="0" height="0"/>
+  </object>
+  <object class="GroupWgt" id="BtnKbd26" customType="Keyboard Button">
+   <wgtStyle cy="17.50" cx="60" x="115" forcePaint="8" visibility="false" y="140" width="120" height="35"/>
+   <dataLinks>
+    <dataLink attribute="visibility" sourceType="Formula">
+     <xForms>
+      <xForm class="FormulaXForm" name="Formula" compiledExpression="(!$0)" colorPalette="" expression="$Not($('HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_ColdValve_BA'))">
+       <dataLinks>
+        <dataLink attribute="$0" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_ColdValve_BA" tagType="boolean" readWrite="R" sourceType="Tag"/>
+       </dataLinks>
+      </xForm>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+   <object class="ImageWgt" id="BtnKbd26.frmImg" static="true" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd">
+    <wgtStyle enableCache="true" cy="35.14" bdrEdges="0.14,0.16,0.14,0.14" cx="78.02" bdrSize="0.19,0.18,0.17,0.17" x="-21.05" bdrImageSize="71.00,46.00" visibility="false" y="-10.16" width="157.89" height="56.45"/>
    </object>
-   <object id="BtnKbd26.btn" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" class="ButtonWgt">
-    <wgtStyle cy="12.42" form="standard" cx="71.58" height="35" width="120" type="momentary" x="0" needlePath="images\btn_kbdblk_wide_2_rev2.svg" releasePath="images\btn_kbdblk_wide_1_rev1.svg" y="0" fill="rgb(127,127,127)" downFillColor="rgb(127,127,127)" value="0"/>
+   <object class="ButtonWgt" id="BtnKbd26.btn" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn">
+    <wgtStyle cy="12.42" cx="71.58" x="0" forcePaint="9" needlePath="images\btn_kbdblk_wide_2_rev2.svg" downFillColor="rgb(127,127,127)" value="0" y="0" width="120" form="standard" type="momentary" height="35" fill="rgb(127,127,127)" releasePath="images\btn_kbdblk_wide_1_rev1.svg"/>
+    <dataLinks>
+     <dataLink attribute="value" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManColdValveOpen" tagType="boolean" readWrite="R/W" sourceType="Tag"/>
+    </dataLinks>
    </object>
-   <object id="BtnKbd26.lbl" hmiStyle="hmi-type:wgtlabel" class="LabelWgt">
-    <wgtStyle font-sizepx="15" cy="12.42" font-size="11" cx="42.11" keypad-type="None" height="24.84" forcePaint="1" width="92.63" vert-align="middle" wrapping="true" x="12.63" y="2.26" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <object class="LabelWgt" id="BtnKbd26.lbl" hmiStyle="hmi-type:wgtlabel">
+    <wgtStyle cy="12.42" keypad-type="None" cx="42.11" alignment="center" x="12.63" forcePaint="1" wrapping="true" font-size="11" y="2.26" width="92.63" height="24.84" vert-align="middle" font-family="Arial Rounded MT Bold" font-sizepx="15"/>
     <links>
-     <lang textid="11" class="MLTextLink">
+     <lang class="MLTextLink" textid="8">
       <MLFontFamily L1="Arial Rounded MT Bold"/>
      </lang>
     </links>
    </object>
-   <object id="BtnKbd26.icoImg" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon" static="true" class="ImageWgt">
-    <wgtStyle cy="11.29" cx="27.37" height="18.06" width="37.89" x="40" y="5.65"/>
+   <object class="ImageWgt" id="BtnKbd26.icoImg" static="true" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon">
+    <wgtStyle cy="11.29" cx="27.37" x="40" y="5.65" width="37.89" height="18.06"/>
    </object>
   </object>
-  <object id="BtnKbd3" customType="Keyboard Button" class="GroupWgt">
-   <wgtStyle cy="17.50" cx="60" height="35" width="120" x="115" visibility="false" y="185"/>
-   <object id="BtnKbd3.frmImg" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" static="true" class="ImageWgt">
-    <wgtStyle cy="35.14" bdrImageSize="71.00,46.00" cx="78.02" height="56.45" width="157.89" x="-21.05" bdrEdges="0.14,0.16,0.14,0.14" bdrSize="0.19,0.18,0.17,0.17" visibility="false" y="-10.16" enableCache="true"/>
+  <object class="GroupWgt" id="BtnKbd3" customType="Keyboard Button">
+   <wgtStyle cy="17.50" cx="60" x="115" forcePaint="8" visibility="false" y="185" width="120" height="35"/>
+   <dataLinks>
+    <dataLink attribute="visibility" sourceType="Formula">
+     <xForms>
+      <xForm class="FormulaXForm" name="Formula" compiledExpression="(!$0)" colorPalette="" expression="$Not($('HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_ColdValve_BA'))">
+       <dataLinks>
+        <dataLink attribute="$0" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_ColdValve_BA" tagType="boolean" readWrite="R" sourceType="Tag"/>
+       </dataLinks>
+      </xForm>
+     </xForms>
+    </dataLink>
+   </dataLinks>
+   <object class="ImageWgt" id="BtnKbd3.frmImg" static="true" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd">
+    <wgtStyle enableCache="true" cy="35.14" bdrEdges="0.14,0.16,0.14,0.14" cx="78.02" bdrSize="0.19,0.18,0.17,0.17" x="-21.05" bdrImageSize="71.00,46.00" visibility="false" y="-10.16" width="157.89" height="56.45"/>
    </object>
-   <object id="BtnKbd3.btn" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" class="ButtonWgt">
-    <wgtStyle cy="12.42" form="standard" cx="71.58" height="35" width="120" type="momentary" x="0" needlePath="images\btn_kbdblk_wide_2_rev2.svg" releasePath="images\btn_kbdblk_wide_1_rev1.svg" y="0" fill="rgb(127,127,127)" downFillColor="rgb(127,127,127)" value="0"/>
+   <object class="ButtonWgt" id="BtnKbd3.btn" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn">
+    <wgtStyle cy="12.42" cx="71.58" x="0" forcePaint="9" needlePath="images\btn_kbdblk_wide_2_rev2.svg" downFillColor="rgb(127,127,127)" value="0" y="0" width="120" form="standard" type="momentary" height="35" fill="rgb(127,127,127)" releasePath="images\btn_kbdblk_wide_1_rev1.svg"/>
+    <dataLinks>
+     <dataLink attribute="value" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManColdValveClose" tagType="boolean" readWrite="R/W" sourceType="Tag"/>
+    </dataLinks>
    </object>
-   <object id="BtnKbd3.lbl" hmiStyle="hmi-type:wgtlabel" class="LabelWgt">
-    <wgtStyle font-sizepx="15" cy="12.42" font-size="11" cx="42.11" keypad-type="None" height="24.84" forcePaint="1" width="92.63" vert-align="middle" wrapping="true" x="12.63" y="2.26" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <object class="LabelWgt" id="BtnKbd3.lbl" hmiStyle="hmi-type:wgtlabel">
+    <wgtStyle cy="12.42" keypad-type="None" cx="42.11" alignment="center" x="12.63" forcePaint="1" wrapping="true" font-size="11" y="2.26" width="92.63" height="24.84" vert-align="middle" font-family="Arial Rounded MT Bold" font-sizepx="15"/>
     <links>
-     <lang textid="12" class="MLTextLink">
+     <lang class="MLTextLink" textid="3">
       <MLFontFamily L1="Arial Rounded MT Bold"/>
      </lang>
     </links>
    </object>
-   <object id="BtnKbd3.icoImg" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon" static="true" class="ImageWgt">
-    <wgtStyle cy="11.29" cx="27.37" height="18.06" width="37.89" x="40" y="5.65"/>
+   <object class="ImageWgt" id="BtnKbd3.icoImg" static="true" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon">
+    <wgtStyle cy="11.29" cx="27.37" x="40" y="5.65" width="37.89" height="18.06"/>
    </object>
   </object>
-  <object id="BtnKbd2" customType="Keyboard Button" class="GroupWgt">
-   <wgtStyle cy="16.94" cx="58.95" height="35" width="120" x="115" y="95"/>
-   <object id="BtnKbd2.frmImg" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd" static="true" class="ImageWgt">
-    <wgtStyle cy="35.14" bdrImageSize="71.00,46.00" cx="78.02" height="56.45" width="157.89" x="-21.05" bdrEdges="0.14,0.16,0.14,0.14" bdrSize="0.19,0.18,0.17,0.17" visibility="false" y="-10.16" enableCache="true"/>
+  <object class="GroupWgt" id="BtnKbd2" customType="Keyboard Button">
+   <wgtStyle cy="16.94" cx="58.95" x="115" y="95" width="120" height="35"/>
+   <object class="ImageWgt" id="BtnKbd2.frmImg" static="true" hmiStyle="hmi-name:chrome; hmi-shape:rect; hmi-type:bkgd">
+    <wgtStyle enableCache="true" cy="35.14" bdrEdges="0.14,0.16,0.14,0.14" cx="78.02" bdrSize="0.19,0.18,0.17,0.17" x="-21.05" bdrImageSize="71.00,46.00" visibility="false" y="-10.16" width="157.89" height="56.45"/>
    </object>
-   <object id="BtnKbd2.btn" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn" class="ButtonWgt">
-    <wgtStyle cy="12.42" form="standard" cx="71.58" height="35" width="120" type="momentary" x="0" needlePath="images\btn_kbdblk_wide_2_rev2.svg" releasePath="images\btn_kbdblk_wide_1_rev1.svg" y="0" fill="rgb(127,127,127)" downFillColor="rgb(127,127,127)" value="0"/>
+   <object class="ButtonWgt" id="BtnKbd2.btn" hmiStyle="hmi-filltype:none; hmi-name:kbd1; hmi-shape:custom; hmi-type:btn; type:btn">
+    <wgtStyle cy="12.42" cx="71.58" x="0" forcePaint="136" needlePath="images\btn_kbdblk_wide_2_rev2.svg" downFillColor="rgb(127,127,127)" value="0" y="0" width="120" form="standard" type="momentary" height="35" fill="rgb(127,127,127)" releasePath="images\btn_kbdblk_wide_1_rev1.svg"/>
+    <dataLinks>
+     <dataLink attribute="fill" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_ColdValve_BA" tagType="boolean" readWrite="R/W" sourceType="Tag">
+      <xForms>
+       <xForm ColorPaletteCustom="#ffff00;#7f7f7f" class="ColorPaletteCustomXForm" name="ColorPaletteCustom"/>
+      </xForms>
+     </dataLink>
+    </dataLinks>
     <links>
-     <action event="onMouseClick" actionID="1" attribute="onMouseClick" actionWgt="_TagMgr" class="ToggleBitAction" BitIndex="0">
-      <dataLinks/>
+     <action event="onMouseClick" attribute="onMouseClick" class="ToggleBitAction" actionWgt="_TagMgr" BitIndex="0" actionID="1">
+      <dataLinks>
+       <dataLink attribute="tagSrc" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManColdValveManual" tagType="boolean" readWrite="R" sourceType="Tag"/>
+      </dataLinks>
      </action>
     </links>
    </object>
-   <object id="BtnKbd2.lbl" hmiStyle="hmi-type:wgtlabel" class="LabelWgt">
-    <wgtStyle font-sizepx="15" cy="12.42" font-size="11" cx="42.11" keypad-type="None" height="24.84" forcePaint="1" width="92.63" vert-align="middle" wrapping="true" x="12.63" y="2.26" font-family="Arial Rounded MT Bold" alignment="center"/>
+   <object class="LabelWgt" id="BtnKbd2.lbl" hmiStyle="hmi-type:wgtlabel">
+    <wgtStyle cy="12.42" keypad-type="None" cx="42.11" alignment="center" x="12.63" forcePaint="1" wrapping="true" font-size="11" y="2.26" width="92.63" height="24.84" vert-align="middle" font-family="Arial Rounded MT Bold" font-sizepx="15"/>
     <links>
-     <lang textid="95" class="MLTextLink">
+     <lang class="MLTextLink" textid="4">
       <MLFontFamily L1="Arial Rounded MT Bold"/>
      </lang>
     </links>
    </object>
-   <object id="BtnKbd2.icoImg" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon" static="true" class="ImageWgt">
-    <wgtStyle cy="11.29" cx="27.37" height="18.06" width="37.89" x="40" y="5.65"/>
+   <object class="ImageWgt" id="BtnKbd2.icoImg" static="true" hmiStyle="hmi-name:solid; hmi-shape:none; hmi-type:icon">
+    <wgtStyle cy="11.29" cx="27.37" x="40" y="5.65" width="37.89" height="18.06"/>
    </object>
   </object>
-  <object id="label26" static="true" class="LabelWgt">
-   <wgtStyle font-color="rgb(255,255,255)" font-sizepx="13" cy="56.82" font-size="10" cx="115.83" keypad-type="None" height="120" width="250" vert-align="middle" wrapping="true" marker="true" x="50" y="224.18" font-family="Arial Rounded MT Bold" alignment="center"/>
+  <object class="LabelWgt" id="label26" static="true">
+   <wgtStyle marker="true" cy="56.82" keypad-type="None" cx="115.83" alignment="center" x="50" wrapping="true" font-size="10" y="224.18" width="250" height="120" vert-align="middle" font-family="Arial Rounded MT Bold" font-color="rgb(255,255,255)" font-sizepx="13"/>
    <links>
-    <lang textid="130" class="MLTextLink">
+    <lang class="MLTextLink" textid="5">
      <MLFontFamily L1="Arial Rounded MT Bold"/>
     </lang>
    </links>
   </object>
-  <object id="vlvWgt29" class="GroupWgt">
-   <wgtStyle cy="69" cx="81.25" height="138" width="162.50" x="93.75" y="340.18"/>
-   <object id="vlvWgt29.bkgImg" static="true" class="ImageWgt">
-    <wgtStyle cy="19.71" imagePath="images/Valve_h_RG.svg" cx="23.21" height="138" width="162.50" x="0" stroke="rgb(0,0,0)" y="0" fill="rgb(130,130,130)" stroke-width="5"/>
+  <object class="GroupWgt" id="vlvWgt6">
+   <wgtStyle cy="69" cx="81.25" x="93.75" y="340.18" width="162.50" height="138"/>
+   <object class="ImageWgt" id="vlvWgt6.bkgImg">
+    <wgtStyle cy="19.70" cx="23.20" x="0" forcePaint="136" stroke-width="5" y="0" width="162.50" height="138" fill="rgb(130,130,130)" imagePath="images/Valve_h_RG.svg" stroke="rgb(0,0,0)"/>
+    <dataLinks>
+     <dataLink attribute="stroke" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_ColdValve_BA" tagType="boolean" readWrite="R" sourceType="Tag">
+      <xForms>
+       <xForm ColorPaletteCustom="#ffff7f;#000000" class="ColorPaletteCustomXForm" name="ColorPaletteCustom"/>
+      </xForms>
+     </dataLink>
+    </dataLinks>
    </object>
-   <object id="vlvWgt29.rgtImg" static="true" class="ImageWgt">
-    <wgtStyle cy="8.89" imagePath="images/Valve_3b_right.svg" cx="17.41" height="94.87" width="62.96" x="83.29" y="24.17" fill="rgb(130,130,130)"/>
+   <object class="ImageWgt" id="vlvWgt6.rgtImg">
+    <wgtStyle cy="8.89" cx="17.42" x="83.28" forcePaint="137" y="24.19" width="62.97" height="94.88" fill="rgb(192,192,192)" imagePath="images/Valve_3b_right.svg"/>
+    <dataLinks>
+     <dataLink attribute="fill" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_ColdValve_OS_YS" tagType="short" readWrite="R" sourceType="Tag">
+      <xForms>
+       <xForm ColorPaletteCustom="#c0c0c0;#00aa00;#c60000;#ffffff" class="ColorPaletteCustomXForm" name="ColorPaletteCustom"/>
+      </xForms>
+     </dataLink>
+    </dataLinks>
    </object>
-   <object id="vlvWgt29.lftImg" static="true" class="ImageWgt">
-    <wgtStyle cy="8.89" imagePath="images/Valve_3b_left.svg" cx="17.41" height="94.87" width="62.96" x="16.25" y="25.87" fill="rgb(130,130,130)"/>
+   <object class="ImageWgt" id="vlvWgt6.lftImg">
+    <wgtStyle cy="8.89" cx="17.42" x="16.25" forcePaint="137" y="25.88" width="62.97" height="94.88" fill="rgb(192,192,192)" imagePath="images/Valve_3b_left.svg"/>
+    <dataLinks>
+     <dataLink attribute="fill" dataSource="_TagMgr" class="TagMgrWgt" widgetType="Project" tagIndex="-1" tag="HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_ColdValve_OS_YS" tagType="short" readWrite="R" sourceType="Tag">
+      <xForms>
+       <xForm ColorPaletteCustom="#c0c0c0;#00aa00;#c60000;#ffffff" class="ColorPaletteCustomXForm" name="ColorPaletteCustom"/>
+      </xForms>
+     </dataLink>
+    </dataLinks>
    </object>
-  </object>
-  <object id="label1" static="true" class="LabelWgt">
-   <wgtStyle font-color="rgb(255,255,255)" font-sizepx="19" cy="16.58" font-size="14" cx="141.35" keypad-type="None" height="35" width="305" vert-align="top" wrapping="true" marker="true" x="22.50" y="55.01" font-family="Arial Rounded MT Bold" alignment="center"/>
-   <links>
-    <lang textid="15" class="MLTextLink">
-     <MLFontFamily L1="Arial Rounded MT Bold"/>
-    </lang>
-   </links>
-  </object>
-  <object id="POV121_Config@$GroupSubscrWgt@$0" class="GroupSubscribeWgt">
-   <wgtStyle height="0" width="0" x="0" y="0"/>
   </object>
  </object>
 </wgtPage>

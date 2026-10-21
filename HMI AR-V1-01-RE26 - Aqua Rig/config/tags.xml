@@ -1,2 +1,1915 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tags/>
+<tags>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_WarmValve_BA</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_WaterFlushingSM_WarmValve_BA?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_WarmValve_BA?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_WaterFlushingSM_WarmValve_BA</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_WarmValve_OS_YS</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_WaterFlushingSM_WarmValve_OS_YS?short</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_WarmValve_OS_YS?short</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_WaterFlushingSM_WarmValve_OS_YS</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_HybridPump_ManualMode</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_HybridPump_ManualMode?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_HybridPump_ManualMode?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_HybridPump_ManualMode</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_HybridPump_VFD_Status</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_HybridPump_VFD_Status?short</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_HybridPump_VFD_Status?short</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_HybridPump_VFD_Status</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_Compressor_Status</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_Compressor_Status?short</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_Compressor_Status?short</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_Compressor_Status</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/FT111_Y</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.FT111_Y?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/FT111_Y?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/FT111_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/PT121_Y</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.PT121_Y?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/PT121_Y?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/PT121_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/PT191_Y</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.PT191_Y?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/PT191_Y?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/PT191_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/PT123_Y</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.PT123_Y?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/PT123_Y?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/PT123_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/PT122_Y</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.PT122_Y?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/PT122_Y?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/PT122_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/PT151_Y</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.PT151_Y?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/PT151_Y?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/PT151_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/FRL151_Y</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.FRL151_Y?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/FRL151_Y?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/FRL151_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/LT111_Y</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.LT111_Y?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/LT111_Y?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/LT111_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/LT111_Y_cm</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.LT111_Y_cm?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/LT111_Y_cm?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/LT111_Y_cm</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_PressureIncreasingPump_Speed</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_PressureIncreasingPump_Speed?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_PressureIncreasingPump_Speed?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_PressureIncreasingPump_Speed</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_PressureIncreasingPump_ManualMode</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_PressureIncreasingPump_ManualMode?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_PressureIncreasingPump_ManualMode?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_PressureIncreasingPump_ManualMode</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_PressureIncreasingPump_VFD_Status</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_PressureIncreasingPump_VFD_Status?short</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_PressureIncreasingPump_VFD_Status?short</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_PressureIncreasingPump_VFD_Status</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_HybridPump_Speed</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_HybridPump_Speed?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_HybridPump_Speed?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_HybridPump_Speed</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_HybridPump_OutletValve_BA</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_HybridPump_OutletValve_BA?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_HybridPump_OutletValve_BA?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_HybridPump_OutletValve_BA</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_HybridPump_OutletValve_OS_YS</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_HybridPump_OutletValve_OS_YS?short</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_HybridPump_OutletValve_OS_YS?short</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_HybridPump_OutletValve_OS_YS</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_HighPressurePump_Speed</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_HighPressurePump_Speed?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_HighPressurePump_Speed?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_HighPressurePump_Speed</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_HighPressurePump_VFD_Status</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_HighPressurePump_VFD_Status?short</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_HighPressurePump_VFD_Status?short</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_HighPressurePump_VFD_Status</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_HighPressurePump_ManualMode</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_HighPressurePump_ManualMode?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_HighPressurePump_ManualMode?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_HighPressurePump_ManualMode</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_DrumMotor_Speed</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_DrumMotor_Speed?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_DrumMotor_Speed?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_DrumMotor_Speed</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_DrumMotor_ManualMode</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_DrumMotor_ManualMode?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_DrumMotor_ManualMode?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_DrumMotor_ManualMode</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_DrumMotor_VFD_Status</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_DrumMotor_VFD_Status?short</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_DrumMotor_VFD_Status?short</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_DrumMotor_VFD_Status</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_AirKnife_ManualMode</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_AirKnife_ManualMode?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_AirKnife_ManualMode?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_AirKnife_ManualMode</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_AirKnife_Status</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_AirKnife_Status?short</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_AirKnife_Status?short</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_AirKnife_Status</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_ColdValve_BA</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_WaterFlushingSM_ColdValve_BA?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_ColdValve_BA?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_WaterFlushingSM_ColdValve_BA</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_ColdValve_OS_YS</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_WaterFlushingSM_ColdValve_OS_YS?short</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_ColdValve_OS_YS?short</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_WaterFlushingSM_ColdValve_OS_YS</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_PumpSelectionValve_BA</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_WaterFlushingSM_PumpSelectionValve_BA?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_PumpSelectionValve_BA?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_WaterFlushingSM_PumpSelectionValve_BA</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_PumpSelectionValve_OS_YS</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_WaterFlushingSM_PumpSelectionValve_OS_YS?short</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_PumpSelectionValve_OS_YS?short</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_WaterFlushingSM_PumpSelectionValve_OS_YS</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HybridPump_ManOutletValveManual</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HybridPump_ManOutletValveManual?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HybridPump_ManOutletValveManual?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_ManOutletValveManual</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HybridPump_ManOutletValveOpen</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HybridPump_ManOutletValveOpen?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HybridPump_ManOutletValveOpen?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_ManOutletValveOpen</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HybridPump_ManOutletValveClose</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HybridPump_ManOutletValveClose?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HybridPump_ManOutletValveClose?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_ManOutletValveClose</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManColdValveManual</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_WaterFlushingSM_ManColdValveManual?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManColdValveManual?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManColdValveManual</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManColdValveOpen</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_WaterFlushingSM_ManColdValveOpen?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManColdValveOpen?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManColdValveOpen</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManColdValveClose</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_WaterFlushingSM_ManColdValveClose?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManColdValveClose?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManColdValveClose</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManWarmValveManual</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_WaterFlushingSM_ManWarmValveManual?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManWarmValveManual?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManWarmValveManual</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManWarmValveOpen</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_WaterFlushingSM_ManWarmValveOpen?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManWarmValveOpen?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManWarmValveOpen</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManWarmValveClose</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_WaterFlushingSM_ManWarmValveClose?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManWarmValveClose?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManWarmValveClose</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManPumpSelectionValveManual</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_WaterFlushingSM_ManPumpSelectionValveManual?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManPumpSelectionValveManual?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManPumpSelectionValveManual</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManPumpSelectionValveOpen</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_WaterFlushingSM_ManPumpSelectionValveOpen?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManPumpSelectionValveOpen?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManPumpSelectionValveOpen</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManPumpSelectionValveClose</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_WaterFlushingSM_ManPumpSelectionValveClose?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManPumpSelectionValveClose?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManPumpSelectionValveClose</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HighPressurePump_Manual</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HighPressurePump_Manual?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HighPressurePump_Manual?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_Manual</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HighPressurePump_ManStart</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HighPressurePump_ManStart?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HighPressurePump_ManStart?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_ManStart</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HighPressurePump_ManStopp</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HighPressurePump_ManStopp?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HighPressurePump_ManStopp?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_ManStopp</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HighPressurePump_VFD_Reset</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HighPressurePump_VFD_Reset?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HighPressurePump_VFD_Reset?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_VFD_Reset</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HighPressurePump_ManSpeed</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HighPressurePump_ManSpeed?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HighPressurePump_ManSpeed?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_ManSpeed</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HighPressurePump_ColdSetpoint</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HighPressurePump_ColdSetpoint?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HighPressurePump_ColdSetpoint?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_ColdSetpoint</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HighPressurePump_WarmSetpoint</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HighPressurePump_WarmSetpoint?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HighPressurePump_WarmSetpoint?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_WarmSetpoint</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HighPressurePump_Reg_KGain</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HighPressurePump_Reg_KGain?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HighPressurePump_Reg_KGain?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_Reg_KGain</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HighPressurePump_Reg_Deadband</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HighPressurePump_Reg_Deadband?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HighPressurePump_Reg_Deadband?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_Reg_Deadband</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HighPressurePump_Reg_PMIN</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HighPressurePump_Reg_PMIN?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HighPressurePump_Reg_PMIN?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_Reg_PMIN</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HighPressurePump_Reg_PMAX</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HighPressurePump_Reg_PMAX?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HighPressurePump_Reg_PMAX?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_Reg_PMAX</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/PT122_PWL</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.PT122_PWL?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/PT122_PWL?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/PT122_PWL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/PT122_PWH</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.PT122_PWH?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/PT122_PWH?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/PT122_PWH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_Status</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_WaterFlushingSM_Status?string-81</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_Status?string-81</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_WaterFlushingSM_Status</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_State</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_WaterFlushingSM_State?short</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_State?short</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_WaterFlushingSM_State</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_Manual</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_PressureIncreasingPump_Manual?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_Manual?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_Manual</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_ManStart</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_PressureIncreasingPump_ManStart?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_ManStart?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_ManStart</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_ManStopp</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_PressureIncreasingPump_ManStopp?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_ManStopp?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_ManStopp</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_VFD_Reset</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_PressureIncreasingPump_VFD_Reset?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_VFD_Reset?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_VFD_Reset</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_ManSpeed</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_PressureIncreasingPump_ManSpeed?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_ManSpeed?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_ManSpeed</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_ColdSetpoint</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_PressureIncreasingPump_ColdSetpoint?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_ColdSetpoint?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_ColdSetpoint</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_WarmSetpoint</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_PressureIncreasingPump_WarmSetpoint?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_WarmSetpoint?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_WarmSetpoint</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_Reg_KGain</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_PressureIncreasingPump_Reg_KGain?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_Reg_KGain?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_Reg_KGain</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_Reg_Deadband</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_PressureIncreasingPump_Reg_Deadband?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_Reg_Deadband?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_Reg_Deadband</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_Reg_PMIN</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_PressureIncreasingPump_Reg_PMIN?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_Reg_PMIN?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_Reg_PMIN</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_Reg_PMAX</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_PressureIncreasingPump_Reg_PMAX?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_Reg_PMAX?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_Reg_PMAX</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/PT123_PWL</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.PT123_PWL?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/PT123_PWL?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/PT123_PWL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/PT123_PWH</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.PT123_PWH?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/PT123_PWH?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/PT123_PWH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_Airknife_Manual</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_Airknife_Manual?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_Airknife_Manual?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Airknife_Manual</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_Airknife_ManStart</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_Airknife_ManStart?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_Airknife_ManStart?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Airknife_ManStart</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_Airknife_ManStopp</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_Airknife_ManStopp?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_Airknife_ManStopp?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Airknife_ManStopp</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/FRL151_PWL</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.FRL151_PWL?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/FRL151_PWL?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/FRL151_PWL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/PT151_PALL</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.PT151_PALL?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/PT151_PALL?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/PT151_PALL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/PT151_PWL</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.PT151_PWL?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/PT151_PWL?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/PT151_PWL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_FilterCleaningSM_PauseHotTime</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_FilterCleaningSM_PauseHotTime?int64</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_FilterCleaningSM_PauseHotTime?int64</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_FilterCleaningSM_PauseHotTime</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_FilterCleaningSM_ActiveHotTime</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_FilterCleaningSM_ActiveHotTime?int64</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_FilterCleaningSM_ActiveHotTime?int64</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_FilterCleaningSM_ActiveHotTime</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_FilterCleaningSM_State</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_FilterCleaningSM_State?short</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_FilterCleaningSM_State?short</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_FilterCleaningSM_State</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_FilterCleaningSM_Status</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_FilterCleaningSM_Status?string-81</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_FilterCleaningSM_Status?string-81</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_FilterCleaningSM_Status</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_Event_EnableWaterKnife</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_Event_EnableWaterKnife?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_Event_EnableWaterKnife?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Event_EnableWaterKnife</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_Event_DisableWaterKnife</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_Event_DisableWaterKnife?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_Event_DisableWaterKnife?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Event_DisableWaterKnife</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_Event_EnableAirKnife</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_Event_EnableAirKnife?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_Event_EnableAirKnife?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Event_EnableAirKnife</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_Event_DisableAirKnife</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_Event_DisableAirKnife?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_Event_DisableAirKnife?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Event_DisableAirKnife</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_Event_EnableAir_Hot</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_Event_EnableAir_Hot?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_Event_EnableAir_Hot?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Event_EnableAir_Hot</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_DrumMotor_Manual</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_DrumMotor_Manual?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_DrumMotor_Manual?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_Manual</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_DrumMotor_ManStart</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_DrumMotor_ManStart?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_DrumMotor_ManStart?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_ManStart</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_DrumMotor_ManStop</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_DrumMotor_ManStop?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_DrumMotor_ManStop?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_ManStop</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_DrumMotor_VFD_Reset</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_DrumMotor_VFD_Reset?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_DrumMotor_VFD_Reset?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_VFD_Reset</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_DrumMotor_ManSpeed</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_DrumMotor_ManSpeed?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_DrumMotor_ManSpeed?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_ManSpeed</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_KGain</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_DrumMotor_Reg_KGain?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_KGain?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_Reg_KGain</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_PMIN</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_DrumMotor_Reg_PMIN?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_PMIN?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_Reg_PMIN</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_PMAX</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_DrumMotor_Reg_PMAX?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_PMAX?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_Reg_PMAX</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_IGain</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_DrumMotor_Reg_IGain?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_IGain?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_Reg_IGain</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_Deadband</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_DrumMotor_Reg_Deadband?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_Deadband?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_Reg_Deadband</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/LT111_PWH</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.LT111_PWH?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/LT111_PWH?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/LT111_PWH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/LT111_PAHH</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.LT111_PAHH?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/LT111_PAHH?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/LT111_PAHH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_DrumMotor_BatchSpeed</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_DrumMotor_BatchSpeed?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_DrumMotor_BatchSpeed?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_BatchSpeed</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HybridPump_Manual</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HybridPump_Manual?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HybridPump_Manual?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_Manual</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HybridPump_ManStart</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HybridPump_ManStart?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HybridPump_ManStart?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_ManStart</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HybridPump_ManStopp</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HybridPump_ManStopp?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HybridPump_ManStopp?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_ManStopp</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HybridPump_VFD_Reset</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HybridPump_VFD_Reset?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HybridPump_VFD_Reset?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_VFD_Reset</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HybridPump_ManSpeed</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HybridPump_ManSpeed?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HybridPump_ManSpeed?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_ManSpeed</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_KGain</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HybridPump_Reg_KGain?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_KGain?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_Reg_KGain</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_PMIN</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HybridPump_Reg_PMIN?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_PMIN?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_Reg_PMIN</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_PMAX</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HybridPump_Reg_PMAX?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_PMAX?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_Reg_PMAX</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_IGain</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HybridPump_Reg_IGain?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_IGain?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_Reg_IGain</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_Deadband</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HybridPump_Reg_Deadband?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_Deadband?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_Reg_Deadband</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_Setpoint</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_HybridPump_Reg_Setpoint?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_Setpoint?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_Reg_Setpoint</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_Reset_TotalTimer</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_Reset_TotalTimer?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_Reset_TotalTimer?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Reset_TotalTimer</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_ActivateServiceMode</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_ActivateServiceMode?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_ActivateServiceMode?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_ActivateServiceMode</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_State_Service_Active</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_State_Service_Active?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_State_Service_Active?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_State_Service_Active</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_DeactivateServiceMode</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_DeactivateServiceMode?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_DeactivateServiceMode?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DeactivateServiceMode</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_Filterlevel_Reg_Setpoint</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_Filterlevel_Reg_Setpoint?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_Filterlevel_Reg_Setpoint?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Filterlevel_Reg_Setpoint</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/LT111_PBXLL</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.LT111_PBXLL?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/LT111_PBXLL?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/LT111_PBXLL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/LT111_PBXL</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.LT111_PBXL?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/LT111_PBXL?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/LT111_PBXL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/LT111_PBXHH</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.LT111_PBXHH?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/LT111_PBXHH?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/LT111_PBXHH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/LT111_PBXH</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.LT111_PBXH?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/LT111_PBXH?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/LT111_PBXH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/LT111_Batch_Parameters_PBXL</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.LT111_Batch_Parameters_PBXL?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/LT111_Batch_Parameters_PBXL?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/LT111_Batch_Parameters_PBXL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/LT111_Batch_Parameters_PBXH</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.LT111_Batch_Parameters_PBXH?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/LT111_Batch_Parameters_PBXH?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/LT111_Batch_Parameters_PBXH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/TestAlarm</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.Alarms.TestAlarm?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/Alarms/TestAlarm?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/TestAlarm</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/FieldbusAckFaults</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.FieldbusAckFaults?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/FieldbusAckFaults?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/FieldbusAckFaults</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/PT121_PWL</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.PT121_PWL?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/PT121_PWL?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/PT121_PWL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/PT121_PALL</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.PT121_PALL?float</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/PT121_PALL?float</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/PT121_PALL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/OverallSM_Status</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.OverallSM_Status?string-81</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/OverallSM_Status?string-81</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/OverallSM_Status</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/OverallSM_State</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.OverallSM_State?short</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/OverallSM_State?short</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/OverallSM_State</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_FlowControlSM_Status</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_FlowControlSM_Status?string-81</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_FlowControlSM_Status?string-81</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_FlowControlSM_Status</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_FlowControlSM_State</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_FlowControlSM_State?short</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_FlowControlSM_State?short</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_FlowControlSM_State</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_StateMachine_Status</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_StateMachine_Status?string-81</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_StateMachine_Status?string-81</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_StateMachine_Status</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_StateMachine_State</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_StateMachine_State?short</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_StateMachine_State?short</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_StateMachine_State</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/ResetEM</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.ResetEM?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/ResetEM?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/ResetEM</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/SetEM</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.SetEM?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/SetEM?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/SetEM</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_FlowControlSM_BatchEnabled</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_FlowControlSM_BatchEnabled?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_FlowControlSM_BatchEnabled?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_FlowControlSM_BatchEnabled</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_StartSeq</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_StartSeq?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_StartSeq?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_StartSeq</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_StoppSeq</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_StoppSeq?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_StoppSeq?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_StoppSeq</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManWarm</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_IN.M1_WaterFlushingSM_ManWarm?boolean</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManWarm?boolean</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManWarm</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_CurrentRunTime</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_CurrentRunTime?string-81</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_CurrentRunTime?string-81</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_CurrentRunTime</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_TotalRunTime</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_TotalRunTime?string-81</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_TotalRunTime?string-81</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_TotalRunTime</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_FlushStatus</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_WaterFlushingSM_FlushStatus?short</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_FlushStatus?short</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_WaterFlushingSM_FlushStatus</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_OUT/M1_FilterCleaningSM_Flushtime</name>
+        <resourceLocator>prot1://0?M?NS4|String||var|UC20-WL2000-AC.Application.OS_OUT.M1_FilterCleaningSM_Flushtime?int64</resourceLocator>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <simulator>VRBL://HMI_COM_OPC/OS_OUT/M1_FilterCleaningSM_Flushtime?int64</simulator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_FilterCleaningSM_Flushtime</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+</tags>

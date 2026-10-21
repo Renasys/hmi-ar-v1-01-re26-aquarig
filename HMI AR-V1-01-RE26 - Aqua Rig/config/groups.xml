@@ -11,24 +11,89 @@
   <tag>System Time</tag>
  </group>
  <group Type="Auto">
-  <name>External_Valvecontrol_Config@$GroupSubscrWgt@$0</name>
-  <active>false</active>
-  <tag>HMI_COM/Application/OS_OUT/ExternalControl_Current_State</tag>
-  <tag>HMI_COM/Application/OS_OUT/ExternalControl_StateStatus</tag>
-  <tag>HMI_COM/Application/OS_OUT/POV911_BA</tag>
-  <tag>HMI_COM/Application/OS_OUT/POV911_BCH</tag>
-  <tag>HMI_COM/Application/OS_OUT/POV911_OS_YS</tag>
-  <tag>HMI_COM/Application/OS_OUT/POV912_BA</tag>
-  <tag>HMI_COM/Application/OS_OUT/POV912_BCH</tag>
-  <tag>HMI_COM/Application/OS_OUT/POV912_OS_YS</tag>
-  <tag>HMI_COM/Application/OS_OUT/POV941_BA</tag>
-  <tag>HMI_COM/Application/OS_OUT/POV941_BCH</tag>
-  <tag>HMI_COM/Application/OS_OUT/POV941_OS_YS</tag>
- </group>
- <group Type="Auto">
   <name>KeyPad5@$GroupSubscrWgt@$0</name>
   <active>false</active>
   <tag>System Time</tag>
+ </group>
+ <group Type="Auto">
+  <name>M1_AirSystem_Config@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>HMI_COM_OPC/OS_IN/FRL151_PWL</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_Airknife_ManStart</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_Airknife_ManStopp</tag>
+  <tag>HMI_COM_OPC/OS_IN/PT151_PALL</tag>
+  <tag>HMI_COM_OPC/OS_IN/PT151_PWL</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_AirKnife_ManualMode</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_AirKnife_Status</tag>
+ </group>
+ <group Type="Auto">
+  <name>M1_DrumMotor_Config@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>HMI_COM_OPC/OS_IN/LT111_PAHH</tag>
+  <tag>HMI_COM_OPC/OS_IN/LT111_PWH</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_DrumMotor_BatchSpeed</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_DrumMotor_ManSpeed</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_DrumMotor_ManStart</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_DrumMotor_ManStop</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_Deadband</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_IGain</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_KGain</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_PMAX</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_DrumMotor_Reg_PMIN</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_DrumMotor_VFD_Reset</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_DrumMotor_ManualMode</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_DrumMotor_VFD_Status</tag>
+ </group>
+ <group Type="Auto">
+  <name>M1_FilterCleaningSM_Config@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>HMI_COM_OPC/OS_IN/M1_Event_DisableAirKnife</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_Event_DisableWaterKnife</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_Event_EnableAirKnife</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_Event_EnableAir_Hot</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_Event_EnableWaterKnife</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_FilterCleaningSM_ActiveHotTime</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_FilterCleaningSM_PauseHotTime</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_FilterCleaningSM_State</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_FilterCleaningSM_Status</tag>
+ </group>
+ <group Type="Auto">
+  <name>M1_HighPressureWaterKnives_Config@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>HMI_COM/Application/OS_IN/M1_Waterknife_Reg_IGain</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HighPressurePump_ColdSetpoint</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HighPressurePump_ManSpeed</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HighPressurePump_ManStart</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HighPressurePump_ManStopp</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HighPressurePump_Reg_Deadband</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HighPressurePump_Reg_KGain</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HighPressurePump_Reg_PMAX</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HighPressurePump_Reg_PMIN</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HighPressurePump_VFD_Reset</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HighPressurePump_WarmSetpoint</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManWarm</tag>
+  <tag>HMI_COM_OPC/OS_IN/PT122_PWH</tag>
+  <tag>HMI_COM_OPC/OS_IN/PT122_PWL</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_HighPressurePump_ManualMode</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_HighPressurePump_VFD_Status</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_State</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_Status</tag>
+ </group>
+ <group Type="Auto">
+  <name>M1_InletPump@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>HMI_COM_OPC/OS_IN/M1_HybridPump_ManSpeed</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HybridPump_ManStart</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HybridPump_ManStopp</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_Deadband</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_IGain</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_KGain</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_PMAX</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_PMIN</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HybridPump_Reg_Setpoint</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HybridPump_VFD_Reset</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_HybridPump_ManualMode</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_HybridPump_VFD_Status</tag>
  </group>
  <group Type="Auto">
   <name>M1_Machine@$GroupSubscrWgt@$0</name>
@@ -36,33 +101,58 @@
   <tag>HMI_COM/Application/OS_IN/M1_IntakeValve_Reg_Setpoint</tag>
  </group>
  <group Type="Auto">
-  <name>M1_Machine_Old_Eramet@$GroupSubscrWgt@$0</name>
+  <name>M1_Machine_Config@$GroupSubscrWgt@$0</name>
   <active>false</active>
-  <tag>HMI_COM/Application/OS_IN/M1_Filterbelt_Reg_Setpoint</tag>
-  <tag>HMI_COM/Application/OS_IN/M1_IntakeValve_Reg_Setpoint</tag>
-  <tag>HMI_COM/Application/OS_IN/P911_Reg_Setpoint</tag>
-  <tag>HMI_COM/Application/OS_OUT/LT911_Y</tag>
-  <tag>HMI_COM/Application/OS_OUT/LT911_Y_cm</tag>
-  <tag>HMI_COM/Application/OS_OUT/LT912_Y</tag>
-  <tag>HMI_COM/Application/OS_OUT/LT912_Y_cm</tag>
-  <tag>HMI_COM/Application/OS_OUT/P911_ManualMode</tag>
-  <tag>HMI_COM/Application/OS_OUT/P911_Speed</tag>
-  <tag>HMI_COM/Application/OS_OUT/P911_VFD_Status</tag>
+  <tag>HMI_COM_OPC/Alarms/TestAlarm</tag>
+  <tag>HMI_COM_OPC/OS_IN/FieldbusAckFaults</tag>
+  <tag>HMI_COM_OPC/OS_IN/LT111_Batch_Parameters_PBXH</tag>
+  <tag>HMI_COM_OPC/OS_IN/LT111_Batch_Parameters_PBXL</tag>
+  <tag>HMI_COM_OPC/OS_IN/LT111_PBXH</tag>
+  <tag>HMI_COM_OPC/OS_IN/LT111_PBXHH</tag>
+  <tag>HMI_COM_OPC/OS_IN/LT111_PBXL</tag>
+  <tag>HMI_COM_OPC/OS_IN/LT111_PBXLL</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_ActivateServiceMode</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_DeactivateServiceMode</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_Filterlevel_Reg_Setpoint</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_FlowControlSM_BatchEnabled</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_Reset_TotalTimer</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_State_Service_Active</tag>
  </group>
  <group Type="Auto">
-  <name>M1_ProcessWater_Config@$GroupSubscrWgt@$0</name>
+  <name>M1_PressureIncreasingPump_Config@$GroupSubscrWgt@$0</name>
   <active>false</active>
-  <tag>HMI_COM/Application/OS_IN/M1_ProcessWater_Event_DisableOutletValve</tag>
-  <tag>HMI_COM/Application/OS_IN/M1_ProcessWater_Event_EnableOutletValve</tag>
-  <tag>HMI_COM/Application/OS_IN/M1_ProcessWater_ProcessedWaterValve_ManClose</tag>
-  <tag>HMI_COM/Application/OS_IN/M1_ProcessWater_ProcessedWaterValve_ManOpen</tag>
-  <tag>HMI_COM/Application/OS_IN/M1_ProcessWater_ProcessedWaterValve_Manual</tag>
-  <tag>HMI_COM/Application/OS_OUT/M1_ProcessWater_ProcessedWaterValve_BA</tag>
-  <tag>HMI_COM/Application/OS_OUT/M1_ProcessWater_ProcessedWaterValve_OS_YS</tag>
+  <tag>HMI_COM/Application/OS_IN/M1_Waterknife_Reg_IGain</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_ColdSetpoint</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_ManSpeed</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_ManStart</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_ManStopp</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_Reg_Deadband</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_Reg_KGain</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_Reg_PMAX</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_Reg_PMIN</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_VFD_Reset</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_PressureIncreasingPump_WarmSetpoint</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManWarm</tag>
+  <tag>HMI_COM_OPC/OS_IN/PT123_PWH</tag>
+  <tag>HMI_COM_OPC/OS_IN/PT123_PWL</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_PressureIncreasingPump_ManualMode</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_PressureIncreasingPump_VFD_Status</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_State</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_Status</tag>
  </group>
  <group Type="Auto">
   <name>MainTemplate@$GroupSubscrWgt@$0</name>
   <active>false</active>
+  <tag>HMI_COM_OPC/OS_IN/ResetEM</tag>
+  <tag>HMI_COM_OPC/OS_IN/SetEM</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_FilterCleaningSM_State</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_FilterCleaningSM_Status</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_FlowControlSM_State</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_FlowControlSM_Status</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_StateMachine_State</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_StateMachine_Status</tag>
+  <tag>HMI_COM_OPC/OS_OUT/OverallSM_State</tag>
+  <tag>HMI_COM_OPC/OS_OUT/OverallSM_Status</tag>
   <tag>System Time</tag>
   <tag>enter datalink definition</tag>
  </group>
@@ -73,16 +163,84 @@
   <tag>enter datalink definition</tag>
  </group>
  <group Type="Auto">
-  <name>MainUnitPage@$GroupSubscrWgt@$0</name>
+  <name>Main_P_and_ID@$GroupSubscrWgt@$0</name>
   <active>false</active>
-  <tag>HMI_COM/Application/OS_OUT/POV001_Auto</tag>
-  <tag>HMI_COM/Application/OS_OUT/POV001_OS_YS</tag>
-  <tag>HMI_COM/Application/OS_OUT/POV002_Auto</tag>
-  <tag>HMI_COM/Application/OS_OUT/POV002_OS_YS</tag>
-  <tag>HMI_COM/Application/OS_OUT/POV003_Auto</tag>
-  <tag>HMI_COM/Application/OS_OUT/POV003_OS_YS</tag>
-  <tag>HMI_COM/Application/OS_OUT/VFD002_Status</tag>
-  <tag>HMI_COM/Application/OS_OUT/VFD003_Status</tag>
-  <tag>HMI_COM/Application/OS_OUT/VFD005_Status</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_StartSeq</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_StoppSeq</tag>
+  <tag>HMI_COM_OPC/OS_OUT/FRL151_Y</tag>
+  <tag>HMI_COM_OPC/OS_OUT/FT111_Y</tag>
+  <tag>HMI_COM_OPC/OS_OUT/LT111_Y</tag>
+  <tag>HMI_COM_OPC/OS_OUT/LT111_Y_cm</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_AirKnife_ManualMode</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_AirKnife_Status</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_Compressor_Status</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_CurrentRunTime</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_DrumMotor_ManualMode</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_DrumMotor_Speed</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_DrumMotor_VFD_Status</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_FilterCleaningSM_Flushtime</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_HighPressurePump_ManualMode</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_HighPressurePump_Speed</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_HighPressurePump_VFD_Status</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_HybridPump_ManualMode</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_HybridPump_OutletValve_BA</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_HybridPump_OutletValve_OS_YS</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_HybridPump_Speed</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_HybridPump_VFD_Status</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_PressureIncreasingPump_ManualMode</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_PressureIncreasingPump_Speed</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_PressureIncreasingPump_VFD_Status</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_TotalRunTime</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_ColdValve_BA</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_ColdValve_OS_YS</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_FlushStatus</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_PumpSelectionValve_BA</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_PumpSelectionValve_OS_YS</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_WarmValve_BA</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_WarmValve_OS_YS</tag>
+  <tag>HMI_COM_OPC/OS_OUT/PT121_Y</tag>
+  <tag>HMI_COM_OPC/OS_OUT/PT122_Y</tag>
+  <tag>HMI_COM_OPC/OS_OUT/PT123_Y</tag>
+  <tag>HMI_COM_OPC/OS_OUT/PT151_Y</tag>
+  <tag>HMI_COM_OPC/OS_OUT/PT191_Y</tag>
+ </group>
+ <group Type="Auto">
+  <name>POV111_Config@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>HMI_COM_OPC/OS_IN/M1_HybridPump_ManOutletValveClose</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_HybridPump_ManOutletValveOpen</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_HybridPump_OutletValve_BA</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_HybridPump_OutletValve_OS_YS</tag>
+ </group>
+ <group Type="Auto">
+  <name>POV121_Config@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManColdValveClose</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManColdValveOpen</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_ColdValve_BA</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_ColdValve_OS_YS</tag>
+ </group>
+ <group Type="Auto">
+  <name>POV122_Config@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManWarmValveClose</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManWarmValveOpen</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_WarmValve_BA</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_WarmValve_OS_YS</tag>
+ </group>
+ <group Type="Auto">
+  <name>POV123_Config@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManPumpSelectionValveClose</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_ManPumpSelectionValveOpen</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_PumpSelectionValve_BA</tag>
+  <tag>HMI_COM_OPC/OS_OUT/M1_WaterFlushingSM_PumpSelectionValve_OS_YS</tag>
+ </group>
+ <group Type="Auto">
+  <name>PT121_Config@$GroupSubscrWgt@$0</name>
+  <active>false</active>
+  <tag>HMI_COM_OPC/OS_IN/PT121_PALL</tag>
+  <tag>HMI_COM_OPC/OS_IN/PT121_PWL</tag>
+  <tag>HMI_COM_OPC/OS_OUT/PT121_Y</tag>
  </group>
 </groups>
