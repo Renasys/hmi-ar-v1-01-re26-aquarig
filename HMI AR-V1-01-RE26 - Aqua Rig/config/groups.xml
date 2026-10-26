@@ -167,6 +167,7 @@
   <active>false</active>
   <tag>HMI_COM_OPC/OS_IN/M1_StartSeq</tag>
   <tag>HMI_COM_OPC/OS_IN/M1_StoppSeq</tag>
+  <tag>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_PumpSelection</tag>
   <tag>HMI_COM_OPC/OS_OUT/FRL151_Y</tag>
   <tag>HMI_COM_OPC/OS_OUT/FT111_Y</tag>
   <tag>HMI_COM_OPC/OS_OUT/LT111_Y</tag>

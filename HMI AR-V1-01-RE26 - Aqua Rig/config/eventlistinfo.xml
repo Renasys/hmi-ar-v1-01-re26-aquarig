@@ -1,2 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<events/>
+<events>
+    <event id="1" name="TestAlarm" group="TestAlarm" trigger="valueAlarm" description="[275@Alarm]Test alarm - Test alarm signal"/>
+    <event id="2" name="M1_WaterFlushingSM_ColdValve_Fault" group="M1_WaterFlushingSM_ColdValve_Fault" trigger="valueAlarm" description="[785@Alarm]POV121 - Water flushing - Cold Valve - [!HMI_COM_OPC/Alarms/M1_WaterFlushingSM_ColdValve_FaultStatus]"/>
+    <event id="3" name="M1_WaterFlushingSM_WarmValve_Fault" group="M1_WaterFlushingSM_WarmValve_Fault" trigger="valueAlarm" description="[788@Alarm]POV122 - Water flushing - Warm Valve - [!HMI_COM_OPC/Alarms/M1_WaterFlushingSM_WarmValve_FaultStatus]"/>
+    <event id="4" name="M1_WaterFlushingSM_PumpSelectionValve_Fault" group="M1_WaterFlushingSM_PumpSelectionValve_Fault" trigger="valueAlarm" description="[548@Alarm]POV123 - Water flushing - Pump selection valve fault - [!HMI_COM_OPC/Alarms/M1_WaterFlushingSM_PumpSelectionValve_FaultStatus]"/>
+    <event id="5" name="M1_DrumMotor_SBE_YF" group="M1_DrumMotor_SBE_YF" trigger="valueAlarm" description="[791@Alarm]M101 - Drum motor - SBE Fault - [!HMI_COM_OPC/Alarms/M1_DrumMotor_SBE_YFS]"/>
+    <event id="6" name="M1_DrumMotor_OA_YF" group="M1_DrumMotor_OA_YF" trigger="valueAlarm" description="[794@Alarm]M101 - Drum motor - Output function Fault - [!HMI_COM_OPC/Alarms/M1_DrumMotor_OA_YFS]"/>
+    <event id="7" name="M1_DrumMotor_OA_WV" group="M1_DrumMotor_OA_WV" trigger="valueAlarm" description="[557@Alarm]M101 - Drum motor - Output deviation warning"/>
+    <event id="8" name="M1_HybridPump_OutletValve_Fault" group="M1_HybridPump_OutletValve_Fault" trigger="valueAlarm" description="[560@Alarm]POV111 - Hybrid pump - Outlet valve fault - [!HMI_COM_OPC/Alarms/M1_HybridPump_OutletValve_FaultStatus]"/>
+    <event id="9" name="M1_HybridPump_SBE_YF" group="M1_HybridPump_SBE_YF" trigger="valueAlarm" description="[797@Alarm]P111 - Inlet / hybrid pump - SBE Fault - [!HMI_COM_OPC/Alarms/M1_HybridPump_SBE_YFS]"/>
+    <event id="10" name="M1_HybridPump_OA_YF" group="M1_HybridPump_OA_YF" trigger="valueAlarm" description="[800@Alarm]P111 - Inlet / hybrid pump - Output function Fault - [!HMI_COM_OPC/Alarms/M1_HybridPump_OA_YFS]"/>
+    <event id="11" name="M1_HybridPump_OA_WV" group="M1_HybridPump_OA_WV" trigger="valueAlarm" description="[569@Alarm]P111 - Inlet / hybrid pump - Output deviation warning"/>
+    <event id="12" name="M1_HighPressurePump_LossFreshWater" group="M1_HighPressurePump_LossFreshWater" trigger="valueAlarm" description="[803@Alarm]P121 - High pressure pump (HPP) - Loss of freshwater"/>
+    <event id="13" name="M1_HighPressurePump_SBE_YF" group="M1_HighPressurePump_SBE_YF" trigger="valueAlarm" description="[806@Alarm]P121 - High pressure pump (HPP) - SBE Fault - [!HMI_COM_OPC/Alarms/M1_HighPressurePump_SBE_YFS]"/>
+    <event id="14" name="M1_HighPressurePump_OA_YF" group="M1_HighPressurePump_OA_YF" trigger="valueAlarm" description="[809@Alarm]P121 - High pressure pump (HPP) - Output function Fault - [!HMI_COM_OPC/Alarms/M1_HighPressurePump_OA_YFS]"/>
+    <event id="15" name="M1_HighPressurePump_OA_WV" group="M1_HighPressurePump_OA_WV" trigger="valueAlarm" description="[581@Alarm]P121 - High pressure pump (HPP) - Output deviation warning"/>
+    <event id="16" name="M1_PressureIncreasingPump_LossFreshWater" group="M1_PressureIncreasingPump_LossFreshWater" trigger="valueAlarm" description="[812@Alarm]P122 - Pressure increasing pump (PIP) - Loss of freshwater"/>
+    <event id="17" name="M1_PressureIncreasingPump_SBE_YF" group="M1_PressureIncreasingPump_SBE_YF" trigger="valueAlarm" description="[815@Alarm]P122 - Pressure increasing pump (PIP) - SBE Fault - [!HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_SBE_YFS]"/>
+    <event id="18" name="M1_PressureIncreasingPump_OA_YF" group="M1_PressureIncreasingPump_OA_YF" trigger="valueAlarm" description="[818@Alarm]P122 - Pressure increasing pump (PIP) - Output function Fault - [!HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_OA_YFS]"/>
+    <event id="19" name="M1_PressureIncreasingPump_OA_WV" group="M1_PressureIncreasingPump_OA_WV" trigger="valueAlarm" description="[593@Alarm]P122 - Pressure increasing pump (PIP) - Output deviation warning"/>
+    <event id="20" name="M1_Airknife_LowPressure" group="M1_Airknife_LowPressure" trigger="valueAlarm" description="[821@Alarm]FRL151 - Airknife - Low Pressure"/>
+    <event id="21" name="VFD111_YF" group="VFD111_YF" trigger="valueAlarm" description="[824@Alarm]P111 - Inlet / hybrid pump - Speed feedback - Signal Fault"/>
+    <event id="22" name="VFD111_AHH" group="VFD111_AHH" trigger="valueAlarm" description="[827@Alarm]P111 - Inlet / hybrid pump - Speed feedback - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/VFD111_Y]"/>
+    <event id="23" name="VFD111_WH" group="VFD111_WH" trigger="valueAlarm" description="[830@Alarm]P111 - Inlet / hybrid pump - Speed feedback - Warning - H, value: [!HMI_COM_OPC/OS_OUT/VFD111_Y]"/>
+    <event id="24" name="VFD111_WL" group="VFD111_WL" trigger="valueAlarm" description="[833@Alarm]P111 - Inlet / hybrid pump - Speed feedback - Warning - L, value: [!HMI_COM_OPC/OS_OUT/VFD111_Y]"/>
+    <event id="25" name="VFD111_ALL" group="VFD111_ALL" trigger="valueAlarm" description="[836@Alarm]P111 - Inlet / hybrid pump - Speed feedback - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/VFD111_Y]"/>
+    <event id="26" name="VFD121_YF" group="VFD121_YF" trigger="valueAlarm" description="[839@Alarm]P121 - High pressure pump (HPP) - Speed feedback - Signal Fault"/>
+    <event id="27" name="VFD121_AHH" group="VFD121_AHH" trigger="valueAlarm" description="[842@Alarm]P121 - High pressure pump (HPP) - Speed feedback - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/VFD121_Y]"/>
+    <event id="28" name="VFD121_WH" group="VFD121_WH" trigger="valueAlarm" description="[845@Alarm]P121 - High pressure pump (HPP) - Speed feedback - Warning - H, value: [!HMI_COM_OPC/OS_OUT/VFD121_Y]"/>
+    <event id="29" name="VFD121_WL" group="VFD121_WL" trigger="valueAlarm" description="[848@Alarm]P121 - High pressure pump (HPP) - Speed feedback - Warning - L, value: [!HMI_COM_OPC/OS_OUT/VFD121_Y]"/>
+    <event id="30" name="VFD121_ALL" group="VFD121_ALL" trigger="valueAlarm" description="[851@Alarm]P121 - High pressure pump (HPP) - Speed feedback - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/VFD121_Y]"/>
+    <event id="31" name="VFD122_YF" group="VFD122_YF" trigger="valueAlarm" description="[854@Alarm]P122 - Pressure increasing pump (PIP) - Speed feedback - Signal Fault"/>
+    <event id="32" name="VFD122_AHH" group="VFD122_AHH" trigger="valueAlarm" description="[857@Alarm]P122 - Pressure increasing pump (PIP) - Speed feedback - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/VFD122_Y]"/>
+    <event id="33" name="VFD122_WH" group="VFD122_WH" trigger="valueAlarm" description="[860@Alarm]P122 - Pressure increasing pump (PIP) - Speed feedback - Warning - H, value: [!HMI_COM_OPC/OS_OUT/VFD122_Y]"/>
+    <event id="34" name="VFD122_WL" group="VFD122_WL" trigger="valueAlarm" description="[863@Alarm]P122 - Pressure increasing pump (PIP) - Speed feedback - Warning - L, value: [!HMI_COM_OPC/OS_OUT/VFD122_Y]"/>
+    <event id="35" name="VFD122_ALL" group="VFD122_ALL" trigger="valueAlarm" description="[866@Alarm]P122 - Pressure increasing pump (PIP) - Speed feedback - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/VFD122_Y]"/>
+    <event id="36" name="VFD101_YF" group="VFD101_YF" trigger="valueAlarm" description="[869@Alarm]M101 - Drum filter - Speed feedback - Signal Fault"/>
+    <event id="37" name="VFD101_AHH" group="VFD101_AHH" trigger="valueAlarm" description="[872@Alarm]M101 - Drum filter - Speed feedback - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/VFD101_Y]"/>
+    <event id="38" name="VFD101_WH" group="VFD101_WH" trigger="valueAlarm" description="[875@Alarm]M101 - Drum filter - Speed feedback - Warning - H, value: [!HMI_COM_OPC/OS_OUT/VFD101_Y]"/>
+    <event id="39" name="VFD101_WL" group="VFD101_WL" trigger="valueAlarm" description="[878@Alarm]M101 - Drum filter - Speed feedback - Warning - L, value: [!HMI_COM_OPC/OS_OUT/VFD101_Y]"/>
+    <event id="40" name="VFD101_ALL" group="VFD101_ALL" trigger="valueAlarm" description="[881@Alarm]M101 - Drum filter - Speed feedback - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/VFD101_Y]"/>
+    <event id="41" name="FRL151_YF" group="FRL151_YF" trigger="valueAlarm" description="[884@Alarm]FRL151 - Airknive FRL - Fault"/>
+    <event id="42" name="FRL151_AHH" group="FRL151_AHH" trigger="valueAlarm" description="[887@Alarm]FRL151 - Airknive FRL - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/FRL151_Y]"/>
+    <event id="43" name="FRL151_WH" group="FRL151_WH" trigger="valueAlarm" description="[890@Alarm]FRL151 - Airknive FRL - Warning - H, value: [!HMI_COM_OPC/OS_OUT/FRL151_Y]"/>
+    <event id="44" name="FRL151_WL" group="FRL151_WL" trigger="valueAlarm" description="[893@Alarm]FRL151 - Airknive FRL - Warning - L, value: [!HMI_COM_OPC/OS_OUT/FRL151_Y]"/>
+    <event id="45" name="FRL151_ALL" group="FRL151_ALL" trigger="valueAlarm" description="[896@Alarm]FRL151 - Airknive FRL - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/FRL151_Y]"/>
+    <event id="46" name="FT111_YF" group="FT111_YF" trigger="valueAlarm" description="[899@Alarm]FT111 - Flowmeter - Fault"/>
+    <event id="47" name="FT111_AHH" group="FT111_AHH" trigger="valueAlarm" description="[902@Alarm]FT111 - Flowmeter - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/FT111_Y]"/>
+    <event id="48" name="FT111_WH" group="FT111_WH" trigger="valueAlarm" description="[905@Alarm]FT111 - Flowmeter - Warning - H, value: [!HMI_COM_OPC/OS_OUT/FT111_Y]"/>
+    <event id="49" name="FT111_WL" group="FT111_WL" trigger="valueAlarm" description="[908@Alarm]FT111 - Flowmeter - Warning - L, value: [!HMI_COM_OPC/OS_OUT/FT111_Y]"/>
+    <event id="50" name="FT111_ALL" group="FT111_ALL" trigger="valueAlarm" description="[911@Alarm]FT111 - Flowmeter - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/FT111_Y]"/>
+    <event id="51" name="LT111_YF" group="LT111_YF" trigger="valueAlarm" description="[914@Alarm]LT111 - Drum filter - Leveltransmitter - Fault"/>
+    <event id="52" name="LT111_AHH" group="LT111_AHH" trigger="valueAlarm" description="[917@Alarm]LT111 - Drum filter - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/LT111_Y]"/>
+    <event id="53" name="LT111_WH" group="LT111_WH" trigger="valueAlarm" description="[920@Alarm]LT111 - Drum filter - Warning - H, value: [!HMI_COM_OPC/OS_OUT/LT111_Y]"/>
+    <event id="54" name="LT111_WL" group="LT111_WL" trigger="valueAlarm" description="[923@Alarm]LT111 - Drum filter - Warning - L, value: [!HMI_COM_OPC/OS_OUT/LT111_Y]"/>
+    <event id="55" name="LT111_ALL" group="LT111_ALL" trigger="valueAlarm" description="[926@Alarm]LT111 - Drum filter - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/LT111_Y]"/>
+    <event id="56" name="PT151_YF" group="PT151_YF" trigger="valueAlarm" description="[929@Alarm]PT151 - Instrument air - Pressuretransmitter - Fault"/>
+    <event id="57" name="PT151_AHH" group="PT151_AHH" trigger="valueAlarm" description="[695@Alarm]PT151 - Instrument air - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/PT151_Y]"/>
+    <event id="58" name="PT151_WH" group="PT151_WH" trigger="valueAlarm" description="[698@Alarm]PT151 - Instrument air - Warning - H, value: [!HMI_COM_OPC/OS_OUT/PT151_Y]"/>
+    <event id="59" name="PT151_WL" group="PT151_WL" trigger="valueAlarm" description="[701@Alarm]PT151 - Instrument air - Warning - L, value: [!HMI_COM_OPC/OS_OUT/PT151_Y]"/>
+    <event id="60" name="PT151_ALL" group="PT151_ALL" trigger="valueAlarm" description="[704@Alarm]PT151 - Instrument air - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/PT151_Y]"/>
+    <event id="61" name="PT121_YF" group="PT121_YF" trigger="valueAlarm" description="[707@Alarm]PT121 - Pressure transmitter - Main water supply - Fault"/>
+    <event id="62" name="PT121_AHH" group="PT121_AHH" trigger="valueAlarm" description="[710@Alarm]PT121 - Pressure transmitter - Limit - HH - Main water supply, value: [!HMI_COM_OPC/OS_OUT/PT121_Y]"/>
+    <event id="63" name="PT121_WH" group="PT121_WH" trigger="valueAlarm" description="[713@Alarm]PT121 - Pressure transmitter - Warning - H - Main water supply, value: [!HMI_COM_OPC/OS_OUT/PT121_Y]"/>
+    <event id="64" name="PT121_WL" group="PT121_WL" trigger="valueAlarm" description="[716@Alarm]PT121 - Pressure transmitter - Warning - L - Main water supply, value: [!HMI_COM_OPC/OS_OUT/PT121_Y]"/>
+    <event id="65" name="PT121_ALL" group="PT121_ALL" trigger="valueAlarm" description="[719@Alarm]PT121 - Pressure transmitter - Limit - LL - Main water supply, value: [!HMI_COM_OPC/OS_OUT/PT121_Y]"/>
+    <event id="66" name="PT122_YF" group="PT122_YF" trigger="valueAlarm" description="[932@Alarm]PT122 - High pressure pump (HPP) - Pressuretransmitter - Fault"/>
+    <event id="67" name="PT122_AHH" group="PT122_AHH" trigger="valueAlarm" description="[935@Alarm]PT122 - High pressure pump (HPP) - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/PT122_Y]"/>
+    <event id="68" name="PT122_WH" group="PT122_WH" trigger="valueAlarm" description="[938@Alarm]PT122 - High pressure pump (HPP) - Warning - H, value: [!HMI_COM_OPC/OS_OUT/PT122_Y]"/>
+    <event id="69" name="PT122_WL" group="PT122_WL" trigger="valueAlarm" description="[941@Alarm]PT122 - High pressure pump (HPP) - Warning - L, value: [!HMI_COM_OPC/OS_OUT/PT122_Y]"/>
+    <event id="70" name="PT122_ALL" group="PT122_ALL" trigger="valueAlarm" description="[944@Alarm]PT122 - High pressure pump (HPP) - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/PT122_Y]"/>
+    <event id="71" name="PT123_YF" group="PT123_YF" trigger="valueAlarm" description="[947@Alarm]PT123 - Pressure increasing pump (PIP) - Pressuretransmitter - Fault"/>
+    <event id="72" name="PT123_AHH" group="PT123_AHH" trigger="valueAlarm" description="[950@Alarm]PT123 - Pressure increasing pump (PIP) - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/PT123_Y]"/>
+    <event id="73" name="PT123_WH" group="PT123_WH" trigger="valueAlarm" description="[953@Alarm]PT123 - Pressure increasing pump (PIP) - Warning - H, value: [!HMI_COM_OPC/OS_OUT/PT123_Y]"/>
+    <event id="74" name="PT123_WL" group="PT123_WL" trigger="valueAlarm" description="[956@Alarm]PT123 - Pressure increasing pump (PIP) - Warning - L, value: [!HMI_COM_OPC/OS_OUT/PT123_Y]"/>
+    <event id="75" name="PT123_ALL" group="PT123_ALL" trigger="valueAlarm" description="[959@Alarm]PT123 - Pressure increasing pump (PIP) - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/PT123_Y]"/>
+    <event id="76" name="PT191_YF" group="PT191_YF" trigger="valueAlarm" description="[962@Alarm]PT191 - Inlet tank - Pressuretransmitter - Fault"/>
+    <event id="77" name="PT191_AHH" group="PT191_AHH" trigger="valueAlarm" description="[965@Alarm]PT191 - Inlet tank - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/PT191_Y]"/>
+    <event id="78" name="PT191_WH" group="PT191_WH" trigger="valueAlarm" description="[968@Alarm]PT191 - Inlet tank - Limit - WH, value: [!HMI_COM_OPC/OS_OUT/PT191_Y]"/>
+    <event id="79" name="PT191_WL" group="PT191_WL" trigger="valueAlarm" description="[971@Alarm]PT191 - Inlet tank - Warning - L, value: [!HMI_COM_OPC/OS_OUT/PT191_Y]"/>
+    <event id="80" name="PT191_ALL" group="PT191_ALL" trigger="valueAlarm" description="[974@Alarm]PT191 - Inlet tank - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/PT191_Y]"/>
+    <event id="81" name="VFD111_F_Y" group="VFD111_F_Y" trigger="valueAlarm" description="[977@Alarm]P111 - Inlet / hybrid pump - VFD fault"/>
+    <event id="82" name="VFD121_F_Y" group="VFD121_F_Y" trigger="valueAlarm" description="[980@Alarm]P121 - High pressure pump (HPP) - VFD"/>
+    <event id="83" name="VFD122_F_Y" group="VFD122_F_Y" trigger="valueAlarm" description="[983@Alarm]P122 - Pressure increasing pump (PIP) - VFD fault"/>
+    <event id="84" name="VFD101_F_Y" group="VFD101_F_Y" trigger="valueAlarm" description="[986@Alarm]M101 - Drum filter - VFD"/>
+    <event id="85" name="KC151_F_Y" group="KC151_F_Y" trigger="valueAlarm" description="[527@Alarm]KC151 - Compressor fault"/>
+    <event id="86" name="Q102_Y" group="Q102_Y" trigger="valueAlarm" description="[773@Alarm]Q102 - Tripped fuse - Compressor"/>
+    <event id="87" name="Q103_Y" group="Q103_Y" trigger="valueAlarm" description="[776@Alarm]Q103 - Tripped fuse - Water heater"/>
+    <event id="88" name="ESR001_Y" group="ESR001_Y" trigger="valueAlarm" description="[779@Alarm]ESR001 - EM-stop activated"/>
+    <event id="89" name="ECB101_Y" group="ECB101_Y" trigger="valueAlarm" description="[782@Alarm]ECB101 - Tripped DC fuse - Electronic circuit breaker"/>
+</events>

@@ -13,8 +13,2589 @@
             <MLText id="4" L1="Not Triggered Acked"/>
             <MLText id="5" L1="Not Triggered Not Acked"/>
             <MLText id="6" L1="Triggered Acked"/>
+            <MLText id="275" L1="Test alarm - Test alarm signal"/>
+            <MLText id="527" L1="KC151 - Compressor fault"/>
+            <MLText id="548" L1="POV123 - Water flushing - Pump selection valve fault - [!HMI_COM_OPC/Alarms/M1_WaterFlushingSM_PumpSelectionValve_FaultStatus]"/>
+            <MLText id="557" L1="M101 - Drum motor - Output deviation warning"/>
+            <MLText id="560" L1="POV111 - Hybrid pump - Outlet valve fault - [!HMI_COM_OPC/Alarms/M1_HybridPump_OutletValve_FaultStatus]"/>
+            <MLText id="569" L1="P111 - Inlet / hybrid pump - Output deviation warning"/>
+            <MLText id="581" L1="P121 - High pressure pump (HPP) - Output deviation warning"/>
+            <MLText id="593" L1="P122 - Pressure increasing pump (PIP) - Output deviation warning"/>
+            <MLText id="695" L1="PT151 - Instrument air - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/PT151_Y]"/>
+            <MLText id="698" L1="PT151 - Instrument air - Warning - H, value: [!HMI_COM_OPC/OS_OUT/PT151_Y]"/>
+            <MLText id="701" L1="PT151 - Instrument air - Warning - L, value: [!HMI_COM_OPC/OS_OUT/PT151_Y]"/>
+            <MLText id="704" L1="PT151 - Instrument air - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/PT151_Y]"/>
+            <MLText id="707" L1="PT121 - Pressure transmitter - Main water supply - Fault"/>
+            <MLText id="710" L1="PT121 - Pressure transmitter - Limit - HH - Main water supply, value: [!HMI_COM_OPC/OS_OUT/PT121_Y]"/>
+            <MLText id="713" L1="PT121 - Pressure transmitter - Warning - H - Main water supply, value: [!HMI_COM_OPC/OS_OUT/PT121_Y]"/>
+            <MLText id="716" L1="PT121 - Pressure transmitter - Warning - L - Main water supply, value: [!HMI_COM_OPC/OS_OUT/PT121_Y]"/>
+            <MLText id="719" L1="PT121 - Pressure transmitter - Limit - LL - Main water supply, value: [!HMI_COM_OPC/OS_OUT/PT121_Y]"/>
+            <MLText id="773" L1="Q102 - Tripped fuse - Compressor"/>
+            <MLText id="776" L1="Q103 - Tripped fuse - Water heater"/>
+            <MLText id="779" L1="ESR001 - EM-stop activated"/>
+            <MLText id="782" L1="ECB101 - Tripped DC fuse - Electronic circuit breaker"/>
+            <MLText id="785" L1="POV121 - Water flushing - Cold Valve - [!HMI_COM_OPC/Alarms/M1_WaterFlushingSM_ColdValve_FaultStatus]"/>
+            <MLText id="788" L1="POV122 - Water flushing - Warm Valve - [!HMI_COM_OPC/Alarms/M1_WaterFlushingSM_WarmValve_FaultStatus]"/>
+            <MLText id="791" L1="M101 - Drum motor - SBE Fault - [!HMI_COM_OPC/Alarms/M1_DrumMotor_SBE_YFS]"/>
+            <MLText id="794" L1="M101 - Drum motor - Output function Fault - [!HMI_COM_OPC/Alarms/M1_DrumMotor_OA_YFS]"/>
+            <MLText id="797" L1="P111 - Inlet / hybrid pump - SBE Fault - [!HMI_COM_OPC/Alarms/M1_HybridPump_SBE_YFS]"/>
+            <MLText id="800" L1="P111 - Inlet / hybrid pump - Output function Fault - [!HMI_COM_OPC/Alarms/M1_HybridPump_OA_YFS]"/>
+            <MLText id="803" L1="P121 - High pressure pump (HPP) - Loss of freshwater"/>
+            <MLText id="806" L1="P121 - High pressure pump (HPP) - SBE Fault - [!HMI_COM_OPC/Alarms/M1_HighPressurePump_SBE_YFS]"/>
+            <MLText id="809" L1="P121 - High pressure pump (HPP) - Output function Fault - [!HMI_COM_OPC/Alarms/M1_HighPressurePump_OA_YFS]"/>
+            <MLText id="812" L1="P122 - Pressure increasing pump (PIP) - Loss of freshwater"/>
+            <MLText id="815" L1="P122 - Pressure increasing pump (PIP) - SBE Fault - [!HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_SBE_YFS]"/>
+            <MLText id="818" L1="P122 - Pressure increasing pump (PIP) - Output function Fault - [!HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_OA_YFS]"/>
+            <MLText id="821" L1="FRL151 - Airknife - Low Pressure"/>
+            <MLText id="824" L1="P111 - Inlet / hybrid pump - Speed feedback - Signal Fault"/>
+            <MLText id="827" L1="P111 - Inlet / hybrid pump - Speed feedback - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/VFD111_Y]"/>
+            <MLText id="830" L1="P111 - Inlet / hybrid pump - Speed feedback - Warning - H, value: [!HMI_COM_OPC/OS_OUT/VFD111_Y]"/>
+            <MLText id="833" L1="P111 - Inlet / hybrid pump - Speed feedback - Warning - L, value: [!HMI_COM_OPC/OS_OUT/VFD111_Y]"/>
+            <MLText id="836" L1="P111 - Inlet / hybrid pump - Speed feedback - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/VFD111_Y]"/>
+            <MLText id="839" L1="P121 - High pressure pump (HPP) - Speed feedback - Signal Fault"/>
+            <MLText id="842" L1="P121 - High pressure pump (HPP) - Speed feedback - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/VFD121_Y]"/>
+            <MLText id="845" L1="P121 - High pressure pump (HPP) - Speed feedback - Warning - H, value: [!HMI_COM_OPC/OS_OUT/VFD121_Y]"/>
+            <MLText id="848" L1="P121 - High pressure pump (HPP) - Speed feedback - Warning - L, value: [!HMI_COM_OPC/OS_OUT/VFD121_Y]"/>
+            <MLText id="851" L1="P121 - High pressure pump (HPP) - Speed feedback - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/VFD121_Y]"/>
+            <MLText id="854" L1="P122 - Pressure increasing pump (PIP) - Speed feedback - Signal Fault"/>
+            <MLText id="857" L1="P122 - Pressure increasing pump (PIP) - Speed feedback - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/VFD122_Y]"/>
+            <MLText id="860" L1="P122 - Pressure increasing pump (PIP) - Speed feedback - Warning - H, value: [!HMI_COM_OPC/OS_OUT/VFD122_Y]"/>
+            <MLText id="863" L1="P122 - Pressure increasing pump (PIP) - Speed feedback - Warning - L, value: [!HMI_COM_OPC/OS_OUT/VFD122_Y]"/>
+            <MLText id="866" L1="P122 - Pressure increasing pump (PIP) - Speed feedback - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/VFD122_Y]"/>
+            <MLText id="869" L1="M101 - Drum filter - Speed feedback - Signal Fault"/>
+            <MLText id="872" L1="M101 - Drum filter - Speed feedback - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/VFD101_Y]"/>
+            <MLText id="875" L1="M101 - Drum filter - Speed feedback - Warning - H, value: [!HMI_COM_OPC/OS_OUT/VFD101_Y]"/>
+            <MLText id="878" L1="M101 - Drum filter - Speed feedback - Warning - L, value: [!HMI_COM_OPC/OS_OUT/VFD101_Y]"/>
+            <MLText id="881" L1="M101 - Drum filter - Speed feedback - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/VFD101_Y]"/>
+            <MLText id="884" L1="FRL151 - Airknive FRL - Fault"/>
+            <MLText id="887" L1="FRL151 - Airknive FRL - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/FRL151_Y]"/>
+            <MLText id="890" L1="FRL151 - Airknive FRL - Warning - H, value: [!HMI_COM_OPC/OS_OUT/FRL151_Y]"/>
+            <MLText id="893" L1="FRL151 - Airknive FRL - Warning - L, value: [!HMI_COM_OPC/OS_OUT/FRL151_Y]"/>
+            <MLText id="896" L1="FRL151 - Airknive FRL - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/FRL151_Y]"/>
+            <MLText id="899" L1="FT111 - Flowmeter - Fault"/>
+            <MLText id="902" L1="FT111 - Flowmeter - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/FT111_Y]"/>
+            <MLText id="905" L1="FT111 - Flowmeter - Warning - H, value: [!HMI_COM_OPC/OS_OUT/FT111_Y]"/>
+            <MLText id="908" L1="FT111 - Flowmeter - Warning - L, value: [!HMI_COM_OPC/OS_OUT/FT111_Y]"/>
+            <MLText id="911" L1="FT111 - Flowmeter - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/FT111_Y]"/>
+            <MLText id="914" L1="LT111 - Drum filter - Leveltransmitter - Fault"/>
+            <MLText id="917" L1="LT111 - Drum filter - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/LT111_Y]"/>
+            <MLText id="920" L1="LT111 - Drum filter - Warning - H, value: [!HMI_COM_OPC/OS_OUT/LT111_Y]"/>
+            <MLText id="923" L1="LT111 - Drum filter - Warning - L, value: [!HMI_COM_OPC/OS_OUT/LT111_Y]"/>
+            <MLText id="926" L1="LT111 - Drum filter - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/LT111_Y]"/>
+            <MLText id="929" L1="PT151 - Instrument air - Pressuretransmitter - Fault"/>
+            <MLText id="932" L1="PT122 - High pressure pump (HPP) - Pressuretransmitter - Fault"/>
+            <MLText id="935" L1="PT122 - High pressure pump (HPP) - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/PT122_Y]"/>
+            <MLText id="938" L1="PT122 - High pressure pump (HPP) - Warning - H, value: [!HMI_COM_OPC/OS_OUT/PT122_Y]"/>
+            <MLText id="941" L1="PT122 - High pressure pump (HPP) - Warning - L, value: [!HMI_COM_OPC/OS_OUT/PT122_Y]"/>
+            <MLText id="944" L1="PT122 - High pressure pump (HPP) - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/PT122_Y]"/>
+            <MLText id="947" L1="PT123 - Pressure increasing pump (PIP) - Pressuretransmitter - Fault"/>
+            <MLText id="950" L1="PT123 - Pressure increasing pump (PIP) - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/PT123_Y]"/>
+            <MLText id="953" L1="PT123 - Pressure increasing pump (PIP) - Warning - H, value: [!HMI_COM_OPC/OS_OUT/PT123_Y]"/>
+            <MLText id="956" L1="PT123 - Pressure increasing pump (PIP) - Warning - L, value: [!HMI_COM_OPC/OS_OUT/PT123_Y]"/>
+            <MLText id="959" L1="PT123 - Pressure increasing pump (PIP) - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/PT123_Y]"/>
+            <MLText id="962" L1="PT191 - Inlet tank - Pressuretransmitter - Fault"/>
+            <MLText id="965" L1="PT191 - Inlet tank - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/PT191_Y]"/>
+            <MLText id="968" L1="PT191 - Inlet tank - Limit - WH, value: [!HMI_COM_OPC/OS_OUT/PT191_Y]"/>
+            <MLText id="971" L1="PT191 - Inlet tank - Warning - L, value: [!HMI_COM_OPC/OS_OUT/PT191_Y]"/>
+            <MLText id="974" L1="PT191 - Inlet tank - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/PT191_Y]"/>
+            <MLText id="977" L1="P111 - Inlet / hybrid pump - VFD fault"/>
+            <MLText id="980" L1="P121 - High pressure pump (HPP) - VFD"/>
+            <MLText id="983" L1="P122 - Pressure increasing pump (PIP) - VFD fault"/>
+            <MLText id="986" L1="M101 - Drum filter - VFD"/>
         </MLTexts>
     </multiLangs>
-    <defaultColors notTriggeredTxtColor="#000000" notTriggeredBgColor="#ffffff" disabledTxtColor="#000000" disabledBgColor="#ffffff" triggeredTxtColor="#000000" triggeredBgColor="#ffffff" triggeredNotAckedTxtColor="#000000" triggeredNotAckedBgColor="#ffffff" notTriggeredAckedTxtColor="#000000" notTriggeredAckedBgColor="#ffffff" notTriggeredNotAckedTxtColor="#000000" notTriggeredNotAckedBgColor="#ffffff" triggeredAckedTxtColor="#000000" triggeredAckedBgColor="#ffffff" ackTxtColor="#ff0000" ackBgColor="#ffff00"/>
+    <defaultColors notTriggeredTxtColor="#000000" notTriggeredBgColor="#ffffff" disabledTxtColor="#666666" disabledBgColor="#c0c0c0" triggeredTxtColor="#000000" triggeredBgColor="#ff0000" triggeredNotAckedTxtColor="#000000" triggeredNotAckedBgColor="#ff0000" notTriggeredAckedTxtColor="#000000" notTriggeredAckedBgColor="#ff0000" notTriggeredNotAckedTxtColor="#000000" notTriggeredNotAckedBgColor="#ffffff" triggeredAckedTxtColor="#000000" triggeredAckedBgColor="#ffff00" ackTxtColor="#ff0000" ackBgColor="#ffff00"/>
     <stateMLDesc NotTriggered="[0@Alarm]Not Triggered" Disabled="[1@Alarm]Disabled" Triggered="[2@Alarm]Triggered" TriggeredNotAcked="[3@Alarm]Triggered Not Acked" NotTriggeredAcked="[4@Alarm]Not Triggered Acked" NotTriggeredNotAcked="[5@Alarm]Not Triggered Not Acked" TriggeredAcked="[6@Alarm]Triggered Acked"/>
+    <valueAlarm alarmId="1" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>TestAlarm</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/TestAlarm</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[275@Alarm]Test alarm - Test alarm signal</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="2" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_WaterFlushingSM_ColdValve_Fault</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/M1_WaterFlushingSM_ColdValve_Fault</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[785@Alarm]POV121 - Water flushing - Cold Valve - [!HMI_COM_OPC/Alarms/M1_WaterFlushingSM_ColdValve_FaultStatus]</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="3" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_WaterFlushingSM_WarmValve_Fault</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/M1_WaterFlushingSM_WarmValve_Fault</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[788@Alarm]POV122 - Water flushing - Warm Valve - [!HMI_COM_OPC/Alarms/M1_WaterFlushingSM_WarmValve_FaultStatus]</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="4" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_WaterFlushingSM_PumpSelectionValve_Fault</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/M1_WaterFlushingSM_PumpSelectionValve_Fault</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[548@Alarm]POV123 - Water flushing - Pump selection valve fault - [!HMI_COM_OPC/Alarms/M1_WaterFlushingSM_PumpSelectionValve_FaultStatus]</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="5" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_DrumMotor_SBE_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/M1_DrumMotor_SBE_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[791@Alarm]M101 - Drum motor - SBE Fault - [!HMI_COM_OPC/Alarms/M1_DrumMotor_SBE_YFS]</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="6" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_DrumMotor_OA_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/M1_DrumMotor_OA_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[794@Alarm]M101 - Drum motor - Output function Fault - [!HMI_COM_OPC/Alarms/M1_DrumMotor_OA_YFS]</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="7" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_DrumMotor_OA_WV</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/M1_DrumMotor_OA_WV</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[557@Alarm]M101 - Drum motor - Output deviation warning</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="8" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_HybridPump_OutletValve_Fault</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/M1_HybridPump_OutletValve_Fault</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[560@Alarm]POV111 - Hybrid pump - Outlet valve fault - [!HMI_COM_OPC/Alarms/M1_HybridPump_OutletValve_FaultStatus]</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="9" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_HybridPump_SBE_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/M1_HybridPump_SBE_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[797@Alarm]P111 - Inlet / hybrid pump - SBE Fault - [!HMI_COM_OPC/Alarms/M1_HybridPump_SBE_YFS]</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="10" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_HybridPump_OA_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/M1_HybridPump_OA_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[800@Alarm]P111 - Inlet / hybrid pump - Output function Fault - [!HMI_COM_OPC/Alarms/M1_HybridPump_OA_YFS]</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="11" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_HybridPump_OA_WV</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/M1_HybridPump_OA_WV</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[569@Alarm]P111 - Inlet / hybrid pump - Output deviation warning</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="12" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_HighPressurePump_LossFreshWater</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/M1_HighPressurePump_LossFreshWater</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[803@Alarm]P121 - High pressure pump (HPP) - Loss of freshwater</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="13" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_HighPressurePump_SBE_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/M1_HighPressurePump_SBE_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[806@Alarm]P121 - High pressure pump (HPP) - SBE Fault - [!HMI_COM_OPC/Alarms/M1_HighPressurePump_SBE_YFS]</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="14" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_HighPressurePump_OA_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/M1_HighPressurePump_OA_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[809@Alarm]P121 - High pressure pump (HPP) - Output function Fault - [!HMI_COM_OPC/Alarms/M1_HighPressurePump_OA_YFS]</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="15" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_HighPressurePump_OA_WV</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/M1_HighPressurePump_OA_WV</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[581@Alarm]P121 - High pressure pump (HPP) - Output deviation warning</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="16" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_PressureIncreasingPump_LossFreshWater</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_LossFreshWater</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[812@Alarm]P122 - Pressure increasing pump (PIP) - Loss of freshwater</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="17" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_PressureIncreasingPump_SBE_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_SBE_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[815@Alarm]P122 - Pressure increasing pump (PIP) - SBE Fault - [!HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_SBE_YFS]</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="18" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_PressureIncreasingPump_OA_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_OA_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[818@Alarm]P122 - Pressure increasing pump (PIP) - Output function Fault - [!HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_OA_YFS]</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="19" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_PressureIncreasingPump_OA_WV</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_OA_WV</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[593@Alarm]P122 - Pressure increasing pump (PIP) - Output deviation warning</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="20" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>M1_Airknife_LowPressure</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/M1_Airknife_LowPressure</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[821@Alarm]FRL151 - Airknife - Low Pressure</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="21" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD111_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/VFD111_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[824@Alarm]P111 - Inlet / hybrid pump - Speed feedback - Signal Fault</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="22" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD111_AHH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/VFD111_AHH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[827@Alarm]P111 - Inlet / hybrid pump - Speed feedback - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/VFD111_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="23" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD111_WH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/VFD111_WH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[830@Alarm]P111 - Inlet / hybrid pump - Speed feedback - Warning - H, value: [!HMI_COM_OPC/OS_OUT/VFD111_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="24" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD111_WL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/VFD111_WL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[833@Alarm]P111 - Inlet / hybrid pump - Speed feedback - Warning - L, value: [!HMI_COM_OPC/OS_OUT/VFD111_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="25" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD111_ALL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/VFD111_ALL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[836@Alarm]P111 - Inlet / hybrid pump - Speed feedback - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/VFD111_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="26" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD121_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/VFD121_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[839@Alarm]P121 - High pressure pump (HPP) - Speed feedback - Signal Fault</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="27" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD121_AHH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/VFD121_AHH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[842@Alarm]P121 - High pressure pump (HPP) - Speed feedback - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/VFD121_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="28" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD121_WH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/VFD121_WH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[845@Alarm]P121 - High pressure pump (HPP) - Speed feedback - Warning - H, value: [!HMI_COM_OPC/OS_OUT/VFD121_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="29" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD121_WL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/VFD121_WL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[848@Alarm]P121 - High pressure pump (HPP) - Speed feedback - Warning - L, value: [!HMI_COM_OPC/OS_OUT/VFD121_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="30" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD121_ALL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/VFD121_ALL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[851@Alarm]P121 - High pressure pump (HPP) - Speed feedback - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/VFD121_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="31" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD122_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/VFD122_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[854@Alarm]P122 - Pressure increasing pump (PIP) - Speed feedback - Signal Fault</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="32" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD122_AHH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/VFD122_AHH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[857@Alarm]P122 - Pressure increasing pump (PIP) - Speed feedback - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/VFD122_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="33" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD122_WH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/VFD122_WH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[860@Alarm]P122 - Pressure increasing pump (PIP) - Speed feedback - Warning - H, value: [!HMI_COM_OPC/OS_OUT/VFD122_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="34" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD122_WL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/VFD122_WL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[863@Alarm]P122 - Pressure increasing pump (PIP) - Speed feedback - Warning - L, value: [!HMI_COM_OPC/OS_OUT/VFD122_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="35" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD122_ALL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/VFD122_ALL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[866@Alarm]P122 - Pressure increasing pump (PIP) - Speed feedback - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/VFD122_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="36" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD101_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/VFD101_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[869@Alarm]M101 - Drum filter - Speed feedback - Signal Fault</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="37" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD101_AHH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/VFD101_AHH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[872@Alarm]M101 - Drum filter - Speed feedback - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/VFD101_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="38" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD101_WH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/VFD101_WH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[875@Alarm]M101 - Drum filter - Speed feedback - Warning - H, value: [!HMI_COM_OPC/OS_OUT/VFD101_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="39" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD101_WL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/VFD101_WL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[878@Alarm]M101 - Drum filter - Speed feedback - Warning - L, value: [!HMI_COM_OPC/OS_OUT/VFD101_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="40" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD101_ALL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/VFD101_ALL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[881@Alarm]M101 - Drum filter - Speed feedback - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/VFD101_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="41" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>FRL151_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/FRL151_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[884@Alarm]FRL151 - Airknive FRL - Fault</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="42" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>FRL151_AHH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/FRL151_AHH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[887@Alarm]FRL151 - Airknive FRL - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/FRL151_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="43" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>FRL151_WH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/FRL151_WH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[890@Alarm]FRL151 - Airknive FRL - Warning - H, value: [!HMI_COM_OPC/OS_OUT/FRL151_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="44" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>FRL151_WL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/FRL151_WL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[893@Alarm]FRL151 - Airknive FRL - Warning - L, value: [!HMI_COM_OPC/OS_OUT/FRL151_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="45" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>FRL151_ALL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/FRL151_ALL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[896@Alarm]FRL151 - Airknive FRL - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/FRL151_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="46" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>FT111_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/FT111_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[899@Alarm]FT111 - Flowmeter - Fault</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="47" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>FT111_AHH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/FT111_AHH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[902@Alarm]FT111 - Flowmeter - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/FT111_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="48" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>FT111_WH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/FT111_WH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[905@Alarm]FT111 - Flowmeter - Warning - H, value: [!HMI_COM_OPC/OS_OUT/FT111_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="49" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>FT111_WL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/FT111_WL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[908@Alarm]FT111 - Flowmeter - Warning - L, value: [!HMI_COM_OPC/OS_OUT/FT111_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="50" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>FT111_ALL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/FT111_ALL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[911@Alarm]FT111 - Flowmeter - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/FT111_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="51" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>LT111_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/LT111_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[914@Alarm]LT111 - Drum filter - Leveltransmitter - Fault</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="52" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>LT111_AHH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/LT111_AHH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[917@Alarm]LT111 - Drum filter - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/LT111_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="53" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>LT111_WH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/LT111_WH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[920@Alarm]LT111 - Drum filter - Warning - H, value: [!HMI_COM_OPC/OS_OUT/LT111_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="54" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>LT111_WL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/LT111_WL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[923@Alarm]LT111 - Drum filter - Warning - L, value: [!HMI_COM_OPC/OS_OUT/LT111_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="55" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>LT111_ALL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/LT111_ALL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[926@Alarm]LT111 - Drum filter - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/LT111_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="56" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT151_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/PT151_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[929@Alarm]PT151 - Instrument air - Pressuretransmitter - Fault</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="57" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT151_AHH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT151_AHH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[695@Alarm]PT151 - Instrument air - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/PT151_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="58" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT151_WH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT151_WH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[698@Alarm]PT151 - Instrument air - Warning - H, value: [!HMI_COM_OPC/OS_OUT/PT151_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="59" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT151_WL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT151_WL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[701@Alarm]PT151 - Instrument air - Warning - L, value: [!HMI_COM_OPC/OS_OUT/PT151_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="60" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT151_ALL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT151_ALL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[704@Alarm]PT151 - Instrument air - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/PT151_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="61" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT121_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/PT121_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[707@Alarm]PT121 - Pressure transmitter - Main water supply - Fault</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="62" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT121_AHH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT121_AHH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[710@Alarm]PT121 - Pressure transmitter - Limit - HH - Main water supply, value: [!HMI_COM_OPC/OS_OUT/PT121_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="63" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT121_WH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT121_WH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[713@Alarm]PT121 - Pressure transmitter - Warning - H - Main water supply, value: [!HMI_COM_OPC/OS_OUT/PT121_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="64" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT121_WL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT121_WL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[716@Alarm]PT121 - Pressure transmitter - Warning - L - Main water supply, value: [!HMI_COM_OPC/OS_OUT/PT121_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="65" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT121_ALL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT121_ALL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[719@Alarm]PT121 - Pressure transmitter - Limit - LL - Main water supply, value: [!HMI_COM_OPC/OS_OUT/PT121_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="66" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT122_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/PT122_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[932@Alarm]PT122 - High pressure pump (HPP) - Pressuretransmitter - Fault</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="67" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT122_AHH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT122_AHH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[935@Alarm]PT122 - High pressure pump (HPP) - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/PT122_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="68" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT122_WH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT122_WH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[938@Alarm]PT122 - High pressure pump (HPP) - Warning - H, value: [!HMI_COM_OPC/OS_OUT/PT122_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="69" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT122_WL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT122_WL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[941@Alarm]PT122 - High pressure pump (HPP) - Warning - L, value: [!HMI_COM_OPC/OS_OUT/PT122_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="70" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT122_ALL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT122_ALL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[944@Alarm]PT122 - High pressure pump (HPP) - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/PT122_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="71" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT123_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/PT123_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[947@Alarm]PT123 - Pressure increasing pump (PIP) - Pressuretransmitter - Fault</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="72" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT123_AHH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT123_AHH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[950@Alarm]PT123 - Pressure increasing pump (PIP) - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/PT123_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="73" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT123_WH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT123_WH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[953@Alarm]PT123 - Pressure increasing pump (PIP) - Warning - H, value: [!HMI_COM_OPC/OS_OUT/PT123_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="74" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT123_WL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT123_WL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[956@Alarm]PT123 - Pressure increasing pump (PIP) - Warning - L, value: [!HMI_COM_OPC/OS_OUT/PT123_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="75" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT123_ALL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT123_ALL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[959@Alarm]PT123 - Pressure increasing pump (PIP) - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/PT123_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="76" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT191_YF</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/PT191_YF</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[962@Alarm]PT191 - Inlet tank - Pressuretransmitter - Fault</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="77" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT191_AHH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT191_AHH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[965@Alarm]PT191 - Inlet tank - Limit - HH, value: [!HMI_COM_OPC/OS_OUT/PT191_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="78" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT191_WH</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT191_WH</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[968@Alarm]PT191 - Inlet tank - Limit - WH, value: [!HMI_COM_OPC/OS_OUT/PT191_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="79" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT191_WL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT191_WL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[971@Alarm]PT191 - Inlet tank - Warning - L, value: [!HMI_COM_OPC/OS_OUT/PT191_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="80" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>PT191_ALL</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/PT191_ALL</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[974@Alarm]PT191 - Inlet tank - Limit - LL, value: [!HMI_COM_OPC/OS_OUT/PT191_Y]</description>
+        <severity>5</severity>
+        <priority>5</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="81" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD111_F_Y</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/VFD111_F_Y</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[977@Alarm]P111 - Inlet / hybrid pump - VFD fault</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="82" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD121_F_Y</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/VFD121_F_Y</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[980@Alarm]P121 - High pressure pump (HPP) - VFD</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="83" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD122_F_Y</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/VFD122_F_Y</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[983@Alarm]P122 - Pressure increasing pump (PIP) - VFD fault</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="84" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>VFD101_F_Y</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/VFD101_F_Y</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>false</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[986@Alarm]M101 - Drum filter - VFD</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="85" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>KC151_F_Y</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/KC151_F_Y</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[527@Alarm]KC151 - Compressor fault</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="86" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Q102_Y</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/Q102_Y</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[773@Alarm]Q102 - Tripped fuse - Compressor</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="87" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>Q103_Y</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/Q103_Y</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[776@Alarm]Q103 - Tripped fuse - Water heater</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="88" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>ESR001_Y</name>
+        <groups>Alarm</groups>
+        <source>HMI_COM_OPC/Alarms/ESR001_Y</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[779@Alarm]ESR001 - EM-stop activated</description>
+        <severity>6</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
+    <valueAlarm alarmId="89" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true" eventBuffer="AlarmBuffer1">
+        <name>ECB101_Y</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/ECB101_Y</source>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <actions/>
+        <useractions/>
+        <description>[782@Alarm]ECB101 - Tripped DC fuse - Electronic circuit breaker</description>
+        <severity>3</severity>
+        <priority>3</priority>
+        <customFields>
+            <customField_1>[8@Alarm]</customField_1>
+            <customField_2>[8@Alarm]</customField_2>
+        </customFields>
+        <value>1</value>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </valueAlarm>
 </alarms>

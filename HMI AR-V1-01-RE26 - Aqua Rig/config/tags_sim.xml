@@ -471,6 +471,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_ManOutletValveOpen</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -483,6 +485,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_ManOutletValveClose</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -495,6 +499,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManColdValveManual</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -507,6 +513,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManColdValveOpen</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -519,6 +527,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManColdValveClose</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -531,6 +541,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManWarmValveManual</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -543,6 +555,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManWarmValveOpen</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -555,6 +569,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManWarmValveClose</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -567,6 +583,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManPumpSelectionValveManual</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -579,6 +597,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManPumpSelectionValveOpen</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -591,6 +611,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManPumpSelectionValveClose</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -603,6 +625,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_Manual</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -615,6 +639,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_ManStart</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -627,6 +653,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_ManStopp</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -639,6 +667,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_VFD_Reset</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -651,6 +681,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_ManSpeed</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -663,6 +695,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_ColdSetpoint</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -675,6 +709,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_WarmSetpoint</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -687,6 +723,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_Reg_KGain</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -699,6 +737,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_Reg_Deadband</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -711,6 +751,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_Reg_PMIN</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -723,6 +765,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HighPressurePump_Reg_PMAX</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -735,6 +779,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/PT122_PWL</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -747,6 +793,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/PT122_PWH</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -771,6 +819,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_WaterFlushingSM_State</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -783,6 +833,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_Manual</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -795,6 +847,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_ManStart</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -807,6 +861,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_ManStopp</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -819,6 +875,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_VFD_Reset</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -831,6 +889,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_ManSpeed</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -843,6 +903,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_ColdSetpoint</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -855,6 +917,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_WarmSetpoint</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -867,6 +931,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_Reg_KGain</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -879,6 +945,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_Reg_Deadband</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -891,6 +959,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_Reg_PMIN</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -903,6 +973,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_PressureIncreasingPump_Reg_PMAX</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -915,6 +987,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/PT123_PWL</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -927,6 +1001,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/PT123_PWH</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -939,6 +1015,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Airknife_Manual</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -951,6 +1029,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Airknife_ManStart</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -963,6 +1043,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Airknife_ManStopp</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -975,6 +1057,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/FRL151_PWL</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -987,6 +1071,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/PT151_PALL</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -999,6 +1085,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/PT151_PWL</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1011,6 +1099,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_FilterCleaningSM_PauseHotTime</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-9223372036854775808</min>
+        <max>9223372036854775807</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1023,6 +1113,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_FilterCleaningSM_ActiveHotTime</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-9223372036854775808</min>
+        <max>9223372036854775807</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1035,6 +1127,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_FilterCleaningSM_State</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1059,6 +1153,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Event_EnableWaterKnife</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1071,6 +1167,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Event_DisableWaterKnife</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1083,6 +1181,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Event_EnableAirKnife</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1095,6 +1195,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Event_DisableAirKnife</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1107,6 +1209,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Event_EnableAir_Hot</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1119,6 +1223,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_Manual</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1131,6 +1237,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_ManStart</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1143,6 +1251,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_ManStop</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1155,6 +1265,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_VFD_Reset</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1167,6 +1279,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_ManSpeed</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1179,6 +1293,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_Reg_KGain</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1191,6 +1307,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_Reg_PMIN</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1203,6 +1321,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_Reg_PMAX</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1215,6 +1335,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_Reg_IGain</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1227,6 +1349,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_Reg_Deadband</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1239,6 +1363,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/LT111_PWH</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1251,6 +1377,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/LT111_PAHH</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1263,6 +1391,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DrumMotor_BatchSpeed</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1275,6 +1405,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_Manual</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1287,6 +1419,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_ManStart</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1299,6 +1433,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_ManStopp</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1311,6 +1447,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_VFD_Reset</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1323,6 +1461,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_ManSpeed</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1335,6 +1475,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_Reg_KGain</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1347,6 +1489,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_Reg_PMIN</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1359,6 +1503,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_Reg_PMAX</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1371,6 +1517,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_Reg_IGain</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1383,6 +1531,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_Reg_Deadband</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1395,6 +1545,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_HybridPump_Reg_Setpoint</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1407,6 +1559,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Reset_TotalTimer</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1419,6 +1573,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_ActivateServiceMode</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1431,6 +1587,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_State_Service_Active</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1443,6 +1601,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_DeactivateServiceMode</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1455,6 +1615,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_Filterlevel_Reg_Setpoint</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1467,6 +1629,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/LT111_PBXLL</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1479,6 +1643,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/LT111_PBXL</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1491,6 +1657,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/LT111_PBXHH</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1503,6 +1671,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/LT111_PBXH</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1515,6 +1685,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/LT111_Batch_Parameters_PBXL</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1527,6 +1699,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/LT111_Batch_Parameters_PBXH</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1539,6 +1713,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/TestAlarm</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1551,6 +1727,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/FieldbusAckFaults</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1563,6 +1741,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/PT121_PWL</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1575,6 +1755,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/PT121_PALL</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-3.40282e+38</min>
+        <max>3.40282e+38</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1599,6 +1781,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/OverallSM_State</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1623,6 +1807,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_FlowControlSM_State</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1647,6 +1833,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_StateMachine_State</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1659,6 +1847,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/ResetEM</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1671,6 +1861,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/SetEM</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1683,6 +1875,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_FlowControlSM_BatchEnabled</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1695,6 +1889,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_StartSeq</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1707,6 +1903,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_StoppSeq</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1719,6 +1917,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_ManWarm</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>0</min>
+        <max>1</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1755,6 +1955,8 @@
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_WaterFlushingSM_FlushStatus</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>
     </tag>
@@ -1766,6 +1968,1318 @@
         <resourceLocator>VRBL://HMI_COM_OPC/OS_OUT/M1_FilterCleaningSM_Flushtime?int64</resourceLocator>
         <enableScaling>false</enableScaling>
         <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_OUT/M1_FilterCleaningSM_Flushtime</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-9223372036854775808</min>
+        <max>9223372036854775807</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_PumpSelection</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/OS_IN/M1_WaterFlushingSM_PumpSelection?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:OS_IN/M1_WaterFlushingSM_PumpSelection</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <min>-32768</min>
+        <max>32767</max>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT123_WH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT123_WH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT123_WH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT122_WH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT122_WH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT122_WH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_DrumMotor_SBE_YFS</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_DrumMotor_SBE_YFS?string-81</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_DrumMotor_SBE_YFS</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_OA_YFI</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_OA_YFI?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_PressureIncreasingPump_OA_YFI</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT151_ALL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT151_ALL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT151_ALL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/FT111_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/FT111_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/FT111_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/FT111_WH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/FT111_WH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/FT111_WH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_SBE_YFI</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_SBE_YFI?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_PressureIncreasingPump_SBE_YFI</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HybridPump_SBE_YFI</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HybridPump_SBE_YFI?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HybridPump_SBE_YFI</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HybridPump_OutletValve_Fault</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HybridPump_OutletValve_Fault?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HybridPump_OutletValve_Fault</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HighPressurePump_OA_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HighPressurePump_OA_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HighPressurePump_OA_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT123_WL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT123_WL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT123_WL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT121_AHH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT121_AHH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT121_AHH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HighPressurePump_OA_YFI</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HighPressurePump_OA_YFI?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HighPressurePump_OA_YFI</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HighPressurePump_OA_WV</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HighPressurePump_OA_WV?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HighPressurePump_OA_WV</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT122_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT122_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT122_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT151_AHH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT151_AHH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT151_AHH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/FRL151_ALL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/FRL151_ALL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/FRL151_ALL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/LT111_WH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/LT111_WH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/LT111_WH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_Airknife_LowPressure</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_Airknife_LowPressure?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_Airknife_LowPressure</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT122_AHH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT122_AHH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT122_AHH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HighPressurePump_OA_YFS</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HighPressurePump_OA_YFS?string-81</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HighPressurePump_OA_YFS</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/LT111_WL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/LT111_WL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/LT111_WL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HybridPump_OutletValve_FaultStatus</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HybridPump_OutletValve_FaultStatus?string-81</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HybridPump_OutletValve_FaultStatus</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_OA_WV</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_OA_WV?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_PressureIncreasingPump_OA_WV</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT121_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT121_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT121_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_LossFreshWater</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_LossFreshWater?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_PressureIncreasingPump_LossFreshWater</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_SBE_YFS</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_SBE_YFS?string-81</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_PressureIncreasingPump_SBE_YFS</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT151_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT151_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT151_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_WaterFlushingSM_ColdValve_Fault</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_WaterFlushingSM_ColdValve_Fault?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_WaterFlushingSM_ColdValve_Fault</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT121_WH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT121_WH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT121_WH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HighPressurePump_SBE_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HighPressurePump_SBE_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HighPressurePump_SBE_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/LT111_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/LT111_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/LT111_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_WaterFlushingSM_WarmValve_Fault</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_WaterFlushingSM_WarmValve_Fault?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_WaterFlushingSM_WarmValve_Fault</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_DrumMotor_SBE_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_DrumMotor_SBE_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_DrumMotor_SBE_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/LT111_ALL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/LT111_ALL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/LT111_ALL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_OA_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_OA_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_PressureIncreasingPump_OA_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HybridPump_SBE_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HybridPump_SBE_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HybridPump_SBE_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HybridPump_OA_YFS</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HybridPump_OA_YFS?string-81</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HybridPump_OA_YFS</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_DrumMotor_OA_WV</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_DrumMotor_OA_WV?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_DrumMotor_OA_WV</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/FRL151_AHH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/FRL151_AHH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/FRL151_AHH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/FT111_ALL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/FT111_ALL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/FT111_ALL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT191_WL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT191_WL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT191_WL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/Q102_Y</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/Q102_Y?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/Q102_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_DrumMotor_OA_YFS</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_DrumMotor_OA_YFS?string-81</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_DrumMotor_OA_YFS</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/KC151_F_Y</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/KC151_F_Y?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/KC151_F_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT151_WL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT151_WL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT151_WL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_OA_YFS</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_OA_YFS?string-81</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_PressureIncreasingPump_OA_YFS</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_WaterFlushingSM_ColdValve_FaultStatus</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_WaterFlushingSM_ColdValve_FaultStatus?string-81</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_WaterFlushingSM_ColdValve_FaultStatus</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HybridPump_OA_WV</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HybridPump_OA_WV?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HybridPump_OA_WV</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT191_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT191_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT191_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/FT111_WL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/FT111_WL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/FT111_WL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_SBE_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_PressureIncreasingPump_SBE_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_PressureIncreasingPump_SBE_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT151_WH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT151_WH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT151_WH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT191_AHH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT191_AHH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT191_AHH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/FRL151_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/FRL151_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/FRL151_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/FRL151_WH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/FRL151_WH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/FRL151_WH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/FRL151_WL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/FRL151_WL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/FRL151_WL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT191_ALL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT191_ALL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT191_ALL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT191_WH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT191_WH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT191_WH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HybridPump_OA_YFI</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HybridPump_OA_YFI?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HybridPump_OA_YFI</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/LT111_AHH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/LT111_AHH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/LT111_AHH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HighPressurePump_SBE_YFI</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HighPressurePump_SBE_YFI?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HighPressurePump_SBE_YFI</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/Q103_Y</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/Q103_Y?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/Q103_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HybridPump_SBE_YFS</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HybridPump_SBE_YFS?string-81</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HybridPump_SBE_YFS</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_DrumMotor_OA_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_DrumMotor_OA_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_DrumMotor_OA_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_WaterFlushingSM_PumpSelectionValve_FaultStatus</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_WaterFlushingSM_PumpSelectionValve_FaultStatus?string-81</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_WaterFlushingSM_PumpSelectionValve_FaultStatus</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/ESR001_Y</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/ESR001_Y?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/ESR001_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/FT111_AHH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/FT111_AHH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/FT111_AHH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT123_AHH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT123_AHH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT123_AHH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HighPressurePump_SBE_YFS</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HighPressurePump_SBE_YFS?string-81</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HighPressurePump_SBE_YFS</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT122_WL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT122_WL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT122_WL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT121_ALL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT121_ALL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT121_ALL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT121_WL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT121_WL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT121_WL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/ECB101_Y</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/ECB101_Y?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/ECB101_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_DrumMotor_SBE_YFI</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_DrumMotor_SBE_YFI?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_DrumMotor_SBE_YFI</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_DrumMotor_OA_YFI</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_DrumMotor_OA_YFI?short</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_DrumMotor_OA_YFI</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT122_ALL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT122_ALL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT122_ALL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_WaterFlushingSM_PumpSelectionValve_Fault</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_WaterFlushingSM_PumpSelectionValve_Fault?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_WaterFlushingSM_PumpSelectionValve_Fault</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HybridPump_OA_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HybridPump_OA_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HybridPump_OA_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT123_ALL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT123_ALL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT123_ALL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/PT123_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/PT123_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/PT123_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_HighPressurePump_LossFreshWater</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_HighPressurePump_LossFreshWater?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_HighPressurePump_LossFreshWater</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/M1_WaterFlushingSM_WarmValve_FaultStatus</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/M1_WaterFlushingSM_WarmValve_FaultStatus?string-81</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/M1_WaterFlushingSM_WarmValve_FaultStatus</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD111_ALL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD111_ALL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD111_ALL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD111_WH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD111_WH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD111_WH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD121_F_Y</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD121_F_Y?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD121_F_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD111_AHH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD111_AHH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD111_AHH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD121_AHH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD121_AHH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD121_AHH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD121_WL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD121_WL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD121_WL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD121_ALL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD121_ALL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD121_ALL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD101_AHH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD101_AHH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD101_AHH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD101_ALL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD101_ALL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD101_ALL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD122_AHH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD122_AHH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD122_AHH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD101_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD101_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD101_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD122_WH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD122_WH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD122_WH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD122_ALL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD122_ALL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD122_ALL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD121_WH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD121_WH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD121_WH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD122_F_Y</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD122_F_Y?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD122_F_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD111_F_Y</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD111_F_Y?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD111_F_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD121_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD121_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD121_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD111_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD111_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD111_YF</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD111_WL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD111_WL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD111_WL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD101_WH</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD101_WH?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD101_WH</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD122_WL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD122_WL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD122_WL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD101_F_Y</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD101_F_Y?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD101_F_Y</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD101_WL</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD101_WL?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD101_WL</TAGLOCATOR>
+        <enableAudit subT="1" eventT="18">false</enableAudit>
+        <isMinMaxEdited>false</isMinMaxEdited>
+        <isClientTag>false</isClientTag>
+    </tag>
+    <tag>
+        <name>HMI_COM_OPC/Alarms/VFD122_YF</name>
+        <refreshTime>500</refreshTime>
+        <accessMode>READ-WRITE</accessMode>
+        <active>false</active>
+        <resourceLocator>VRBL://HMI_COM_OPC/Alarms/VFD122_YF?boolean</resourceLocator>
+        <enableScaling>false</enableScaling>
+        <TAGLOCATOR>OPC UA Client:prot1:uid0:Alarms/VFD122_YF</TAGLOCATOR>
         <enableAudit subT="1" eventT="18">false</enableAudit>
         <isMinMaxEdited>false</isMinMaxEdited>
         <isClientTag>false</isClientTag>

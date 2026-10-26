@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alarms>
+    <alarm eventBuffer="n/a" logToEventArchive="true" eventType="0" subType="0" storeAlarmInfo="false">
+        <name>n/a</name>
+        <groups>n/a</groups>
+        <source>n/a</source>
+        <alarmType>n/a</alarmType>
+        <lowLimit>0</lowLimit>
+        <highLimit>1000</highLimit>
+        <value>0</value>
+        <bitMask>1</bitMask>
+        <deviation>50.0</deviation>
+        <setPoint>20.0</setPoint>
+        <enableTag>n/a</enableTag>
+        <remoteAck>n/a</remoteAck>
+        <ackNotify>n/a</ackNotify>
+        <touchAckNotify>n/a</touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>false</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <severity>1</severity>
+        <priority>3</priority>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <customFields>
+            <customField_1>
+                <L1 langName="Lang1"></L1>
+            </customField_1>
+            <customField_2>
+                <L1 langName="Lang1"></L1>
+            </customField_2>
+        </customFields>
+        <colors>
+            <ackTxtColor>#ff0000</ackTxtColor>
+            <ackBgColor>#ffff00</ackBgColor>
+            <disabledTxtColor>#000000</disabledTxtColor>
+            <disabledBgColor>#ffffff</disabledBgColor>
+            <triggeredTxtColor>#000000</triggeredTxtColor>
+            <triggeredBgColor>#ffffff</triggeredBgColor>
+            <notTriggeredTxtColor>#000000</notTriggeredTxtColor>
+            <notTriggeredBgColor>#ffffff</notTriggeredBgColor>
+            <triggeredAckedTxtColor>#000000</triggeredAckedTxtColor>
+            <triggeredAckedBgColor>#ffffff</triggeredAckedBgColor>
+            <triggeredNotAckedTxtColor>#000000</triggeredNotAckedTxtColor>
+            <triggeredNotAckedBgColor>#ffffff</triggeredNotAckedBgColor>
+            <notTriggeredAckedTxtColor>#000000</notTriggeredAckedTxtColor>
+            <notTriggeredAckedBgColor>#ffffff</notTriggeredAckedBgColor>
+            <notTriggeredNotAckedTxtColor>#000000</notTriggeredNotAckedTxtColor>
+            <notTriggeredNotAckedBgColor>#ffffff</notTriggeredNotAckedBgColor>
+        </colors>
+        <actions>
+            <macroAction1>
+                <actionFunction>n/a</actionFunction>
+                <actionID>n/a(do not export!)</actionID>
+                <actionType>n/a</actionType>
+                <supportML>false</supportML>
+                <parameters>n/a</parameters>
+            </macroAction1>
+        </actions>
+        <useractions>
+            <macroAction1>
+                <actionFunction>n/a</actionFunction>
+                <actionID>n/a(do not export!)</actionID>
+                <actionType>n/a</actionType>
+                <supportML>false</supportML>
+                <parameters>n/a</parameters>
+            </macroAction1>
+        </useractions>
+        <description>
+            <L1 langName="Lang1">n/a</L1>
+        </description>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </alarm>
+    <alarm eventBuffer="AlarmBuffer1" logToEventArchive="true" eventType="14" subType="1" storeAlarmInfo="true">
+        <name>ECB101_Y</name>
+        <groups>Fault</groups>
+        <source>HMI_COM_OPC/Alarms/ECB101_Y</source>
+        <alarmType>valueAlarm</alarmType>
+        <value>1</value>
+        <enableTag></enableTag>
+        <remoteAck></remoteAck>
+        <ackNotify></ackNotify>
+        <touchAckNotify></touchAckNotify>
+        <enabled>true</enabled>
+        <requireAck>true</requireAck>
+        <blinkTxt>false</blinkTxt>
+        <requireReset>false</requireReset>
+        <severity>3</severity>
+        <priority>3</priority>
+        <logMask>76</logMask>
+        <notifyMask>76</notifyMask>
+        <actionMask>1</actionMask>
+        <printMask>1</printMask>
+        <customFields>
+            <customField_1>
+                <L1 langName="Lang1"></L1>
+            </customField_1>
+            <customField_2>
+                <L1 langName="Lang1"></L1>
+            </customField_2>
+        </customFields>
+        <colors>
+            <ackTxtColor>#ff0000</ackTxtColor>
+            <ackBgColor>#ffff00</ackBgColor>
+            <disabledTxtColor>#666666</disabledTxtColor>
+            <disabledBgColor>#c0c0c0</disabledBgColor>
+            <triggeredTxtColor>#000000</triggeredTxtColor>
+            <triggeredBgColor>#ff0000</triggeredBgColor>
+            <notTriggeredTxtColor>#000000</notTriggeredTxtColor>
+            <notTriggeredBgColor>#ffffff</notTriggeredBgColor>
+            <triggeredAckedTxtColor>#000000</triggeredAckedTxtColor>
+            <triggeredAckedBgColor>#ffff00</triggeredAckedBgColor>
+            <triggeredNotAckedTxtColor>#000000</triggeredNotAckedTxtColor>
+            <triggeredNotAckedBgColor>#ff0000</triggeredNotAckedBgColor>
+            <notTriggeredAckedTxtColor>#000000</notTriggeredAckedTxtColor>
+            <notTriggeredAckedBgColor>#ff0000</notTriggeredAckedBgColor>
+            <notTriggeredNotAckedTxtColor>#000000</notTriggeredNotAckedTxtColor>
+            <notTriggeredNotAckedBgColor>#ffffff</notTriggeredNotAckedBgColor>
+        </colors>
+        <actions/>
+        <useractions/>
+        <description>
+            <L1 langName="Lang1">ECB101 - Tripped electronic circuit breaker</L1>
+        </description>
+        <enableAudit auditBuff="" subT="1" eventT="18">false</enableAudit>
+    </alarm>
+</alarms>

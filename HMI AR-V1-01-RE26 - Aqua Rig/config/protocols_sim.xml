@@ -3,7 +3,7 @@
   <id>prot1</id>
   <name>OPCU</name>
   <file>OPCU</file>
-  <configuration>CfgVer=1 prefix=HMI_COM_OPC ipAddress=10.213.213.7 port=4840. timeout=1000. model=default ServerPolicyURI=None SecurityMode=None EnableHostValidation=true EnableAppUriValidation=true EnableTimeValidation=true </configuration>
+  <configuration>CfgVer=1 prefix=HMI_COM_OPC ipAddress=172.16.57.5 port=4840. timeout=1000. model=default ServerPolicyURI=None SecurityMode=None EnableHostValidation=true EnableAppUriValidation=true EnableTimeValidation=true </configuration>
   <autoImport></autoImport>
   <enableOptimization>true</enableOptimization>
   <enableDatagram>true</enableDatagram>
